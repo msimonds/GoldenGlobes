@@ -8,15 +8,27 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import org.json.*;
+
 
 public class FinalProj {
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		  String[] paramName = {"t", "plot", "r"};
-		  String[] paramVal = {"Argo","short","json"};
-		  URL url = new URL("http://www.omdbapi.com/?t=Argo&plot=short&tomatoes=true&r=json");
-		  String x = "t=Argo&plot=short&r=json";
+		
+		//Loop through the text files w/ movie titles
+		for(int i=1990; i<2016;i++){
+			//Open a file and loop through the movie titles. 
+			
+		}
+		 
+		System.out.println(OMDB("Argo","2012").toString());
+
+	}
+	
+	public static JSONObject OMDB(String title, String year) throws IOException{
+		 String urlName = "http://www.omdbapi.com/?t="+title+"&y="+year+"&type=movie&tomatoes=true&r=json";
+		 URL url = new URL(urlName);	
 		  HttpURLConnection conn =
 		      (HttpURLConnection) url.openConnection();
 		  conn.setRequestMethod("GET");
@@ -50,9 +62,17 @@ public class FinalProj {
 		  rd.close();
 
 		  conn.disconnect();
-		  System.out.println(sb.toString());
+		  
+		  JSONObject json=null;
+		  try {
+			 json= new JSONObject(sb.toString());
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("json not working");
+		}
+		  return json;
 		
-
 	}
 
 }
