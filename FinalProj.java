@@ -9,17 +9,28 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import org.json.*;
+import java.io.PrintWriter;
 
 
 public class FinalProj {
 	
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		
+		double minRate = 58.0;
+		PrintWriter out = new PrintWriter("TrainMovies.csv");
 		//Loop through the text files w/ movie titles
 		for(int i=1990; i<2016;i++){
-			//Open a file and loop through the movie titles. 
-			
+			String year = Integer.toString(i);
+			Scanner file = new Scanner(year + ".csv");
+			file.nextLine();
+			line = file.nextLine();
+			while (file.hasNextLine()){
+				String[] lineParts = line.split(",");
+				String title = lineParts[0].substring(1,String.length()-1);
+				JSONObject json = OMDB(title, year);
+				if (Double.parseDouble(json.get("tomatoMeter")) >= minRate){
+					out.println(title);
+				}
+			}
 		}
 		 
 		System.out.println(OMDB("Argo","2012").toString());
@@ -37,15 +48,7 @@ public class FinalProj {
 		  conn.setUseCaches(false);
 		  conn.setAllowUserInteraction(false);
 		  conn.setRequestProperty("Content-Type",
-		      "application/x-www-form-urlencoded");		 
-/*
-		  // Create the form content
-		  OutputStream out = conn.getOutputStream();
-		  Writer writer = new OutputStreamWriter(out, "UTF-8");
-		  writer.write(x);
-		  writer.close();
-		  out.close();
-		  */
+		      "application/x-www-form-urlencoded");
 
 		  if (conn.getResponseCode() != 200) {
 		    throw new IOException(conn.getResponseMessage());
