@@ -17,19 +17,26 @@ public class FinalProj {
 	public static void main(String[] args) throws IOException {
 		double minRate = 58.0;
 		PrintWriter out = new PrintWriter("TrainMovies.csv");
-		//Loop through the text files w/ movie titles
-		for(int i=1990; i<2016;i++){
+		//Loop through the text files w/ movie titles (1990-2014 for training)
+		for(int i=1990; i<2015;i++){
 			String year = Integer.toString(i);
+			//Organize by year. Put year in quotes to isolate from movie titles starting with numbers.
+			out.println("\"" + year + "\"");
 			Scanner file = new Scanner(year + ".csv");
-			file.nextLine();
-			line = file.nextLine();
+			file.nextLine(); //skips title line
+			line = file.nextLine(); //now at begining of third line, "line" is second line
 			while (file.hasNextLine()){
 				String[] lineParts = line.split(",");
 				String title = lineParts[0].substring(1,String.length()-1);
+				//also save notes to determine if part of series later
+				String notes = lineParts[lineParts.length-1].substring(1,String.length()-1);
 				JSONObject json = OMDB(title, year);
 				if (Double.parseDouble(json.get("tomatoMeter")) >= minRate){
-					out.println(title);
+					out.print(title);
+					out.print(",");
+					out.println(notes);
 				}
+				line = file.nextLine();
 			}
 		}
 		 
