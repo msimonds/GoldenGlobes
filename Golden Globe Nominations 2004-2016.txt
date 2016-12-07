@@ -1,3 +1,212 @@
+"1993",Best Motion Picture - Drama
+Scent of a Woman
+A Few Good Men
+Howards End
+Unforgiven
+The Crying Game
+"1993",Best Motion Picture - Musical or Comedy
+The Player
+Aladdin
+Enchanted April
+Honeymoon In Vegas
+Sister Act
+"1993",Best Director - Motion Picture
+Clint Eastwood,Unforgiven
+James Ivory,Howards End
+Robert Redford,A River Runs Through It
+Rob Reiner,A Few Good Men
+Robert Altman,The Player
+
+"1994",Best Motion Picture - Drama
+Schindler''s List
+In the Name of the Father
+The Piano
+The Remains of the Day
+The Age of Innocence
+"1994",Best Motion Picture - Musical or Comedy
+Mrs. Doubtfire
+Dave
+Much Ado About Nothing
+Sleepless in Seattle
+Strictly Ballroom
+"1994",Best Director - Motion Picture
+Steven Spielberg,Schindler''s List
+Andrew Davis,The Fugitive
+James Ivory,The Remains of the Day
+Martin Scorsese,The Age of Innocence
+Jane Campion,The Piano
+
+"1995",Best Motion Picture - Drama
+Forrest Gump
+Nell
+Pulp Fiction
+Quiz Show
+Legends of the Fall
+"1995",Best Motion Picture - Musical or Comedy
+The Lion King
+The Adventures of Priscilla, Queen of the Desert
+Ed Wood
+Four Weddings and a Funeral
+Ready to Wear
+"1995",Best Director - Motion Picture
+Robert Zemeckis,Forrest Gump
+Oliver Stone,Natural Born Killers
+Quentin Tarantino,Pulp Fiction
+Edward Zwick,Legends of the Fall
+Robert Redford,Quiz Show
+
+"1996",Best Motion Picture - Drama
+Sense and Sensibility
+Braveheart
+Bridges of Madison County, The
+Leaving Las Vegas
+Apollo 13
+"1996",Best Motion Picture - Musical or Comedy
+Babe
+The American President
+Get Shorty
+Sabrina
+Toy Story
+"1996",Best Director - Motion Picture
+Mel Gibson,Braveheart
+Ron Howard,Apollo 13
+Ang Lee,Sense and Sensibility
+Rob Reiner,The American President
+Martin Scorsese,Casino
+
+"1997",Best Motion Picture - Drama
+The English Patient
+The People Vs. Larry Flynt
+Secrets & Lies
+Shine
+Breaking The Waves
+"1997",Best Motion Picture - Musical or Comedy
+Evita
+The Birdcage
+Everyone Says I Love You
+Fargo
+Jerry Maguire
+"1997",Best Director - Motion Picture
+Milos Forman,The People Vs. Larry Flynt
+Scott Hicks,Shine
+Anthony Minghella,The English Patient
+Alan Parker,Evita
+Joel Coen,Fargo
+
+"1998",Best Motion Picture - Drama
+Titanic
+The Boxer
+Good Will Hunting
+L.A. Confidential
+Amistad
+"1998",Best Motion Picture - Musical or Comedy
+As Good as It Gets
+The Full Monty
+Men in Black
+My Best Friend's Wedding
+Wag the Dog
+"1998",Best Director - Motion Picture
+James Cameron,Titanic
+Curtis Hanson,L.A. Confidential
+Jim Sheridan,The Boxer
+Steven Spielberg,Amistad
+James L. Brooks,As Good as It Gets
+
+"1999",Best Motion Picture - Drama
+Saving Private Ryan
+Gods and Monsters
+The Horse Whisperer
+The Truman Show
+Elizabeth
+"1999",Best Motion Picture - Musical or Comedy
+Shakespeare In Love
+Bulworth
+The Mask of Zorro
+Patch Adams
+Still Crazy
+"1999",Best Director - Motion Picture
+Steven Spielberg,Saving Private Ryan
+John Madden,Shakespeare In Love
+Robert Redford,The Horse Whisperer
+Peter Weir,The Truman Show
+Shekhar Kapur,Elizabeth
+
+"2000",Best Motion Picture - Drama
+American Beauty
+Hurricane, The
+Insider, The
+Talented Mr. Ripley, The
+End of the Affair, The
+"2000",Best Motion Picture - Musical or Comedy
+Toy Story 2
+Analyze This
+Being John Malkovich
+Man on the Moon
+Notting Hill
+"2000",Best Director - Motion Picture
+Sam Mendes,American Beauty
+Neil Jordan,The End of the Affair
+Michael Mann,The Insider
+Anthony Minghella,The Talented Mr. Ripley
+Norman Jewison,The Hurricane
+
+"2001",Best Motion Picture - Drama
+Gladiator
+Erin Brockovich
+Sunshine
+Traffic
+Wonder Boys
+"2001",Best Motion Picture - Musical or Comedy
+Almost Famous
+Best in Show
+Chicken Run
+Chocolat
+O Brother, Where Art Thou?
+"2001",Best Director - Motion Picture
+Ang Lee,Crouching Tiger, Hidden Dragon
+Ridley Scott,Gladiator
+Steven Soderbergh,Erin Brockovich
+Steven Soderbergh,Traffic
+István Szabó,Sunshine
+
+"2002",Best Motion Picture - Drama
+A Beautiful Mind
+The Lord of the Rings: The Fellowship of the Ring
+The Man Who Wasn't There
+Mulholland Dr.
+In The Bedroom
+"2002",Best Motion Picture - Musical or Comedy
+Moulin Rouge!
+Bridget Jones's Diary
+Gosford Park
+Legally Blonde
+Shrek
+"2002",Best Director - Motion Picture
+Robert Altman,Gosford Park
+Ron Howard,A Beautiful Mind
+Peter Jackson,The Lord of the Rings: The Fellowship of the Ring
+Baz Luhrmann,Moulin Rouge!
+David Lynch,Mulholland Dr.
+
+"2003",Best Motion Picture - Drama
+The Hours
+About Schmidt
+Gangs of New York
+The Lord of the Rings: The Two Towers
+The Pianist
+"2003",Best Motion Picture - Musical or Comedy
+Chicago
+About a Boy
+Adaptation
+My Big Fat Greek Wedding
+Nicholas Nickleby
+"2003",Best Director - Motion Picture
+Martin Scorsese,Gangs of New York
+Peter Jackson,Lord of the Rings: The Two Towers, The
+Spike Jonze,Adaptation
+Rob Marshall,Chicago
+Alexander Payne,About Schmidt
+
 “2004”,Best Motion Picture - Drama
 The Lord of the Rings: The Return of the King
 Cold Mountain
