@@ -60,7 +60,19 @@ public class FinalProj {
 					}
 					String instanceStr = getData(json,series);
 					System.out.println(instanceStr);
-					movies.println(instanceStr);					
+					movies.print(instanceStr + ",");
+
+                                        String thisLabel;
+                                        if (this.Nominations.get(year).contains(title)){
+                                                if (this.Nominations.get(year).get(title).contains("Drama"){
+                                                        thisLabel = "yesDrama";
+                                                } else {
+                                                        thisLabel = "yesComedy";
+                                                }
+                                        } else {
+                                                thisLabel = "no";
+                                        }
+                                        movies.println(thisLabel);					
 				}
 				line = file.nextLine();
 				fuckme=fuckme+1;
