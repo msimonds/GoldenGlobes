@@ -19,8 +19,12 @@ public class FinalProj {
 	HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
 		double minRate = 58.0;
-		PrintWriter movies = new PrintWriter("TrainMovies.csv");
-		PrintWriter directors = new PrintWriter("TrainDirectors.csv");
+		File movieFile = new File("TrainMovies.csv");
+		PrintWriter movies = new PrintWriter(movieFile);
+		File dirFile = new File("TrainDirectors.csv");
+		PrintWriter directors = new PrintWriter(dirFile);
+		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre";
+		movies.println(bestPicAtts);
 		//Loop through the text files w/ movie titles (1990-2014 for training)
 		for(int i=1990; i<2015;i++){
 			String year = Integer.toString(i);
@@ -31,6 +35,7 @@ public class FinalProj {
 			Scanner file = new Scanner(f);
 			file.nextLine(); //skips title line
 			String line = file.nextLine(); //now at begining of third line, "line" is second line
+			int fuckme = 9;
 			while (file.hasNextLine()){
 				String[] lineParts = line.split(",");				
 				String title = lineParts[0].substring(0,lineParts[0].length());
@@ -45,15 +50,20 @@ public class FinalProj {
 				} catch(Exception e){
 					tomato=0.0;
 				}
+				
 				if (tomato >= minRate){
-					movies.print(title);
-					movies.print(",");
-					movies.println(notes);
-					movies.print(director);
-					movies.print(",");
-					movies.println(title);
+					String series = "N";
+					if(notes.contains("sequel")||notes.contains("installation")||notes.contains("series")){
+						series = "Y";
+					}
+					String instanceStr = getData(json,series);
+					movies.println(instanceStr);					
 				}
 				line = file.nextLine();
+				fuckme=fuckme+1;
+				if(fuckme==15){
+					movies.close();
+				}
 			}
 		}
 		 
@@ -126,6 +136,43 @@ public class FinalProj {
 		}
 		  return json;
 		
+	}
+	
+	//this method gets called once a jsonobject has been returned by the REST call
+	//it grabs relevant data from the json and returns the string to be printed in our instance list
+	public static String getData(JSONObject movie, String sequel) throws JSONException{
+		StringBuffer str = new StringBuffer();
+		str = str.append(movie.getJSONObject("Director").toString()+",");
+		String[] writers = movie.getJSONObject("Writer").toString().split(",");
+		if(writers.length>1){
+			str = str.append(stripParens(writers[0]) + ","+stripParens(writers[1])+",");
+		}
+		String[] allActors = movie.getJSONObject("Actors").toString().split(",");
+		str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+","+stripParens(allActors[2])+",");
+		
+		String awards[] = movie.getJSONObject("Awards").toString().split(" ");
+		int numAwards = 0;
+		for(String s : awards){
+			if(Character.isDigit(s.charAt(0))){
+				numAwards = numAwards + Integer.parseInt(s);
+			}
+		}
+		str = str.append(numAwards+","+sequel+"," +movie.getJSONObject("tomatoMeter"));
+		
+		
+		
+		
+		return str.toString();
+	}
+	
+	public static String stripParens(String str){
+		int index =  str.indexOf('(');
+		String newS=str;
+		if(index>=0){
+			newS = str.substring(index, str.length());
+		}
+		
+		return newS;
 	}
 
 }
