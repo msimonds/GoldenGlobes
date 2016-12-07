@@ -18,8 +18,11 @@ import java.io.PrintWriter;
 
 
 public class FinalProj {
-	HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
+	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
+	
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
+		nominationsMap("Golden Globe Nominations 2004-2016.txt");
+		HashMap<String, HashMap<String, String>> n = Nominations;
 		double minRate = 58.0;
 		File movieFile = new File("TrainMovies.csv");
 		PrintWriter movies = new PrintWriter(movieFile);
@@ -62,17 +65,17 @@ public class FinalProj {
 					System.out.println(instanceStr);
 					movies.print(instanceStr + ",");
 
-                                        String thisLabel;
-                                        if (this.Nominations.get(year).contains(title)){
-                                                if (this.Nominations.get(year).get(title).contains("Drama"){
-                                                        thisLabel = "yesDrama";
-                                                } else {
-                                                        thisLabel = "yesComedy";
-                                                }
-                                        } else {
-                                                thisLabel = "no";
-                                        }
-                                        movies.println(thisLabel);					
+                            String thisLabel;
+                            if (Nominations.get(year).containsKey(title)){
+                                    if (Nominations.get(year).get(title).contains("Drama")){
+                                            thisLabel = "yesDrama";
+                                    } else {
+                                            thisLabel = "yesComedy";
+                                    }
+                            } else {
+                                    thisLabel = "no";
+                            }
+                            movies.println(thisLabel);					
 				}
 				line = file.nextLine();
 				fuckme=fuckme+1;
@@ -86,7 +89,7 @@ public class FinalProj {
 
 	}
 	
-	public void nominationsMap(String file) throws FileNotFoundException{
+	public static void nominationsMap(String file) throws FileNotFoundException{
 		File f = new File(file);
 		Scanner scan = new Scanner (f);
 		String line = scan.nextLine();
@@ -96,14 +99,14 @@ public class FinalProj {
 				String[] yearAndType = line.split(",");
 				String year = yearAndType[0].substring(0,yearAndType[0].length()); //take out quotes
 				String type = yearAndType[1]; //category
-				if (this.Nominations.containsKey(year)==false){
-					this.Nominations.put(year, new HashMap<String, String>());
+				if (Nominations.containsKey(year)==false){
+					Nominations.put(year, new HashMap<String, String>());
 				}
 				line = scan.nextLine();
 				//add each movie title/director between categories to hashmap
 				//do we need to keep the movie title next to director name??
-				while (line.substring(0,1).equals("\"")==false){
-					this.Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
+				while (scan.hasNextLine()&&(line.length()==0||line.substring(0,1).equals("\"")==false)){
+					Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
 					line = scan.nextLine();
 				}
 			}
