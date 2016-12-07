@@ -16,7 +16,7 @@ import java.io.PrintWriter;
 
 
 public class FinalProj {
-	
+	HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
 		double minRate = 58.0;
 		PrintWriter movies = new PrintWriter("TrainMovies.csv");
@@ -61,6 +61,29 @@ public class FinalProj {
 
 	}
 	
+	public void nominationsMap(String file){
+		Scanner scan = new Scanner (file);
+		line = scan.nextLine();
+		while (scan.hasNextLine()){
+			//should always go into this if statement
+			if (line.subString(0,1).equals("\"")){
+				String[] yearAndType = line.split(",");
+				String year = yearAndType[0].substring(0,yearAndType[0].length()); //take out quotes
+				String type = yearAndType[1]; //category
+				if (this.Nominations.containsKey(year)==false){
+					this.Nominations.put(year, new HashMap<String, String>());
+				}
+				line = scan.nextLine();
+				//add each movie title/director between categories to hashmap
+				//do we need to keep the movie title next to director name??
+				while (line.subString(0,1).equals("\"")==false){
+					this.Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
+					line = scan.nextLine();
+				}
+			}
+		}
+	}
+					
 	public static JSONObject OMDB(String title, String year) throws IOException{
 		String urlTitle = title.replace(' ', '+');
 		 String urlName = "http://www.omdbapi.com/?t="+urlTitle+"&y="+year+"&type=movie&tomatoes=true&r=json";
