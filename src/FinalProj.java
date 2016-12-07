@@ -25,7 +25,7 @@ public class FinalProj {
 		PrintWriter movies = new PrintWriter(movieFile);
 		File dirFile = new File("TrainDirectors.csv");
 		PrintWriter directors = new PrintWriter(dirFile);
-		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre";
+		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre1,Genre2,Genre3";
 		movies.println(bestPicAtts);
 		//Loop through the text files w/ movie titles (1990-2014 for training)
 		for(int i=1990; i<2015;i++){
@@ -44,7 +44,7 @@ public class FinalProj {
 				//also save notes to determine if part of series later
 				String notes = lineParts[lineParts.length-1].substring(0,lineParts[lineParts.length-1].length());
 				String director = lineParts[1].substring(0,lineParts[1].length());
-				System.out.println(notes + " ** "+director);
+				//System.out.println(notes + " ** "+director);
 				JSONObject json = OMDB(title, year);
 				Double tomato=-1.0;
 				try{
@@ -59,6 +59,7 @@ public class FinalProj {
 						series = "Y";
 					}
 					String instanceStr = getData(json,series);
+					System.out.println(instanceStr);
 					movies.println(instanceStr);					
 				}
 				line = file.nextLine();
@@ -69,7 +70,7 @@ public class FinalProj {
 			}
 		}
 		 
-		System.out.println(OMDB("Argo","2012").toString());
+		//System.out.println(OMDB("Argo","2012").toString());
 
 	}
 	
@@ -98,7 +99,7 @@ public class FinalProj {
 	}
 					
 	public static JSONObject OMDB(String title, String year) throws IOException{
-		String urlTitle = title.replace(' ', '+');
+		 String urlTitle = title.replace(' ', '+');
 		 String urlName = "http://www.omdbapi.com/?t="+urlTitle+"&y="+year+"&type=movie&tomatoes=true&r=json";
 		 URL url = new URL(urlName);
 		 System.out.println(urlName);
@@ -145,23 +146,44 @@ public class FinalProj {
 	//it grabs relevant data from the json and returns the string to be printed in our instance list
 	public static String getData(JSONObject movie, String sequel) throws JSONException{
 		StringBuffer str = new StringBuffer();
-		str = str.append(movie.getJSONObject("Director").toString()+",");
-		String[] writers = movie.getJSONObject("Writer").toString().split(",");
+		str = str.append(movie.get("Director").toString()+",");
+		String[] writers = movie.get("Writer").toString().split(",");
 		if(writers.length>1){
 			str = str.append(stripParens(writers[0]) + ","+stripParens(writers[1])+",");
+		} else{
+			str=str.append(stripParens(writers[0])+", ,");
 		}
-		String[] allActors = movie.getJSONObject("Actors").toString().split(",");
+		String[] allActors = movie.get("Actors").toString().split(",");
 		str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+","+stripParens(allActors[2])+",");
 		
-		String awards[] = movie.getJSONObject("Awards").toString().split(" ");
+		String awards[] = movie.get("Awards").toString().split(" ");
 		int numAwards = 0;
 		for(String s : awards){
 			if(Character.isDigit(s.charAt(0))){
 				numAwards = numAwards + Integer.parseInt(s);
 			}
 		}
-		str = str.append(numAwards+","+sequel+"," +movie.getJSONObject("tomatoMeter"));
-		
+		str = str.append(numAwards+","+sequel+",");
+		str = str.append(movie.get("tomatoMeter")+","+movie.get("tomatoUserMeter")+",");
+		String boxof = movie.get("BoxOffice").toString().substring(1);
+		if(Character.isDigit(boxof.charAt(0))){
+			 str = str.append(Integer.parseInt(boxof)+",");
+		}else{
+			str = str.append(" ,");
+		}
+		String[] genres = movie.get("Genre").toString().split(",");
+		//we want to add up to 3 genres if theres less than three then we want to pad with blanks spaces
+		int count =0;
+		for(String x : genres){
+			if(count<3){
+				str.append(x +",");
+				count=count+1;
+			}			
+		}
+		while(count<3){
+			str.append(" " +",");
+			count=count+1;
+		}
 		
 		
 		
@@ -172,7 +194,7 @@ public class FinalProj {
 		int index =  str.indexOf('(');
 		String newS=str;
 		if(index>=0){
-			newS = str.substring(index, str.length());
+			newS = str.substring(0, index);
 		}		
 		return newS;
 	}
