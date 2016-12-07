@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -9,6 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.HashMap;
 import java.util.Scanner;
 
 import org.json.*;
@@ -71,12 +73,13 @@ public class FinalProj {
 
 	}
 	
-	public void nominationsMap(String file){
-		Scanner scan = new Scanner (file);
-		line = scan.nextLine();
+	public void nominationsMap(String file) throws FileNotFoundException{
+		File f = new File(file);
+		Scanner scan = new Scanner (f);
+		String line = scan.nextLine();
 		while (scan.hasNextLine()){
 			//should always go into this if statement
-			if (line.subString(0,1).equals("\"")){
+			if (line.substring(0,1).equals("\"")){
 				String[] yearAndType = line.split(",");
 				String year = yearAndType[0].substring(0,yearAndType[0].length()); //take out quotes
 				String type = yearAndType[1]; //category
@@ -86,7 +89,7 @@ public class FinalProj {
 				line = scan.nextLine();
 				//add each movie title/director between categories to hashmap
 				//do we need to keep the movie title next to director name??
-				while (line.subString(0,1).equals("\"")==false){
+				while (line.substring(0,1).equals("\"")==false){
 					this.Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
 					line = scan.nextLine();
 				}
@@ -170,8 +173,7 @@ public class FinalProj {
 		String newS=str;
 		if(index>=0){
 			newS = str.substring(index, str.length());
-		}
-		
+		}		
 		return newS;
 	}
 
