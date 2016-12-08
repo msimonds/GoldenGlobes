@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -22,7 +21,7 @@ public class FinalProj {
 	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
-		nominationsMap("Golden Globe Nominations 1991-2016.txt");
+		nominationsMap("Golden Globe Nominations 2004-2016.txt");
 		HashMap<String, HashMap<String, String>> n = Nominations;
 		double minRate = 58.0;
 		File movieFile = new File("TrainMovies.csv");
@@ -105,7 +104,7 @@ public class FinalProj {
 	
 	public static void nominationsMap(String file) throws FileNotFoundException{
 		File f = new File(file);
-		Scanner scan = new Scanner(new FileInputStream(file), "UTF-8");
+		Scanner scan = new Scanner (f);
 		String line = scan.nextLine();
 		while (scan.hasNextLine()){
 			//if broke out if inner while loop because hit empty line
@@ -115,27 +114,17 @@ public class FinalProj {
 			}
 			//should always go into this if statement
 			//two different types of double quotes in this text file
-			char x = line.charAt(0);
-			if(x=='"'){
-				System.out.println(x);
-			}
-			
-			if (line.substring(0,1).equals("\"")||line.charAt(1)=='"'||line.charAt(0)=='"'){
+			if (line.substring(0,1).equals("\"")||line.substring(0,1).equals("“")){
 				String[] yearAndType = line.split(",");
-				String yrStr = yearAndType[0].substring(1,yearAndType[0].length()-1);
-				if(yrStr.charAt(0)=='"'){
-					yrStr =yrStr.substring(1);
-				}
-				String year = Integer.toString(Integer.parseInt(yrStr)); //take out quotes
+				String year = Integer.toString(Integer.parseInt(yearAndType[0].substring(1,yearAndType[0].length()-1))-1); //take out quotes
 				String type = yearAndType[1]; //category
 				if (Nominations.containsKey(year)==false){
 					Nominations.put(year, new HashMap<String, String>());
 				}
-				System.out.println(" sss ");
 				line = scan.nextLine(); //move on to first item in this category
 				//add each movie title/director between categories to hashmap
 				//do we need to keep the movie title next to director name??
-				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("�")==false){
+				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("“")==false){
 					Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
 					line = scan.nextLine();
 				}
