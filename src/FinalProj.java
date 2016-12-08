@@ -21,7 +21,7 @@ public class FinalProj {
 	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
-		nominationsMap("Golden Globe Nominations 2004-2016.txt");
+		nominationsMap("Golden Globe Nominations 1991-2016.txt");
 		HashMap<String, HashMap<String, String>> n = Nominations;
 		double minRate = 58.0;
 		File movieFile = new File("TrainMovies.csv");
