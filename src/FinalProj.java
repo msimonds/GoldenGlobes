@@ -21,7 +21,7 @@ public class FinalProj {
 	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
-		nominationsMap("Golden Globe Nominations 2004-2016.txt");
+		nominationsMap("Golden Globe Nominations 1991-2016.txt");
 		HashMap<String, HashMap<String, String>> n = Nominations;
 		double minRate = 58.0;
 		File movieFile = new File("TrainMovies.csv");
@@ -70,15 +70,15 @@ public class FinalProj {
 					String instanceStr = getDataMovies(json,series);
 					System.out.println(instanceStr);
 					String thisLabel;
-                     			if (Nominations.get(year).containsKey(title)){
-                             			if (Nominations.get(year).get(title).contains("Drama")){
-                                     			thisLabel = "yesDrama";
-                             			} else {
-                                     			thisLabel = "yesComedy";
-                            		 	}
-                     			} else {
-                             			thisLabel = "no";
-                     			}
+         			if (Nominations.get(year).containsKey(title)){
+                 			if (Nominations.get(year).get(title).contains("Drama")){
+                         			thisLabel = "yesDrama";
+                 			} else {
+                         			thisLabel = "yesComedy";
+                		 	}
+         			} else {
+                 			thisLabel = "no";
+         			}
 					//For training instances and then for test instances
 					if(i<2015){
 						movies.print(instanceStr + ",");                           
@@ -102,34 +102,34 @@ public class FinalProj {
 	}
 	
 	public static void nominationsMap(String file) throws FileNotFoundException{
-                File f = new File(file);
-                Scanner scan = new Scanner (f);
-                String line = scan.nextLine();
-                while (scan.hasNextLine()){
-                        //if broke out if inner while loop because hit empty line
-                        //skip that line and go to next year
-                        if (line.length()==0){
-                                line = scan.nextLine();
-                        }
-                        //should always go into this if statement
-                        //two different types of double quotes in this text file
-                        if (line.substring(0,1).equals("\"")||line.substring(0,1).equals("â€œ")){
-                                String[] yearAndType = line.split(",");
-                                String year = Integer.toString(Integer.parseInt(yearAndType[0].substring(1,yearAndType[0].length()-1))-1); //take out quotes
-                                String type = yearAndType[1]; //category
-                                if (Nominations.containsKey(year)==false){
-                                        Nominations.put(year, new HashMap<String, String>());
-                                }
-                                line = scan.nextLine(); //move on to first item in this category
-                                //add each movie title/director between categories to hashmap
-                                //do we need to keep the movie title next to director name??
-                                while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("â€œ")==false){
-                                        Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
-                                        line = scan.nextLine();
-                                }
-                        }
-                }
-        }
+		  File f = new File(file);
+          Scanner scan = new Scanner (f);
+          String line = scan.nextLine();
+          while (scan.hasNextLine()){
+                  //if broke out if inner while loop because hit empty line
+                  //skip that line and go to next year
+                  if (line.length()==0){
+                          line = scan.nextLine();
+                  }
+                  //should always go into this if statement
+                  //two different types of double quotes in this text file
+                  if (line.substring(0,1).equals("\"")||line.substring(0,1).equals("“")){
+                          String[] yearAndType = line.split(",");
+                          String year = Integer.toString(Integer.parseInt(yearAndType[0].substring(1,yearAndType[0].length()-1))-1); //take out quotes
+                          String type = yearAndType[1]; //category
+                          if (Nominations.containsKey(year)==false){
+                                  Nominations.put(year, new HashMap<String, String>());
+                          }
+                          line = scan.nextLine(); //move on to first item in this category
+                          //add each movie title/director between categories to hashmap
+                          //do we need to keep the movie title next to director name??
+                          while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("“")==false){
+                                  Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
+                                  line = scan.nextLine();
+                          }
+                  }
+          }
+  }
 					
 	public static JSONObject OMDB(String title, String year) throws IOException{
 		 String urlTitle = title.replace(' ', '+');
