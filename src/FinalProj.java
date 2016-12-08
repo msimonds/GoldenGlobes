@@ -58,11 +58,16 @@ public class FinalProj {
 				JSONObject json = OMDB(title, year);
 				Double tomato=-1.0;
 				try{
-				tomato = Double.parseDouble((String) json.get("tomatoMeter"));
+					tomato = Double.parseDouble((String) json.get("tomatoMeter"));
 				} catch(Exception e){
 					tomato=0.0;
 				}
-				String genre = json.get("Genre").toString();
+				String genre;
+				try{
+					genre = json.get("Genre").toString();
+				} catch(Exception e){
+     					genre = "irrelevant";                           
+                                }
 				if (tomato >= minRate && !genre.contains("Documentary")){
 					String series = "N";
 					if(notes.contains("sequel")||notes.contains("installation")||notes.contains("series")){
