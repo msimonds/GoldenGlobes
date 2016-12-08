@@ -29,7 +29,13 @@ public class FinalProj {
 		File dirFile = new File("TrainDirectors.csv");
 		PrintWriter directors = new PrintWriter(dirFile);
 		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre1,Genre2,Genre3";
+		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3";
+		
 		movies.println(bestPicAtts);
+		File mTestFile = new File("TestMovies.csv");
+		PrintWriter movieTest = new PrintWriter(mTestFile);
+		File dTestFile = new File("TestDirectors.csv");
+		PrintWriter directorsTest = new PrintWriter(dTestFile);
 		//Loop through the text files w/ movie titles (1990-2014 for training)
 		for(int i=1990; i<2015;i++){
 			String year = Integer.toString(i);
@@ -55,27 +61,33 @@ public class FinalProj {
 				} catch(Exception e){
 					tomato=0.0;
 				}
-				
-				if (tomato >= minRate){
+				String genre = json.get("Genre").toString();
+				if (tomato >= minRate && !genre.contains("Documentary")){
 					String series = "N";
 					if(notes.contains("sequel")||notes.contains("installation")||notes.contains("series")){
 						series = "Y";
 					}
-					String instanceStr = getData(json,series);
-					System.out.println(instanceStr);
-					movies.print(instanceStr + ",");
-
-                            String thisLabel;
-                            if (Nominations.get(year).containsKey(title)){
-                                    if (Nominations.get(year).get(title).contains("Drama")){
-                                            thisLabel = "yesDrama";
-                                    } else {
-                                            thisLabel = "yesComedy";
-                                    }
-                            } else {
-                                    thisLabel = "no";
-                            }
-                            movies.println(thisLabel);					
+					 String instanceStr = getDataMovies(json,series);
+					 System.out.println(instanceStr);
+					 String thisLabel;
+                     if (Nominations.get(year).containsKey(title)){
+                             if (Nominations.get(year).get(title).contains("Drama")){
+                                     thisLabel = "yesDrama";
+                             } else {
+                                     thisLabel = "yesComedy";
+                             }
+                     } else {
+                             thisLabel = "no";
+                     }
+					//For training instances and then for test instances
+					if(i<2003){
+						movies.print(instanceStr + ",");                           
+                    	movies.println(thisLabel);
+					}else{
+						movieTest.print(instanceStr + ",");                           
+                    	movieTest.println(thisLabel);
+					}
+					String instanceDirStr = getDataDir(json, series);
 				}
 				line = file.nextLine();
 				fuckme=fuckme+1;
@@ -128,7 +140,6 @@ public class FinalProj {
 		  conn.setAllowUserInteraction(false);
 		  conn.setRequestProperty("Content-Type",
 		      "application/x-www-form-urlencoded");
-
 		  if (conn.getResponseCode() != 200) {
 		    throw new IOException(conn.getResponseMessage());
 		  }
@@ -159,7 +170,7 @@ public class FinalProj {
 	
 	//this method gets called once a jsonobject has been returned by the REST call
 	//it grabs relevant data from the json and returns the string to be printed in our instance list
-	public static String getData(JSONObject movie, String sequel) throws JSONException{
+	public static String getDataMovies(JSONObject movie, String sequel) throws JSONException{
 		StringBuffer str = new StringBuffer();
 		str = str.append(movie.get("Director").toString()+",");
 		
@@ -199,6 +210,42 @@ public class FinalProj {
 		}else{
 			str = str.append(" ,");
 		}
+		
+		String[] genres = movie.get("Genre").toString().split(",");		
+		int count =0;
+		for(String x : genres){
+			if(count<3){
+				str.append(x +",");
+				count=count+1;
+			}			
+		}
+		while(count<3){
+			str.append(" " +",");
+			count=count+1;
+		}		
+		return str.toString();
+	}
+	public static String getDataDir(JSONObject movie, String sequel) throws JSONException{
+		StringBuffer str = new StringBuffer();
+		str = str.append(movie.get("Director").toString()+",");
+		
+		String[] writers = movie.get("Writer").toString().split(",");
+		if(writers.length>1){
+			str = str.append(stripParens(writers[0]) + ","+stripParens(writers[1])+",");
+		} else{
+			str=str.append(stripParens(writers[0])+", ,");
+		}
+		
+		String[] allActors = movie.get("Actors").toString().split(",");
+		if(allActors.length>2){
+			str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+","+stripParens(allActors[2])+",");
+		} else if(allActors.length==2){
+			str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+", ,");
+		} else if(allActors.length==1){
+			str = str.append(stripParens(allActors[0]) + ", , ,");
+		} else{
+			str = str.append(", , , ,");
+		}		
 		
 		String[] genres = movie.get("Genre").toString().split(",");		
 		int count =0;
