@@ -76,9 +76,10 @@ public class FinalProj {
 					 String instanceStr = getDataMovies(json,series);
 					 System.out.println(instanceStr);
 					 String thisLabel;
-				
-                     			if (Nominations.get(year).containsKey(title)){
-                             			if (Nominations.get(year).get(title).contains("Drama")){
+					 String ggyear = Integer.toString((Integer.parseInt(year)+1));
+					 System.out.println(Nominations.get(ggyear));
+                     			if (Nominations.get(ggyear).containsKey(title)){
+                             			if (Nominations.get(ggyear).get(title).contains("Drama")){
                                      			thisLabel = "yesDrama";
                              			} else {
                                      			thisLabel = "yesComedy";

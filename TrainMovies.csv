@@ -1,0 +1,959 @@
+Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre1,Genre2,Genre3
+"1990"
+James Foley,Jim Thompson,Robert Redlin,Jason Patric,Rocky Giordani,Rachel Ward,1,N,82,61, ,Crime, Drama, Mystery,,no
+Woody Allen,Woody Allen, ,Joe Mantegna,Mia Farrow,William Hurt,7,N,77,58, ,Comedy, Fantasy, Romance,,no
+Frank Marshall,Don Jakoby,Al Williams,Jeff Daniels,Harley Jane Kozak,John Goodman,7,N,91,53, ,Comedy, Fantasy, Horror,,no
+Barry Levinson,Barry Levinson, ,Leo Fuchs,Eve Gordon,Lou Jacobi,20,N,83,78, ,Drama, , ,,yesDrama
+Penny Marshall,Oliver Sacks,Steven Zaillian,Robert De Niro,Robin Williams,Julie Kavner,17,N,88,89, ,Biography, Drama, ,,no
+Robert Zemeckis,Robert Zemeckis,Bob Gale,Michael J. Fox,Christopher Lloyd,Mary Steenburgen,15,Y,74,78, ,Action, Adventure, Comedy,,no
+Curtis Hanson,David Koepp, ,Rob Lowe,James Spader,Lisa Zane,2,N,71,51, ,Drama, Thriller, ,,no
+Frank Henenlotter,Frank Henenlotter, ,Kevin Van Hentenryck,Judy Grafe,Annie Ross,0,Y,67,40, ,Comedy, Horror, ,,no
+Kathryn Bigelow,Kathryn Bigelow,Eric Red,Jamie Lee Curtis,Ron Silver,Clancy Brown,3,N,71,35, ,Action, Crime, Drama,,no
+Mark L. Lester,Mark L. Lester,C. Courtney Joyner,Bradley Gregg,Traci Lind,Malcolm McDowell,1,N,60,50, ,Action, Horror, Sci-Fi,,no
+Alan Parker,Alan Parker, ,Dennis Quaid,Tamlyn Tomita,Sab Shimono,3,N,70,74, ,Drama, Romance, War,,no
+John Waters,John Waters, ,Johnny Depp,Amy Locane,Susan Tyrrell,0,N,73,77, ,Comedy, Musical, ,,no
+Kevin Costner,Michael Blake,Michael Blake,Kevin Costner,Mary McDonnell,Graham Greene,82,N,82,87, ,Adventure, Drama, Western,,no
+Sam Raimi,Sam Raimi,Chuck Pfarrer,Liam Neeson,Frances McDormand,Colin Friels,9,N,83,58, ,Action, Crime, Fantasy,,no
+Warren Beatty,Chester Gould,Jim Cash,Warren Beatty,Charlie Korsmo,Michael Donovan O'Donnell,39,N,64,53, ,Action, Comedy, Crime,,yesComedy
+Renny Harlin,Walter Wager,Steven E. de Souza,Bruce Willis,Bonnie Bedelia,William Atherton,2,Y,69,70, ,Action, Thriller, ,,no
+Bob Hathcock,Alan Burnett, ,Alan Young,Terence McGovern,Russi Taylor,1,N,88,69, ,Animation, Adventure, Comedy,,no
+Tim Burton,Tim Burton,Caroline Thompson,Johnny Depp,Winona Ryder,Dianne Wiest,22,N,89,91, ,Drama, Fantasy, Romance,,no
+John Frankenheimer,Stephen Peters,Stephen Peters,Roy Scheider,Jürgen Prochnow,Tim Reid,0,N,78,35, ,Drama, Thriller, ,,no
+Frank Henenlotter,Robert Martin,Frank Henenlotter,James Lorinz,Joanne Ritchie,Patty Mullen,0,N,62,57, ,Comedy, Horror, ,,no
+Andrew Bergman,Andrew Bergman, ,Marlon Brando,Matthew Broderick,Bruno Kirby,3,N,93,61, ,Comedy, Crime, ,,no
+Jerry Zucker,Bruce Joel Rubin, ,Patrick Swayze,Demi Moore,Whoopi Goldberg,40,N,74,80, ,Drama, Fantasy, Romance,,yesComedy
+Francis Ford Coppola,Mario Puzo,Francis Ford Coppola,Al Pacino,Diane Keaton,Talia Shire,25,Y,67,78, ,Crime, Drama, ,,yesDrama
+Martin Scorsese,Nicholas Pileggi,Nicholas Pileggi,Robert De Niro,Ray Liotta,Joe Pesci,70,N,96,97, ,Biography, Crime, Drama,,no
+Joe Dante,Chris Columbus,Charles S. Haas,Zach Galligan,Phoebe Cates,John Glover,6,Y,67,57, ,Comedy, Fantasy, Horror,,no
+Stephen Frears,Jim Thompson,Donald E. Westlake,Anjelica Huston,John Cusack,Annette Bening,27,N,90,70, ,Crime, Drama, Thriller,,no
+Philip Kaufman,Anaïs Nin,Philip Kaufman,Fred Ward,Uma Thurman,Maria de Medeiros,5,N,69,69, ,Biography, Drama, ,,no
+Reginald Hudlin,Reginald Hudlin, ,Christopher Reid,Robin Harris,Christopher Martin,12,N,96,82, ,Comedy, Music, Romance,,no
+John McTiernan,Tom Clancy,Larry Ferguson,Sean Connery,Alec Baldwin,Scott Glenn,9,N,86,89, ,Action, Adventure, Thriller,,no
+Mike Figgis,Henry Bean, ,Richard Gere,Andy Garcia,Nancy Travis,0,N,88,59, ,Crime, Drama, Thriller,,no
+Shirley Sun,Mark Salzman,Mark Salzman,Hangcheng Dong,Xihong Jiang,Jeanette Lin Tsui,1,N,80,78, ,Comedy, Drama, ,,no
+Adrian Lyne,Bruce Joel Rubin, ,Tim Robbins,Elizabeth Peña,Danny Aiello,2,N,69,85, ,Drama, Horror, Mystery,,no
+John Patrick Shanley,John Patrick Shanley, ,Tom Hanks,Meg Ryan,Lloyd Bridges,0,N,59,54, ,Comedy, Romance, ,,no
+Abel Ferrara,Nicholas St. John, ,Christopher Walken,David Caruso,Laurence Fishburne,3,N,71,78, ,Crime, Thriller, ,,no
+Richard Pearce,John Cork, ,Sissy Spacek,Whoopi Goldberg,Dwight Schultz,3,N,86,84, ,Drama, History, ,,no
+Harry Hook,William Golding,Jay Presson Allen,Balthazar Getty,Chris Furrh,Danuel Pipoly,3,N,63,52, ,Adventure, Drama, Thriller,,no
+Alan Rudolph,Alan Rudolph, ,Tom Berenger,Elizabeth Perkins,Anne Archer,0,N,71,46, ,Comedy, Drama, Mystery,,no
+William Lustig,Larry Cohen, ,Robert Davi,Claudia Christian,Michael Lerner,0,Y,60,41, ,Crime, Horror, Action,,no
+Michael Caton-Jones,Monte Merrick, ,Matthew Modine,Eric Stoltz,Tate Donovan,5,N,75,79, ,Action, Drama, War,,no
+Paul Brickman,Barbara Benedek,Barbara Benedek,Jessica Lange,Arliss Howard,Joan Cusack,3,N,81,59, ,Drama, , ,,no
+Richard Benjamin,Patty Dann,June Roberts,Cher,Bob Hoskins,Winona Ryder,5,N,73,70, ,Comedy, Drama, Romance,,no
+Whit Stillman,Whit Stillman, ,Carolyn Farina,Edward Clements,Chris Eigeman,13,N,91,85, ,Comedy, Drama, Romance,,no
+George Armitage,Charles Willeford,George Armitage,Alec Baldwin,Cecilia Pérez-Cervera,Georgie Cranford,2,N,81,56, ,Comedy, Crime, Drama,,no
+Joel Coen, Ethan Coen,Joel Coen,Ethan Coen,Gabriel Byrne,Marcia Gay Harden,John Turturro,10,N,91,90, ,Crime, Drama, Thriller,,no
+Rob Reiner,Stephen King,William Goldman,James Caan,Kathy Bates,Richard Farnsworth,12,N,89,89, ,Crime, Drama, Thriller,,no
+Bruce Beresford,William Boyd,Joyce Cary,Maynard Eziashi,Pierce Brosnan,Edward Woodward,2,N,82,63, ,Drama, , ,,no
+Spike Lee,Spike Lee, ,Denzel Washington,Spike Lee,Wesley Snipes,4,N,73,75, ,Drama, Music, Romance,,no
+Bob Rafelson,William Harrison,William Harrison,Patrick Bergin,Iain Glen,Richard E. Grant,1,N,69,77, ,Adventure, Drama, History,,no
+Herbert Ross,Nora Ephron, ,Steve Martin,Rick Moranis,Joan Cusack,0,N,71,59, ,Comedy, Crime, ,,no
+Peter Hyams,Peter Hyams,Earl Felton,Gene Hackman,Anne Archer,James Sikking,1,N,58,51, ,Action, Crime, Thriller,,no
+Tom Savini,John A. Russo,George A. Romero,Tony Todd,Patricia Tallman,Tom Towles,2,N,68,68, ,Horror, , ,,no
+Mike Nichols,Carrie Fisher,Carrie Fisher,Meryl Streep,Shirley MacLaine,Dennis Quaid,13,N,90,66, ,Comedy, Drama, ,,no
+Alan J. Pakula,Scott Turow,Frank Pierson,Harrison Ford,Brian Dennehy,Raul Julia,3,N,86,67, ,Mystery, Thriller, ,,no
+Garry Marshall,J.F. Lawton, ,Richard Gere,Julia Roberts,Ralph Bellamy,19,N,62,68, ,Comedy, Romance, ,,yesComedy
+Allan Moyle,Allan Moyle, ,Christian Slater,Annie Ross,Andy Romano,8,N,79,84, ,Comedy, Drama, Music,,no
+Howard Franklin, Bill Murray,Jay Cronley,Howard Franklin,Bill Murray,Dale Grand,Bob Elliott,0,N,80,71, ,Comedy, Crime, ,,no
+Philip Ridley,Philip Ridley, ,Viggo Mortensen,Lindsay Duncan,Jeremy Cooper,9,N,83,79, ,Drama, Horror, Thriller,,no
+Hendel Butoy, Mike Gabriel,Jim Cox,Karey Kirkpatrick,Bob Newhart,Eva Gabor,John Candy,6,Y,68,68, ,Animation, Adventure, Crime,,no
+Barbet Schroeder,Alan M. Dershowitz,Nicholas Kazan,Glenn Close,Jeremy Irons,Ron Silver,27,N,94,76, ,Biography, Drama, Mystery,,yesDrama
+Tom Stoppard,Tom Stoppard, ,Gary Oldman,Tim Roth,Richard Dreyfuss,5,N,64,88, ,Comedy, Drama, ,,no
+Fred Schepisi,John le Carré,Tom Stoppard,Sean Connery,Michelle Pfeiffer,Roy Scheider,5,N,75,50, ,Drama, Romance, Thriller,,no
+Jan Egleson,Simon Brett,Andrew Klavan,Michael Caine,Elizabeth McGovern,Peter Riegert,1,N,77,65, ,Comedy, Crime, Thriller,,no
+Lucas Reiner,Roman Coppola,Lucas Reiner,Mark Mothersbaugh,Gerald V. Casale,Carl Reiner,0,N,80,51, ,Comedy, Sci-Fi, ,,no
+Phil Joanou, Michael Lee Baron,Dennis McIntyre, ,Sean Penn,Ed Harris,Gary Oldman,0,N,84,83, ,Action, Crime, Drama,,no
+Charles Burnett,Charles Burnett, ,Paul Butler,DeVaughn Nixon,Mary Alice,15,N,84,83, ,Drama, , ,,no
+Paul Verhoeven,Philip K. Dick,Ronald Shusett,Arnold Schwarzenegger,Rachel Ticotin,Sharon Stone,22,N,82,78, ,Action, Sci-Fi, Thriller,,no
+Ron Underwood,S.S. Wilson,Brent Maddock,Kevin Bacon,Fred Ward,Finn Carter,5,N,85,75, ,Comedy, Horror, ,,no
+Hal Hartley,Hal Hartley, ,Adrienne Shelly,Martin Donovan,Rebecca Nelson,6,N,82,94, ,Comedy, Drama, ,,no
+Jack Nicholson,Robert Towne,Robert Towne,Jack Nicholson,Harvey Keitel,Meg Tilly,0,Y,65,39, ,Crime, Drama, Mystery,,no
+Robert Altman,Julian Mitchell, ,Tim Roth,Paul Rhys,Adrian Brine,0,N,88,72, ,Biography, Drama, ,,no
+Clint Eastwood,Peter Viertel,Peter Viertel,Clint Eastwood,Jeff Fahey,Charlotte Cornwell,2,N,88,62, ,Adventure, Drama, ,,no
+Luis Mandoki,Glenn Savan,Ted Tally,Susan Sarandon,James Spader,Jason Alexander,2,N,60,62, ,Drama, Romance, ,,no
+David Lynch,Barry Gifford,David Lynch,Nicolas Cage,Laura Dern,Willem Dafoe,10,N,65,81, ,Comedy, Crime, Drama,,no
+Nicolas Roeg,Roald Dahl,Allan Scott,Anjelica Huston,Mai Zetterling,Jasen Fisher,11,N,100,70, ,Adventure, Comedy, Fantasy,,no
+"1991"
+George Gallo,Frank Pesce,James Franciscus,Danny Aiello,Anthony LaPaglia,Lainie Kazan,0,N,80,87, ,Comedy, Drama, ,,no
+Barry Sonnenfeld,Charles Addams,Caroline Thompson,Anjelica Huston,Raul Julia,Christopher Lloyd,21,N,60,66, ,Comedy, Fantasy, ,,no
+Ron Howard,Gregory Widen, ,Kurt Russell,William Baldwin,Robert De Niro,7,N,71,75, ,Action, Crime, Drama,,no
+Joel Coen, Ethan Coen,Joel Coen,Ethan Coen,John Turturro,John Goodman,Judy Davis,28,N,91,89, ,Comedy, Drama, ,,no
+Gary Trousdale, Kirk Wise,Linda Woolverton,Brenda Chapman,Robby Benson,Jesse Corti,Rex Everhart,48,N,93,92,4.7611331E7,Animation, Family, Fantasy,,yesComedy
+John Singleton,John Singleton, ,Hudhail Al-Amir,Lloyd Avery II,Angela Bassett,27,N,96,93, ,Crime, Drama, ,,no
+Barry Levinson,James Toback,Dean Jennings,Warren Beatty,Annette Bening,Harvey Keitel,43,N,85,69, ,Biography, Crime, Drama,,yesDrama
+Martin Scorsese,John D. MacDonald,James R. Webb,Robert De Niro,Nick Nolte,Jessica Lange,20,N,76,77, ,Crime, Thriller, ,,no
+John Sayles,John Sayles, ,Vincent Spano,Stephen Mendillo,Chris Cooper,9,N,94,80, ,Crime, Drama, ,,no
+Ron Underwood,Lowell Ganz,Babaloo Mandel,Billy Crystal,Daniel Stern,Bruno Kirby,14,N,90,64, ,Comedy, , ,,yesComedy
+Michael Apted,Carolyn Shelby,Christopher Ames,Gene Hackman,Mary Elizabeth Mastrantonio,Colin Friels,1,N,75,50, ,Drama, Thriller, ,,no
+Alan Parker,Roddy Doyle,Dick Clement,Robert Arkins,Michael Aherne,Angeline Ball,19,N,88,90, ,Comedy, Drama, Music,,yesComedy
+Julie Dash,Julie Dash, ,Cora Lee Day,Alva Rogers,Barbarao,4,N,96,70,21692.0,Drama, Romance, ,,no
+Kenneth Branagh,Scott Frank, ,Kenneth Branagh,Andy Garcia,Derek Jacobi,6,N,83,77, ,Crime, Drama, Mystery,,no
+Albert Brooks,Albert Brooks, ,Albert Brooks,Michael Durrell,James Eckhouse,4,N,97,83, ,Comedy, Drama, Fantasy,,no
+Michael Caton-Jones,Neil B. Shulman,Laurian Leggett,Michael J. Fox,Julie Warner,Barnard Hughes,0,N,73,50, ,Comedy, Drama, Romance,,no
+Randa Haines,Ed Rosenbaum,Robert Caswell,William Hurt,Christine Lahti,Elizabeth Perkins,3,N,86,72, ,Drama, , ,,no
+Nancy Savoca,Bob Comfort, ,River Phoenix,Lili Taylor,Richard Panebianco,0,N,76,86, ,Comedy, Drama, Romance,,no
+Charles Shyer,Frances Goodrich,Albert Hackett,Steve Martin,Diane Keaton,Kimberly Williams-Paisley,5,N,73,70, ,Comedy, Family, Romance,,no
+Terry Gilliam,Richard LaGravenese, ,Jeff Bridges,Adam Bryant,Paul Lombardi,40,N,82,86, ,Comedy, Drama, Fantasy,,yesComedy
+Garry Marshall,Terrence McNally,Terrence McNally,Al Pacino,Michelle Pfeiffer,Hector Elizondo,6,N,78,68, ,Comedy, Drama, Romance,,no
+Jon Avnet,Fannie Flagg,Fannie Flagg,Kathy Bates,Mary Stuart Masterson,Mary-Louise Parker,16,N,73,91, ,Drama, , ,,yesComedy
+Lawrence Kasdan,Lawrence Kasdan,Meg Kasdan,Danny Glover,Kevin Kline,Steve Martin,7,N,81,70, ,Crime, Drama, ,,no
+Irwin Winkler,Irwin Winkler, ,Robert De Niro,Annette Bening,George Wendt,4,N,65,55, ,Drama, , ,,no
+Joseph B. Vasquez,Joseph B. Vasquez, ,Doug E. Doug,Mario Joyner,John Leguizamo,10,N,83,67, ,Comedy, Drama, ,,no
+John Badham,Lem Dobbs,Michael Kozoll,Michael J. Fox,James Woods,Stephen Lang,1,N,74,52, ,Action, Comedy, Crime,,no
+Peter Chelsom,Peter Chelsom,Peter Chelsom,Brian Flanagan,Constance Cowley,Marie Mullen,8,N,93,76, ,Comedy, Drama, Music,,no
+Bruce McDonald,Allan Magee,Bruce McDonald,Valerie Buhagiar,Don McKellar,Earl Pastko,7,N,100,85, ,Comedy, Music, ,,no
+Jim Abrahams,Jim Abrahams,Pat Proft,Charlie Sheen,Cary Elwes,Valeria Golino,1,N,83,65, ,Action, Comedy, ,,no
+Christopher Munch,Christopher Munch, ,David Angus,Ian Hart,Stephanie Pack,3,N,67,63, ,Drama, Music, ,,no
+Sean Penn,Sean Penn, ,David Morse,Viggo Mortensen,Valeria Golino,2,N,74,82, ,Drama, , ,,no
+Andrey Konchalovskiy,Andrey Konchalovskiy,Anatoli Usov,Tom Hulce,Lolita Davidovich,Bob Hoskins,9,N,67,78, ,Drama, , ,,no
+Oliver Stone,Oliver Stone,Zachary Sklar,Sally Kirkland,Anthony Ramirez,Ray LePere,43,N,85,88, ,Drama, History, Thriller,,yesDrama
+Mick Jackson,Steve Martin, ,Steve Martin,Victoria Tennant,Richard E. Grant,0,N,94,75, ,Comedy, Drama, Fantasy,,no
+Jodie Foster,Scott Frank, ,Jodie Foster,Alex Lee,Adam Hann-Byrd,3,N,76,66, ,Drama, , ,,no
+Robert Mulligan,Jenny Wingfield, ,Sam Waterston,Tess Harper,Gail Strickland,3,N,89,85, ,Drama, Romance, ,,no
+Mira Nair,Sooni Taraporevala, ,Denzel Washington,Sarita Choudhury,Roshan Seth,7,N,80,64, ,Drama, Romance, ,,no
+Gus Van Sant,Gus Van Sant, ,River Phoenix,Keanu Reeves,James Russo,17,N,82,81, ,Drama, , ,,no
+David Cronenberg,William S. Burroughs,David Cronenberg,Peter Weller,Judy Davis,Ian Holm,22,N,71,77, ,Drama, , ,,no
+Mario Van Peebles,Thomas Lee Wright,Thomas Lee Wright,Wesley Snipes,Ice-T,Allen Payne,4,N,76,80, ,Action, Crime, Drama,,no
+Jim Jarmusch,Jim Jarmusch, ,Gena Rowlands,Winona Ryder,Lisanne Falk,2,N,71,91, ,Comedy, Drama, ,,no
+Michael Lindsay-Hogg,Michael Lindsay-Hogg, ,John Malkovich,Andie MacDowell,Lolita Davidovich,0,N,77,38, ,Comedy, Crime, Drama,,no
+Lasse Hallström,Malia Scotch Marmo, ,Richard Dreyfuss,Holly Hunter,Danny Aiello,1,N,68,73, ,Comedy, Drama, Romance,,no
+Chris Columbus,Chris Columbus, ,John Candy,Maureen O'Hara,Ally Sheedy,0,N,62,50, ,Comedy, Romance, ,,no
+Wes Craven,Wes Craven, ,Brandon Quintin Adams,Everett McGill,Wendy Robie,7,N,61,58, ,Comedy, Horror, Mystery,,no
+Kathryn Bigelow,Rick King,W. Peter Iliff,Patrick Swayze,Keanu Reeves,Gary Busey,3,N,68,79, ,Action, Crime, Drama,,no
+Todd Haynes,Jean Genet, "Our Lady of the Flowers" and "Thief's Journal"),Edith Meeks,Millie White,Buck Smith,10,N,76,68, ,Drama, Horror, Romance,,no
+Barbra Streisand,Pat Conroy,Pat Conroy,Nick Nolte,Barbra Streisand,Blythe Danner,21,N,73,70, ,Drama, Romance, ,,no
+Bill Duke,Chester Himes,John Toles-Bey,Forest Whitaker,Gregory Hines,Robin Givens,1,N,64,52, ,Comedy, Crime, ,,no
+Martha Coolidge,Calder Willingham,Calder Willingham,Laura Dern,Robert Duvall,Diane Ladd,19,N,100,52, ,Drama, , ,,no
+Michael Tolkin,Michael Tolkin, ,Mimi Rogers,Darwyn Carson,Patrick Bauchau,4,N,64,62, ,Drama, Mystery, ,,no
+Russell Mulcahy,Fred Dekker,Menno Meyjes,Denzel Washington,John Lithgow,Ice-T,0,N,73,53, ,Action, Crime, Drama,,no
+Joe Johnston,Dave Stevens,Danny Bilson,Billy Campbell,Jennifer Connelly,Alan Arkin,6,N,62,64, ,Action, Adventure, Comedy,,no
+Lili Fini Zanuck,Kim Wozencraft,Peter Dexter,Jason Patric,Jennifer Jason Leigh,Sam Elliott,6,N,71,72, ,Action, Crime, Drama,,no
+Jonathan Demme,Thomas Harris,Ted Tally,Jodie Foster,Lawrence A. Bonney,Kasi Lemmons,89,N,95,95, ,Crime, Drama, Thriller,,yesDrama
+Richard Linklater,Richard Linklater, ,Richard Linklater,Rudy Basquez,Jean Caffeine,4,N,85,77, ,Comedy, Drama, ,,no
+Michael Hoffman,Robert Harling,Robert Harling,Sally Field,Kevin Kline,Robert Downey Jr.,0,N,69,63, ,Comedy, Romance, ,,no
+Nicholas Meyer,Gene Roddenberry,Leonard Nimoy,William Shatner,Leonard Nimoy,DeForest Kelley,8,N,84,83, ,Action, Adventure, Sci-Fi,,no
+Matty Rich,Matty Rich, ,George T. Odom,Ann D. Sanders,Lawrence Gilliard Jr.,9,N,86,61, ,Crime, Drama, ,,no
+James Cameron,James Cameron,William Wisher Jr.,Arnold Schwarzenegger,Linda Hamilton,Edward Furlong,47,N,93,94, ,Action, Sci-Fi, Thriller,,no
+Ridley Scott,Callie Khouri, ,Susan Sarandon,Geena Davis,Harvey Keitel,55,N,83,82, ,Adventure, Crime, Drama,,yesDrama
+Frank Oz,Alvin Sargent,Laura Ziskin,Bill Murray,Richard Dreyfuss,Julie Hagerty,3,N,83,79, ,Comedy, , ,,no
+Randal Kleiser,Jack London,Jeanne Rosenberg,Klaus Maria Brandauer,Ethan Hawke,Seymour Cassel,1,N,63,63, ,Adventure, Drama, ,,no
+Steve Miner,Matt Williams,Oley Sassone,Gabrielle Anwar,Michael Schoeffling,Cliff Robertson,0,N,70,89, ,Drama, Family, Romance,,no
+"1992"
+Ron Clements, John Musker,Ron Clements,John Musker,Scott Weinger,Robin Williams,Linda Larkin,45,N,94,92, ,Animation, Adventure, Comedy,,yesComedy
+Edward James Olmos,Floyd Mutrux,Floyd Mutrux,Sal Lopez,Vira Montes,Roberto Martín Márquez,1,N,75,90, ,Biography, Crime, Drama,,no
+Abel Ferrara,Zoë Lund,Abel Ferrara,Harvey Keitel,Victor Argo,Paul Calderon,6,Y,77,73, ,Crime, Drama, Thriller,,no
+Tim Burton,Bob Kane,Daniel Waters,Michael Keaton,Danny DeVito,Michelle Pfeiffer,20,Y,80,73, ,Action, , ,,no
+Tim Robbins,Tim Robbins, ,Tim Robbins,Giancarlo Esposito,Alan Rickman,7,N,100,78, ,Comedy, , ,,no
+Francis Ford Coppola,Bram Stoker,James V. Hart,Gary Oldman,Winona Ryder,Anthony Hopkins,30,N,78,79, ,Fantasy, Horror, ,,no
+Bernard Rose,Clive Barker,Bernard Rose,Virginia Madsen,Tony Todd,Xander Berkeley,12,N,69,61, ,Drama, Fantasy, Horror,,no
+Paul Michael Glaser,Tony Gilroy, ,D.B. Sweeney,Moira Kelly,Roy Dotrice,0,Y,60,77, ,Drama, Romance, Sport,,no
+Bill Duke,Michael Tolkin,Michael Tolkin,Lira Angel,René Assa,Bruce Paul Barbour,4,N,85,77, ,Action, Crime, Thriller,,no
+John Mellencamp,Larry McMurtry, ,John Mellencamp,Mariel Hemingway,Claude Akins,0,N,86,50, ,Drama, Music, ,,no
+Bill Kroyer,Jim Cox,Diana Young,Tim Curry,Samantha Mathis,Christian Slater,4,N,71,63, ,Animation, Adventure, Family,,no
+Rob Reiner,Aaron Sorkin,Aaron Sorkin,Tom Cruise,Jack Nicholson,Demi Moore,32,N,81,89, ,Drama, Thriller, ,,yesDrama
+Allison Anders,Richard Peck,Allison Anders,Brooke Adams,Ione Skye,Fairuza Balk,10,N,79,74, ,Drama, Romance, ,,no
+James Foley,David Mamet,David Mamet,Al Pacino,Jack Lemmon,Alec Baldwin,13,N,94,88, ,Crime, Drama, Mystery,,no
+Curtis Hanson,Amanda Silver, ,Annabella Sciorra,Rebecca De Mornay,Matt McCoy,11,N,63,61, ,Thriller, , ,,no
+Stephen Frears,Laura Ziskin,Alvin Sargent,Dustin Hoffman,Geena Davis,Andy Garcia,0,N,68,50, ,Comedy, Drama, Romance,,no
+Andrew Bergman,Andrew Bergman, ,James Caan,Nicolas Cage,Sarah Jessica Parker,3,N,60,35, ,Comedy, Romance, Thriller,,no
+Woody Allen,Woody Allen, ,Nick Metropolis,Woody Allen,Mia Farrow,22,N,97,87, ,Comedy, Drama, Romance,,no
+Alexandre Rockwell,Sollace Mitchell,Alexandre Rockwell,Steve Buscemi,Seymour Cassel,Jennifer Beals,8,N,92,76, ,Comedy, Drama, ,,no
+Ernest R. Dickerson,Ernest R. Dickerson,Gerard Brown,Omar Epps,Tupac Shakur,Jermaine 'Huggy' Hopkins,1,N,83,90, ,Action, Crime, Drama,,no
+Leslie Harris,Leslie Harris, ,Ariyan A. Johnson,Kevin Thigpen,Ebony Jerido,5,N,62,84, ,Drama, , ,,no
+Michael Mann,James Fenimore Cooper,John L. Balderston,Daniel Day-Lewis,Madeleine Stowe,Russell Means,20,N,94,88, ,Action, Adventure, Drama,,no
+Penny Marshall,Kim Wilson,Kelly Candaele,Tom Hanks,Geena Davis,Lori Petty,14,N,77,84, ,Comedy, Drama, Sport,,no
+Richard Pearce,Janus Cercone, ,Steve Martin,Debra Winger,Lolita Davidovich,0,N,67,46, ,Comedy, Drama, Romance,,no
+Paul Schrader,Paul Schrader, ,Willem Dafoe,Susan Sarandon,Dana Delany,7,N,89,63, ,Crime, Drama, ,,no
+George Miller,George Miller,Nick Enright,Nick Nolte,Susan Sarandon,Peter Ustinov,7,N,94,79, ,Drama, , ,,no
+John Turturro,John Turturro,Brandon Cole,Nicholas Turturro,Matthew Sussman,Steven Randazzo,3,N,70,69, ,Drama, , ,,no
+Spike Lee,Alex Haley,Malcolm X,Denzel Washington,Angela Bassett,Albert Hall,34,N,91,91, ,Biography, Drama, History,,no
+Arne Glimcher,Oscar Hijuelos,Cynthia Cidre,Pablo Calogero,Scott Cohen,Mario Grillo,6,N,83,69, ,Drama, Music, ,,no
+Rémy Belvaux, André Bonzel, Benoît Poelvoorde,Rémy Belvaux,Rémy Belvaux,Benoît Poelvoorde,Jacqueline Poelvoorde-Pappaert,Nelly Pappaert,10,N,76,90, ,Comedy, Crime, Drama,,no
+Keith Gordon,William Wharton,Keith Gordon,Peter Berg,Kevin Dillon,Arye Gross,1,N,87,78, ,Drama, War, ,,no
+Barry Primus,Barry Primus,Barry Primus,Robert Wuhl,Martin Landau,Vasek Simek,0,N,69,39, ,Comedy, Drama, ,,no
+Nick Broomfield,Spalding Gray, ,Spalding Gray, , ,0,N,93,87, ,Comedy, Drama, ,,no
+Brian Henson,Charles Dickens,Jerry Juhl,Michael Caine,Dave Goelz,Steve Whitmire,2,N,69,85, ,Comedy, Drama, Family,,no
+Jonathan Lynn,Dale Launer, ,Joe Pesci,Ralph Macchio,Marisa Tomei,6,N,85,87, ,Comedy, Crime, ,,no
+Irwin Winkler,Gerald Kersh,Richard Price,Robert De Niro,Jessica Lange,Cliff Gorman,0,N,67,31, ,Comedy, Crime, Drama,,no
+Gary Sinise,John Steinbeck,Horton Foote,John Malkovich,Gary Sinise,Ray Walston,1,N,96,82, ,Drama, , ,,no
+Carl Franklin,Billy Bob Thornton,Tom Epperson,Bill Paxton,Cynda Williams,Billy Bob Thornton,16,N,98,75, ,Crime, Drama, ,,no
+John Sayles,John Sayles, ,Mary McDonnell,Angela Bassett,Lenore Banks,12,N,100,81, ,Drama, , ,,no
+Phillip Noyce,Tom Clancy,W. Peter Iliff,Harrison Ford,Anne Archer,Patrick Bergin,3,N,75,73, ,Action, Thriller, ,,no
+Gillies MacKinnon,Shane Connaughton,Kerry Crabbe,Albert Finney,Aidan Quinn,Robin Wright,1,N,91,52, ,Drama, Romance, ,,no
+Robert Altman,Michael Tolkin,Michael Tolkin,Tim Robbins,Greta Scacchi,Fred Ward,50,N,98,85, ,Comedy, Crime, Drama,,yesComedy
+Norman René,Craig Lucas,Craig Lucas,Alec Baldwin,Meg Ryan,Kathy Bates,0,N,61,39, ,Comedy, Fantasy, Romance,,no
+Howard Franklin,Howard Franklin, ,Joe Pesci,Richard Riehle,Bryan Travis Smith,0,N,64,52, ,Crime, Drama, Romance,,no
+Quentin Tarantino,Quentin Tarantino,Roger Avary,Harvey Keitel,Tim Roth,Michael Madsen,24,N,90,94, ,Crime, Drama, Thriller,,no
+Robert Redford,Norman Maclean,Richard Friedenberg,Craig Sheffer,Brad Pitt,Tom Skerritt,11,N,83,84, ,Drama, , ,,no
+Abbe Wool,Abbe Wool, ,John Doe,David Anthony Marshall,Judyth Thurman,0,N,83,62, ,Adventure, Comedy, Drama,,no
+Martin Brest,Giovanni Arpino,Bo Goldman,Al Pacino,Chris O'Donnell,James Rebhorn,18,N,88,92, ,Drama, , ,,yesDrama
+Robert Mandel,Dick Wolf,Dick Wolf,Brendan Fraser,Matt Damon,Chris O'Donnell,3,N,68,69, ,Drama, , ,,no
+Hal Hartley,Hal Hartley, ,Robert John Burke,Bill Sage,Karen Sillas,2,N,90,90, ,Crime, Drama, Romance,,no
+Cameron Crowe,Cameron Crowe, ,Bridget Fonda,Campbell Scott,Kyra Sedgwick,1,N,80,73, ,Comedy, Drama, Romance,,no
+Emile Ardolino,Joseph Howard, ,Whoopi Goldberg,Maggie Smith,Kathy Najimy,15,Y,71,65, ,Comedy, Crime, Music,,yesComedy
+Phil Alden Robinson,Phil Alden Robinson,Lawrence Lasker,Jo Marr,Gary Hershberger,Robert Redford,2,N,81,80, ,Comedy, Crime, Drama,,no
+Stephen Milburn Anderson,Stephen Milburn Anderson,Donald Bakeer,Glenn Plummer,Byron Minns,Lexie Bigham,3,N,100,83, ,Crime, Drama, ,,no
+Mark Frost,Frank Galbally,Robert Macklin,James Spader,Joanne Whalley,Jason Robards,1,N,60,26, ,Drama, Mystery, Thriller,,no
+Tom Kalin,Tom Kalin,Hilton Als,Daniel Schlachet,Craig Chester,Ron Vawter,12,N,63,67, ,Biography, Crime, Drama,,no
+Craig Bolotin,Alice McDermott,Craig Bolotin,C. Thomas Howell,Juliette Lewis,Helen Shaver,0,N,80,82, ,Drama, Romance, ,,no
+Michael Apted,John Fusco, ,Val Kilmer,Sam Shepard,Graham Greene,2,N,87,75, ,Crime, Mystery, Thriller,,no
+Walter Hill,Bob Gale,Robert Zemeckis,Bill Paxton,Ice-T,William Sadler,0,N,68,47, ,Action, Thriller, ,,no
+David Lynch,David Lynch,Robert Engels,Sheryl Lee,Ray Wise,Mädchen Amick,9,Y,61,78, ,Drama, Fantasy, Horror,,no
+Andrew Davis,J.F. Lawton, ,Steven Seagal,Damian Chapa,Troy Evans,6,N,75,61, ,Action, Thriller, ,,no
+Clint Eastwood,David Webb Peoples, ,Clint Eastwood,Gene Hackman,Morgan Freeman,69,N,95,93, ,Drama, Western, ,,yesDrama
+Jonathan Kaplan,George Putnam,John Katchmer,Kurt Russell,Ray Liotta,Madeleine Stowe,1,N,75,48, ,Crime, Drama, Thriller,,no
+Neal Jimenez, Michael Steinberg,Neal Jimenez, ,Eric Stoltz,Helen Hunt,William Allen Young,10,N,93,63, ,Drama, Romance, ,,no
+Penelope Spheeris,Mike Myers,Mike Myers,Mike Myers,Dana Carvey,Rob Lowe,6,N,85,85, ,Comedy, Music, ,,no
+Ron Shelton,Ron Shelton, ,Wesley Snipes,Woody Harrelson,Rosie Perez,4,N,76,68, ,Comedy, Drama, Sport,,no
+"1993"
+Barry Sonnenfeld,Charles Addams,Paul Rudnick,Anjelica Huston,Raul Julia,Christopher Lloyd,13,Y,78,62, ,Comedy, Fantasy, ,,no
+Stephen Sommers,Mark Twain,Stephen Sommers,Elijah Wood,Courtney B. Vance,Robbie Coltrane,0,N,69,49, ,Adventure, Comedy, Drama,,no
+Martin Scorsese,Edith Wharton,Jay Cocks,Daniel Day-Lewis,Michelle Pfeiffer,Winona Ryder,40,N,80,76, ,Drama, Romance, ,,yesDrama
+Frank Marshall,Piers Paul Read,John Patrick Shanley,Ethan Hawke,Vincent Spano,Josh Hamilton,3,N,70,68, ,Adventure, Biography, Drama,,no
+Emir Kusturica,David Atkins,Emir Kusturica,Johnny Depp,Jerry Lewis,Faye Dunaway,4,N,87,86, ,Comedy, Drama, Fantasy,,no
+Maggie Greenwald,Maggie Greenwald, ,Suzy Amis,Bo Hopkins,Ian McKellen,2,N,73,66, ,Drama, Romance, Western,,no
+Eric Radomski, Bruce Timm, Kevin Altieri, Boyd Kirkland, Frank Paur, Dan Riba,Bob Kane,Alan Burnett,Kevin Conroy,Dana Delany,Hart Bochner,1,N,82,88, ,Animation, Action, Adventure,,no
+Jeremiah S. Chechik,Barry Berman,Lesley McNeil,Johnny Depp,Mary Stuart Masterson,Aidan Quinn,4,N,75,85, ,Comedy, Drama, Romance,,no
+Abel Ferrara,Jack Finney,Raymond Cistheri,Terry Kinney,Meg Tilly,Gabrielle Anwar,2,N,71,38, ,Horror, Sci-Fi, ,,no
+Morgan Freeman,Percy Mtwa,Brian Bird,Danny Glover,Malcolm McDowell,Alfre Woodard,2,N,80,61, ,Drama, , ,,no
+Robert De Niro,Chazz Palminteri,Chazz Palminteri,Robert De Niro,Chazz Palminteri,Lillo Brancato,4,N,96,93, ,Crime, Drama, ,,no
+Brian De Palma,Edwin Torres,David Koepp,Al Pacino,Sean Penn,Penelope Ann Miller,5,N,80,91, ,Crime, Drama, ,,no
+Bill Duke,Ivan Menchell,Ivan Menchell,Ellen Burstyn,Olympia Dukakis,Diane Ladd,1,N,67,34, ,Comedy, , ,,no
+Renny Harlin,John Long,Michael France,Sylvester Stallone,John Lithgow,Michael Rooker,11,N,69,52, ,Action, Adventure, Thriller,,no
+Jon Turteltaub,Lynn Siefert,Michael Ritchie,Leon,Doug E. Doug,Rawle D. Lewis,4,N,75,81, ,Adventure, Comedy, Family,,no
+Stephen Gyllenhaal,Mary McGarry Morris,Naomi Foner,Laurie Metcalf,Debra Winger,John Terry,5,N,67,33, ,Drama, Romance, ,,no
+Ivan Reitman,Gary Ross, ,Kevin Kline,Sigourney Weaver,Frank Langella,7,N,94,71, ,Comedy, Romance, ,,yesComedy
+Richard Linklater,Richard Linklater, ,Jason London,Joey Lauren Adams,Milla Jovovich,2,N,94,90, ,Comedy, , ,,no
+Marco Brambilla,Peter M. Lenkov,Robert Reneau,Sylvester Stallone,Wesley Snipes,Sandra Bullock,7,N,64,66, ,Action, Crime, Sci-Fi,,no
+Rob Cohen,Robert Clouse,Linda Lee Cadwell,Jason Scott Lee,Lauren Holly,Robert Wagner,4,N,83,79, ,Action, Biography, Drama,,no
+Joel Schumacher,Ebbe Roe Smith, ,Michael Douglas,Robert Duvall,Barbara Hershey,3,N,73,84, ,Crime, Drama, Thriller,,no
+Peter Weir,Rafael Yglesias,Rafael Yglesias,Jeff Bridges,Isabella Rossellini,Rosie Perez,12,N,86,79, ,Drama, Thriller, ,,no
+Sydney Pollack,John Grisham,David Rabe,Tom Cruise,Jeanne Tripplehorn,Gene Hackman,9,N,75,64, ,Drama, Mystery, Thriller,,no
+Steve Kloves,Steve Kloves, ,Julia McNeal,Ron Kuhlman,Jerry Swindall,1,N,67,40, ,Drama, Mystery, Romance,,no
+Andrew Davis,Jeb Stuart,David Twohy,Harrison Ford,Tommy Lee Jones,Sela Ward,40,Y,96,89, ,Action, Crime, Drama,,no
+Ron Maxwell,Michael Shaara,Ron Maxwell,Tom Berenger,Martin Sheen,Stephen Lang,2,N,80,89, ,Drama, History, War,,no
+Harold Ramis,Danny Rubin,Harold Ramis,Bill Murray,Andie MacDowell,Chris Elliott,14,N,96,87, ,Comedy, Fantasy, Romance,,no
+Donald Petrie,Mark Steven Johnson, ,Jack Lemmon,Walter Matthau,Ann-Margret,1,Y,65,74, ,Comedy, Drama, Romance,,no
+Duwayne Dunham,Sheila Burnford,Caroline Thompson,Don Alder,Ed Bernard,Kevin Chevalia,0,N,88,71, ,Adventure, Comedy, Drama,,no
+Jim Abrahams,Jim Abrahams,Pat Proft,Charlie Sheen,Lloyd Bridges,Valeria Golino,1,Y,59,63, ,Action, Comedy, ,,no
+Wolfgang Petersen,Jeff Maguire, ,Clint Eastwood,John Malkovich,Rene Russo,17,N,95,79, ,Action, Drama, Thriller,,no
+Jim Sheridan,Gerry Conlon,Terry George,Alison Crosbie,Daniel Day-Lewis,Philip King,35,N,94,95, ,Biography, Drama, ,,yesDrama
+Mike Binder,Mike Binder, ,Alan Arkin,Matt Craven,Diane Lane,0,N,65,66, ,Comedy, Drama, Romance,,no
+Wayne Wang,Amy Tan,Amy Tan,Kieu Chinh,Tsai Chin,France Nuyen,8,N,85,89, ,Drama, , ,,no
+Steven Spielberg,Michael Crichton,Michael Crichton,Sam Neill,Laura Dern,Jeff Goldblum,48,N,93,91,4.529968E7,Adventure, Sci-Fi, Thriller,,no
+Dominic Sena,Stephen Levy,Tim Metcalfe,Brad Pitt,Kathy Larson,David Milford,8,N,67,64, ,Crime, Drama, Horror,,no
+Steven Soderbergh,A.E. Hotchner,Steven Soderbergh,Jesse Bradford,Jeroen Krabbé,Lisa Eichhorn,7,N,97,83, ,Drama, History, ,,no
+Martha Coolidge,Neil Simon,Neil Simon,Richard Dreyfuss,Mercedes Ruehl,Irene Worth,1,N,71,78, ,Comedy, Drama, ,,no
+John McNaughton,Richard Price, ,Robert De Niro,Uma Thurman,Bill Murray,1,N,78,45, ,Comedy, Crime, Drama,,no
+Harold Becker,Aaron Sorkin,Jonas McCord,Alec Baldwin,Nicole Kidman,Bill Pullman,2,N,59,45, ,Crime, Mystery, Thriller,,no
+Mel Gibson,Isabelle Holland,Malcolm MacRury,Mel Gibson,Nick Stahl,Margaret Whitton,3,N,67,64, ,Drama, , ,,no
+Woody Allen,Woody Allen,Marshall Brickman,Woody Allen,Diane Keaton,Jerry Adler,4,N,93,84, ,Comedy, Mystery, ,,no
+Joe Dante,Jerico,Charles S. Haas,John Goodman,Cathy Moriarty,Simon Fenton,1,N,93,61, ,Comedy, Drama, ,,no
+Albert Hughes, Allen Hughes,Allen Hughes,Albert Hughes,Tyrin Turner,Larenz Tate,June Kyoto Lu,5,N,85,93, ,Crime, Drama, Thriller,,no
+Chris Columbus,Anne Fine,Randi Mayem Singer,Robin Williams,Sally Field,Pierce Brosnan,16,N,71,77, ,Comedy, Drama, Family,,yesComedy
+Kenneth Branagh,William Shakespeare,Kenneth Branagh,Richard Briers,Kate Beckinsale,Imelda Staunton,14,N,91,86, ,Comedy, Drama, Romance,,yesComedy
+Philip Haas,Paul Auster,Belinda Haas,James Spader,Mandy Patinkin,M. Emmet Walsh,0,N,100,87, ,Drama, , ,,no
+Henry Selick,Tim Burton,Michael McDowell,Danny Elfman,Chris Sarandon,Catherine O'Hara,15,N,94,91,8616662.0,Animation, Family, Fantasy,,no
+Clint Eastwood,John Lee Hancock, ,Kevin Costner,Clint Eastwood,Laura Dern,0,N,81,84, ,Crime, Drama, Thriller,,no
+Jonathan Demme,Ron Nyswaner, ,Tom Hanks,Denzel Washington,Roberta Maxwell,28,N,78,89, ,Drama, , ,,no
+Jane Campion,Jane Campion, ,Holly Hunter,Harvey Keitel,Sam Neill,101,N,90,86, ,Drama, Music, Romance,,yesDrama
+John Dahl,John Dahl,Rick Dahl,Nicolas Cage,Dennis Hopper,Lara Flynn Boyle,3,N,95,74, ,Crime, Drama, Thriller,,no
+James Ivory,Kazuo Ishiguro,Ruth Prawer Jhabvala,John Haycraft,Christopher Reeve,Anthony Hopkins,48,N,97,89, ,Drama, Romance, ,,yesDrama
+Victor Nunez,Victor Nunez, ,Ashley Judd,Todd Field,Bentley Mitchum,10,N,93,74, ,Drama, Romance, ,,no
+David Anspaugh,Angelo Pizzo, ,Sean Astin,Jon Favreau,Ned Beatty,3,N,80,90, ,Biography, Drama, Sport,,no
+Tim Hunter,Lyle Kessler, ,Danny Glover,Matt Dillon,Rick Aviles,3,N,78,87, ,Drama, , ,,no
+David M. Evans,David M. Evans,Robert Gunter,Art LaFleur,Tom Guiry,Mike Vitar,1,N,58,89, ,Comedy, Drama, Family,,no
+Steven Spielberg,Thomas Keneally,Steven Zaillian,Liam Neeson,Ben Kingsley,Ralph Fiennes,111,N,96,97, ,Biography, Drama, History,,no
+Steven Zaillian,Fred Waitzkin,Steven Zaillian,Max Pomeranc,Joe Mantegna,Joan Allen,14,N,100,86, ,Biography, Drama, ,,no
+Robert Altman,Raymond Carver,Robert Altman,Andie MacDowell,Bruce Davison,Jack Lemmon,34,N,95,88, ,Comedy, Drama, ,,no
+Fred Schepisi,John Guare,John Guare,Stockard Channing,Will Smith,Donald Sutherland,6,N,88,71, ,Comedy, Drama, Mystery,,no
+Nora Ephron,Jeff Arch,Nora Ephron,Tom Hanks,Ross Malinger,Rita Wilson,18,N,72,75, ,Comedy, Drama, Romance,,yesComedy
+Jon Amiel,Daniel Vigne,Jean-Claude Carrière,Richard Gere,Jodie Foster,Lanny Flaherty,2,N,63,60, ,Drama, Mystery, Romance,,no
+Scott McGehee, David Siegel,Scott McGehee,David Siegel,Dennis Haysbert,Mel Harris,Sab Shimono,8,N,69,68, ,Drama, Thriller, ,,no
+Michael Caton-Jones,Tobias Wolff,Robert Getchell,Robert De Niro,Ellen Barkin,Leonardo DiCaprio,4,N,75,80, ,Biography, Drama, ,,no
+George P. Cosmatos, Kevin Jarre,Kevin Jarre, ,Kurt Russell,Val Kilmer,Sam Elliott,2,N,73,94, ,Action, Biography, Drama,,no
+Gregg Araki,Gregg Araki, ,James Duval,Roko Belic,Susan Behshid,0,N,100,60, ,Comedy, Drama, Romance,,no
+Tony Scott,Quentin Tarantino, ,Christian Slater,Patricia Arquette,Dennis Hopper,9,N,92,93, ,Crime, Drama, Romance,,no
+Keva Rosenfeld,Leslie Bohem,Endre Bohem,Linda Hunt,David Rasche,George Morfogen,3,N,75,63, ,Comedy, Drama, ,,no
+Stephen Surjik,Mike Myers,Mike Myers,Mike Myers,Dana Carvey,Christopher Walken,3,Y,60,63, ,Comedy, Music, ,,no
+Ang Lee,Ang Lee,Neil Peng,Ya-Lei Kuei,Sihung Lung,May Chin,21,N,96,87, ,Comedy, Drama, Romance,,no
+Lasse Hallström,Peter Hedges,Peter Hedges,Johnny Depp,Leonardo DiCaprio,Juliette Lewis,9,N,89,89, ,Drama, , ,,no
+Brian Gibson,Tina Turner,Kurt Loder,Rae'Ven Kelly,Virginia Capers,Dororthy Thorton,16,N,96,88, ,Biography, Drama, Music,,no
+"1994"
+Hal Hartley,Hal Hartley, ,Isabelle Huppert,Martin Donovan,Elina Löwensohn,3,N,75,87, ,Comedy, Crime, Drama,,no
+Whit Stillman,Whit Stillman, ,Taylor Nichols,Chris Eigeman,Tushka Bergen,2,N,82,81, ,Comedy, Drama, Romance,,no
+Tony Richardson,Rama Laurie Stagner,Rama Laurie Stagner,Jessica Lange,Tommy Lee Jones,Powers Boothe,9,N,74,57, ,Drama, Romance, ,,no
+Woody Allen,Woody Allen,Douglas McGrath,John Cusack,Dianne Wiest,Jennifer Tilly,40,N,96,83, ,Comedy, Crime, ,,no
+Phillip Noyce,Tom Clancy,Donald Stewart,Harrison Ford,Willem Dafoe,Anne Archer,12,N,82,74, ,Action, Crime, Drama,,no
+Kevin Smith,Kevin Smith, ,Brian O'Halloran,Jeff Anderson,Marilyn Ghigliotti,14,N,88,89, ,Comedy, , ,,no
+Joel Schumacher,John Grisham,Akiva Goldsman,Susan Sarandon,Tommy Lee Jones,Mary-Louise Parker,7,N,80,69, ,Crime, Drama, Mystery,,no
+Ron Shelton,Al Stump,Al Stump,Tommy Lee Jones,Robert Wuhl,Lolita Davidovich,1,N,64,59, ,Biography, Drama, Sport,,no
+Spike Lee,Cinqué Lee,Joie Lee,Alfre Woodard,Delroy Lindo,David Patrick Kelly,3,N,76,90, ,Comedy, Drama, ,,no
+Alex Proyas,James O'Barr,David J. Schow,Brandon Lee,Rochelle Davis,Ernie Hudson,9,N,82,90, ,Action, Drama, Fantasy,,no
+Roman Polanski,Ariel Dorfman,Rafael Yglesias,Sigourney Weaver,Ben Kingsley,Stuart Wilson,4,N,84,81, ,Drama, Mystery, Thriller,,no
+Barry Levinson,Michael Crichton,Paul Attanasio,Michael Douglas,Demi Moore,Donald Sutherland,4,N,59,41, ,Drama, Thriller, ,,no
+Tim Burton,Rudolph Grey,Scott Alexander,Johnny Depp,Martin Landau,Sarah Jessica Parker,50,N,92,88, ,Biography, Comedy, Drama,,yesComedy
+Robert Zemeckis,Winston Groom,Eric Roth,Tom Hanks,Rebecca Williams,Sally Field,110,N,72,95,405000.0,Comedy, Drama, ,,yesDrama
+Boaz Yakin,Boaz Yakin, ,Sean Nelson,Giancarlo Esposito,Samuel L. Jackson,7,N,89,92, ,Crime, Drama, Thriller,,no
+Rose Troche,Rose Troche,Guinevere Turner,V.S. Brodie,Guinevere Turner,T. Wendy McMillan,8,N,77,56, ,Drama, Romance, ,,no
+Hugh Wilson,Hugh Wilson,Pj Torokvei,Shirley MacLaine,Nicolas Cage,Austin Pendleton,0,N,59,48, ,Comedy, Drama, ,,no
+Darnell Martin,Darnell Martin, ,Lauren Luna Vélez,Jon Seda,Tomas Melly,5,N,80,91, ,Comedy, Drama, Romance,,no
+James L. Brooks,James L. Brooks, ,Nick Nolte,Whittni Wright,Albert Brooks,3,N,61,44, ,Comedy, Drama, ,,no
+Neil Jordan,Anne Rice,Anne Rice,Brad Pitt,Christian Slater,Virginia McCollam,48,N,61,86, ,Drama, Horror, ,,no
+Charles Haid,John Michael Hayes,Djordje Milicevic,Mackenzie Astin,Kevin Spacey,David Ogden Stiers,0,N,62,65, ,Adventure, Family, ,,no
+Andrew Bergman,Jane Anderson, ,Nicolas Cage,Bridget Fonda,Rosie Perez,0,N,71,54, ,Comedy, Drama, Romance,,no
+Doug McHenry,Bobby Smith Jr., ,Allen Payne,Jada Pinkett Smith,Bokeem Woodbine,1,N,67,91, ,Crime, Drama, ,,no
+Daniel Petrie,Eric Knight,Matthew Jacobs,Tom Guiry,Helen Slater,Jon Tenney,2,N,87,55, ,Family, Adventure, ,,no
+John Dahl,Steve Barancik, ,Linda Fiorentino,Bill Pullman,Michael Raysses,18,N,94,76, ,Crime, Drama, Romance,,no
+Roger Allers, Rob Minkoff,Irene Mecchi,Jonathan Roberts,Matthew Broderick,Jonathan Taylor Thomas,James Earl Jones,64,N,92,93,9.4240635E7,Animation, Adventure, Drama,,yesComedy
+James Gray,James Gray, ,Tim Roth,Edward Furlong,Moira Kelly,10,N,61,72, ,Crime, Drama, ,,no
+C.M. Talkington,C.M. Talkington, ,Gil Bellows,Renée Zellweger,Rory Cochrane,2,N,83,70, ,Crime, Romance, Thriller,,no
+Chuck Russell,Michael Fallon,Mark Verheiden,Jim Carrey,Peter Riegert,Peter Greene,25,N,77,67, ,Comedy, Fantasy, ,,no
+Richard Donner,Roy Huggins,William Goldman,Mel Gibson,Jodie Foster,James Garner,2,Y,67,71, ,Action, Adventure, Comedy,,no
+Les Mayfield,Valentine Davies,George Seaton,Richard Attenborough,Elizabeth Perkins,Dylan McDermott,1,N,61,62, ,Family, Fantasy, ,,no
+Alan Rudolph,Alan Rudolph,Randy Sue Coburn,Jennifer Jason Leigh,Campbell Scott,Matthew Broderick,10,N,74,61, ,Biography, Drama, ,,no
+Robert Benton,Richard Russo,Robert Benton,Paul Newman,Jessica Tandy,Bruce Willis,13,N,91,81, ,Comedy, Drama, ,,no
+Ron Howard,David Koepp,Stephen Koepp,Michael Keaton,Robert Duvall,Glenn Close,0,N,88,65, ,Comedy, Drama, ,,no
+Michael Austin,Michael Austin,John Wells,Jim Broadbent,Phoebe Cates,Wendy Hughes,0,N,60,50, ,Comedy, Drama, History,,no
+Quentin Tarantino,Quentin Tarantino,Roger Avary,Tim Roth,Amanda Plummer,Laura Lovelace,126,N,94,96, ,Crime, Drama, ,,yesDrama
+Robert Redford,Paul Attanasio,Richard N. Goodwin,John Turturro,Rob Morrow,Ralph Fiennes,36,N,96,87, ,Drama, History, ,,yesDrama
+Ben Stiller,Helen Childress, ,Winona Ryder,Ethan Hawke,Janeane Garofalo,2,N,65,74, ,Comedy, Drama, Romance,,no
+Ted Demme,Marie Weiss,Richard LaGravenese,Denis Leary,Judy Davis,Kevin Spacey,2,N,71,74, ,Comedy, Crime, Drama,,no
+Stephen Sommers,Rudyard Kipling,Ron Yanover,Jason Scott Lee,Cary Elwes,Lena Headey,2,N,79,54, ,Adventure, Family, Romance,,no
+John Pasquin,Leo Benvenuti,Steve Rudnick,Tim Allen,Judge Reinhold,Wendy Crewson,9,N,75,65, ,Comedy, Drama, Family,,no
+John Sayles,Rosalie K. Fry,John Sayles,Jeni Courtney,Pat Slowey,Dave Duffy,10,N,98,87, ,Drama, Family, Fantasy,,no
+John Waters,John Waters, ,Kathleen Turner,Sam Waterston,Ricki Lake,1,N,60,71, ,Comedy, Crime, Thriller,,no
+Frank Darabont,Stephen King,Frank Darabont,Tim Robbins,Morgan Freeman,Bob Gunton,56,N,91,98, ,Crime, Drama, ,,no
+David O. Russell,David O. Russell, ,Jeremy Davies,Elizabeth Newett,Benjamin Hendrickson,8,N,91,54, ,Comedy, Drama, ,,no
+Jan de Bont,Graham Yost, ,Keanu Reeves,Dennis Hopper,Sandra Bullock,37,N,93,76, ,Action, Adventure, Crime,,no
+Xavier Koller,Darlene Craviotto, ,Adam Beach,Sheldon Peters Wolfchild,Irene Bedard,0,N,60,53, ,Adventure, Biography, Drama,,no
+George Huang,George Huang, ,Kevin Spacey,Frank Whaley,Michelle Forbes,8,N,80,79, ,Comedy, Crime, ,,no
+James Cameron,Claude Zidi,Simon Michaël,Arnold Schwarzenegger,Jamie Lee Curtis,Tom Arnold,26,N,72,76, ,Action, Comedy, Thriller,,no
+Louis Malle,Anton Chekhov,David Mamet,Phoebe Brand,Lynn Cohen,George Gaynes,14,N,89,81, ,Comedy, Drama, Romance,,no
+Luis Mandoki,Ronald Bass,Al Franken,Andy Garcia,Meg Ryan,Ellen Burstyn,4,N,71,78, ,Drama, Romance, ,,no
+Ken Olin,David Fallon, ,Scott Bairstow,Charmaine Craig,Al Harrington,0,N,71,49, ,Adventure, Family, ,,no
+John Irvin,Hugh Leonard,Hugh Leonard,Mia Farrow,Joan Plowright,Natasha Richardson,3,N,100,48, ,Comedy, Crime, Mystery,,no
+Mike Nichols,Jim Harrison,Wesley Strick,Jack Nicholson,Michelle Pfeiffer,James Spader,9,N,60,42, ,Drama, Horror, Romance,,no
+"1995"
+Steven Schachter,Jerry Lazarus,William H. Macy,Christopher Reeve,Joe Mantegna,Kim Cattrall,0,N,60,55, ,Drama, Thriller, ,,no
+Abel Ferrara,Nicholas St. John, ,Lili Taylor,Christopher Walken,Annabella Sciorra,9,N,73,68, ,Horror, , ,,no
+Rob Reiner,Aaron Sorkin, ,Michael Douglas,Annette Bening,Martin Sheen,11,N,90,77, ,Comedy, Drama, Romance,,yesComedy
+Philip Haas,A.S. Byatt,Belinda Haas,Mark Rylance,Kristin Scott Thomas,Patsy Kensit,5,N,71,68, ,Drama, Romance, ,,no
+Ron Howard,Jim Lovell,Jeffrey Kluger,Tom Hanks,Bill Paxton,Kevin Bacon,75,N,95,86, ,Adventure, Drama, History,,yesDrama
+Chris Noonan,Dick King-Smith,George Miller,Christine Cavanaugh,Miriam Margolyes,Danny Mann,42,N,97,67, ,Comedy, Drama, Family,,yesComedy
+Melanie Mayron,Ann M. Martin,Dalene Young,Schuyler Fisk,Bre Blair,Rachael Leigh Cook,3,N,64,47, ,Comedy, Drama, Family,,no
+Richard Linklater,Richard Linklater,Kim Krizan,Ethan Hawke,Julie Delpy,Andrea Eckert,8,N,100,93, ,Drama, Romance, ,,no
+Herbert Ross,Don Roos, ,Whoopi Goldberg,Mary-Louise Parker,Drew Barrymore,3,N,73,69, ,Comedy, Drama, ,,no
+Betty Thomas,Sherwood Schwartz,Laurice Elehwany,Shelley Long,Gary Cole,Christine Taylor,3,N,63,45, ,Comedy, , ,,no
+Mel Gibson,Randall Wallace, ,James Robinson,Sean Lawlor,Sandy Nelson,60,N,78,85, ,Biography, Drama, History,,yesDrama
+Clint Eastwood,Richard LaGravenese,Robert James Waller,Clint Eastwood,Meryl Streep,Annie Corley,21,N,89,87, ,Drama, Romance, ,,no
+Edward Burns,Edward Burns, ,Shari Albert,Maxine Bahns,Catharine Bolz,5,N,91,60, ,Comedy, Drama, Romance,,no
+Martin Scorsese,Nicholas Pileggi,Nicholas Pileggi,Robert De Niro,Sharon Stone,Joe Pesci,13,N,80,93, ,Biography, Crime, Drama,,no
+Stuart Gordon,Stuart Gordon,H.P. Lovecraft,Jeffrey Combs,Barbara Crampton,Jonathan Fuller,0,N,63,45, ,Drama, Horror, Mystery,,no
+Chris Gerolmo,Robert Cullen,Chris Gerolmo,Stephen Rea,Donald Sutherland,Max von Sydow,21,N,86,86, ,Biography, Crime, Drama,,no
+Spike Lee,Richard Price,Richard Price,Harvey Keitel,John Turturro,Delroy Lindo,6,N,68,75, ,Crime, Drama, Mystery,,no
+Jon Amiel,Ann Biderman,David Madsen,Sigourney Weaver,Holly Hunter,Dermot Mulroney,3,N,75,64, ,Crime, Drama, Mystery,,no
+Tony Scott,Michael Schiffer,Richard P. Henrick,Denzel Washington,Gene Hackman,Matt Craven,14,N,87,83, ,Action, Drama, Thriller,,no
+Sean Penn,Sean Penn, ,Jack Nicholson,David Morse,Anjelica Huston,4,N,75,53, ,Drama, , ,,no
+Jim Jarmusch,Jim Jarmusch, ,Johnny Depp,Gary Farmer,Crispin Glover,14,N,71,88, ,Drama, Fantasy, Western,,no
+Tim Robbins,Helen Prejean,Tim Robbins,Susan Sarandon,Sean Penn,Robert Prosky,40,N,95,86, ,Crime, Drama, ,,no
+Robert Rodriguez,Robert Rodriguez, ,Antonio Banderas,Salma Hayek,Joaquim de Almeida,5,Y,62,80, ,Action, Thriller, ,,no
+Carl Franklin,Walter Mosley,Carl Franklin,Denzel Washington,Tom Sizemore,Jennifer Beals,16,N,87,69, ,Crime, Drama, Mystery,,no
+Taylor Hackford,Stephen King,Tony Gilroy,Kathy Bates,Jennifer Jason Leigh,Judy Parfitt,9,N,82,81, ,Crime, Drama, Mystery,,no
+Hal Hartley,Hal Hartley, ,Paul Austin,Robert John Burke,Martin Donovan,0,N,80,72, ,Drama, Romance, ,,no
+Peter Chelsom,Peter Chelsom,Peter Flannery,Oliver Platt,Jerry Lewis,Lee Evans,8,N,61,83, ,Comedy, Drama, ,,no
+Ulu Grosbard,Barbara Turner, ,Jennifer Jason Leigh,Mare Winningham,Ted Levine,11,N,80,66, ,Drama, Music, ,,no
+Barry Sonnenfeld,Elmore Leonard,Scott Frank,John Travolta,Gene Hackman,Rene Russo,21,N,86,69, ,Comedy, Crime, Thriller,,yesComedy
+Michael Winterbottom,Jimmy McGovern,Paul Henry Powell,Robert Carlyle,Juliet Aubrey,James Nesbitt,5,N,60,73, ,Drama, Romance, Sport,,no
+Lewis Gilbert,James Herbert,Timothy Prager,Aidan Quinn,Kate Beckinsale,Anthony Andrews,2,N,80,51, ,Drama, Horror, ,,no
+Michael Mann,Michael Mann, ,Al Pacino,Robert De Niro,Val Kilmer,12,N,86,94, ,Action, Crime, Drama,,no
+James Mangold,James Mangold, ,Pruitt Taylor Vince,Shelley Winters,Liv Tyler,4,N,86,72, ,Drama, Romance, ,,no
+Jodie Foster,Chris Radant,W.D. Richter,Holly Hunter,Robert Downey Jr.,Anne Bancroft,2,N,63,72, ,Comedy, Drama, Romance,,no
+Jocelyn Moorhouse,Whitney Otto,Jane Anderson,Kaelynn Craddick,Sara Craddick,Kate Capshaw,4,N,61,63, ,Comedy, Drama, Romance,,no
+Maria Maggenti,Maria Maggenti, ,Laurel Holloman,Maggie Moore,Kate Stafford,1,N,67,69, ,Comedy, Drama, Romance,,no
+Frank Oz,Lynne Reid Banks,Melissa Mathison,Hal Scardino,Litefoot,Lindsay Crouse,7,N,70,40, ,Drama, Family, Fantasy,,no
+Christopher Ashley,Paul Rudnick,Paul Rudnick,Steven Weber,Peter Jacobson,Tom Cayler,5,N,68,68, ,Comedy, Drama, ,,no
+Barbet Schroeder,Eleazar Lipsky,Ben Hecht,David Caruso,Samuel L. Jackson,Nicolas Cage,1,N,68,38, ,Action, Crime, Thriller,,no
+Roy Allen Smith,Dev Ross,Judy Freudberg,Scott McAfee,Candace Hutson,Heather Hogan,2,Y,60,39, ,Animation, Adventure, Family,,no
+Stacy Title,Dan Rosen, ,Cameron Diaz,Ron Eldard,Annabeth Gish,2,N,63,70, ,Comedy, Crime, Drama,,no
+Tab Murphy,Tab Murphy, ,Tom Berenger,Barbara Hershey,Kurtwood Smith,0,N,69,79, ,Adventure, Western, ,,no
+Mike Figgis,John O'Brien,Mike Figgis,Nicolas Cage,Elisabeth Shue,Julian Sands,58,N,90,85, ,Drama, Romance, ,,yesDrama
+Alfonso Cuarón,Frances Hodgson Burnett,Richard LaGravenese,Liesel Matthews,Eleanor Bron,Liam Cunningham,13,N,97,88, ,Drama, Family, Fantasy,,no
+Tom DiCillo,Tom DiCillo, ,Steve Buscemi,Catherine Keener,Dermot Mulroney,13,N,88,87, ,Comedy, Drama, ,,no
+Clive Barker,Clive Barker,Clive Barker,Scott Bakula,Kevin J. O'Connor,Joseph Latimore,3,N,61,52, ,Horror, Mystery, Thriller,,no
+Mort Ransen,Sheldon Currie,Gerald Wexler,Helena Bonham Carter,Clive Russell,Craig Anthony Olejnik,16,N,67,79, ,Drama, , ,,no
+Kenneth Branagh,Kenneth Branagh, ,Richard Briers,Hetta Charnley,Joan Collins,2,N,81,88, ,Comedy, , ,,no
+Woody Allen,Woody Allen, ,Pamela Blair,Rene Ceballos,Elie Chaib,23,N,77,73, ,Comedy, Fantasy, Romance,,no
+Stephen Herek,Patrick Sheane Duncan, ,Richard Dreyfuss,Glenne Headly,Jay Thomas,10,N,74,83, ,Drama, Music, ,,no
+Gregory Nava,Gregory Nava,Anna Thomas,Edward James Olmos,Rafael Cortes,Ivette Reina,8,N,85,88, ,Drama, , ,,no
+Oliver Stone,Stephen J. Rivele,Christopher Wilkinson,Anthony Hopkins,Joan Allen,Powers Boothe,27,N,75,74, ,Biography, Drama, History,,no
+Oliver Parker,Oliver Parker,William Shakespeare,Laurence Fishburne,Irène Jacob,Kenneth Branagh,3,N,68,64, ,Drama, Romance, ,,no
+Wolfgang Petersen,Laurence Dworet,Robert Roy Pool,Dustin Hoffman,Rene Russo,Morgan Freeman,9,N,59,56, ,Action, Drama, Thriller,,no
+Alan Taylor,David Epstein, ,William Forsythe,Vincent Gallo,Adam Trese,3,N,64,63, ,Comedy, Crime, ,,no
+Daisy von Scherler Mayer,Harry Birckmayer,Harry Birckmayer,Parker Posey,Anthony DeSando,Guillermo Díaz,1,N,77,76, ,Comedy, , ,,no
+Mira Nair,Christine Bell,Robin Swicord,Marisa Tomei,Alfred Molina,Anjelica Huston,0,N,63,58, ,Comedy, Romance, Drama,,no
+Roger Michell,Jane Austen,Nick Dear,Amanda Root,Ciarán Hinds,Susan Fleetwood,9,N,83,83, ,Drama, Romance, ,,no
+Michael Hoffman,Rose Tremain,Rupert Walters,Robert Downey Jr.,Sam Neill,David Thewlis,4,N,69,59, ,Biography, Drama, History,,no
+Michael Caton-Jones,Alan Sharp, ,Liam Neeson,Jessica Lange,John Hurt,5,N,72,75, ,Adventure, Biography, History,,no
+Sydney Pollack,Samuel A. Taylor,Billy Wilder,Harrison Ford,Julia Ormond,Greg Kinnear,8,N,65,64, ,Comedy, Drama, ,,yesComedy
+Todd Haynes,Todd Haynes, ,Julianne Moore,Xander Berkeley,Dean Norris,16,N,85,75, ,Drama, , ,,no
+Wayne Wang, Paul Auster,Paul Auster, ,Giancarlo Esposito,José Zúñiga,Stephen Gevedon,17,N,93,89, ,Comedy, Drama, ,,no
+Nigel Finch,Rikki Beadle Blair,Martin Duberman,Guillermo Díaz,Frederick Weller,Brendan Corbalis,5,N,63,68, ,Comedy, Drama, History,,no
+Kathryn Bigelow,James Cameron,James Cameron,Ralph Fiennes,Angela Bassett,Juliette Lewis,6,N,63,73, ,Action, Crime, Drama,,no
+Gus Van Sant,Joyce Maynard,Buck Henry,Nicole Kidman,Matt Dillon,Joaquin Phoenix,19,N,87,65, ,Comedy, Crime, Drama,,no
+John Lasseter,John Lasseter,Pete Docter,Tom Hanks,Tim Allen,Don Rickles,44,N,100,92, ,Animation, Adventure, Comedy,,yesComedy
+Frank Pierson,David McCullough,Thomas Rickman,Gary Sinise,Diana Scarwid,Richard Dysart,20,N,88,74, ,Biography, Drama, ,,no
+Terry Gilliam,Chris Marker,David Webb Peoples,Joseph Melito,Bruce Willis,Jon Seda,29,N,88,88, ,Mystery, Sci-Fi, Thriller,,no
+Bryan Singer,Christopher McQuarrie, ,Stephen Baldwin,Gabriel Byrne,Benicio Del Toro,50,N,88,96, ,Crime, Drama, Mystery,,no
+Todd Solondz,Todd Solondz, ,Heather Matarazzo,Victoria Davis,Christina Brucato,18,N,90,86, ,Comedy, Drama, ,,no
+Jon Turteltaub,Daniel G. Sullivan,Fredric LeBow,Sandra Bullock,Bill Pullman,Peter Gallagher,9,N,80,79, ,Comedy, Drama, Romance,,no
+"1996"
+John Herzfeld,John Herzfeld, ,Danny Aiello,Greg Cruttwell,Jeff Daniels,1,N,60,54, ,Comedy, Crime, Thriller,,no
+David Twohy,David Twohy, ,Charlie Sheen,Lindsay Crouse,Richard Schiff,2,N,63,43, ,Sci-Fi, Thriller, ,,no
+Anjelica Huston,Dorothy Allison,Anne Meredith,Jennifer Jason Leigh,Ron Eldard,Glenne Headly,22,N,100,83, ,Drama, , ,,no
+Ted Demme,Scott Rosenberg, ,Matt Dillon,Noah Emmerich,Annabeth Gish,4,N,79,81, ,Comedy, Drama, Romance,,no
+Mike Judge, Mike de Seve, Brian Mulroney, Yvette Kaplan,Mike Judge,Joe Stillman,Mike Judge,Bruce Willis,Demi Moore,5,N,72,69, ,Animation, Adventure, Comedy,,no
+Campbell Scott, Stanley Tucci,Stanley Tucci,Joseph Tropiano,Marc Anthony,Tony Shalhoub,Stanley Tucci,26,N,96,84, ,Drama, Romance, ,,no
+Mike Nichols,Jean Poiret,Francis Veber,Robin Williams,Gene Hackman,Nathan Lane,28,N,79,80, ,Comedy, , ,,yesComedy
+Bob Rafelson,Nick Villiers,Bob Rafelson,Jack Nicholson,Stephen Dorff,Jennifer Lopez,2,N,61,35, ,Crime, Drama, Thriller,,no
+Wes Anderson,Owen Wilson,Wes Anderson,Luke Wilson,Owen Wilson,Ned Dowd,2,N,85,80, ,Comedy, Crime, Drama,,no
+Lana Wachowski, Lilly Wachowski,Lilly Wachowski,Lana Wachowski,Jennifer Tilly,Gina Gershon,Joe Pantoliano,18,N,92,82, ,Crime, Romance, Thriller,,no
+Tom DiCillo,Tom DiCillo, ,John Turturro,Sam Rockwell,Catherine Keener,2,N,59,81, ,Comedy, Drama, ,,no
+Mark Herman,Mark Herman, ,Pete Postlethwaite,Tara Fitzgerald,Ewan McGregor,17,N,79,79, ,Comedy, Drama, Romance,,no
+Lars von Trier,Lars von Trier,Peter Asmussen,Emily Watson,Stellan Skarsgård,Katrin Cartlidge,68,N,86,91, ,Drama, Romance, ,,no
+Bruno Barreto,Jim Harrison,Ed Jones,Dennis Hopper,Amy Irving,Amy Locane,0,N,64,42, ,Drama, Romance, ,,no
+Alexander Payne,Alexander Payne,Jim Taylor,Laura Dern,Swoosie Kurtz,Kurtwood Smith,5,N,80,73, ,Comedy, Drama, ,,no
+Edward Zwick,Patrick Sheane Duncan, ,Denzel Washington,Meg Ryan,Lou Diamond Phillips,16,N,85,65, ,Action, Drama, Mystery,,no
+Nicholas Hytner,Arthur Miller,Arthur Miller,Daniel Day-Lewis,Winona Ryder,Paul Scofield,31,N,67,66, ,Drama, History, ,,no
+Greg Mottola,Greg Mottola, ,Stanley Tucci,Hope Davis,Pat McNamara,9,N,74,75, ,Comedy, Drama, ,,no
+John Walsh,John Walsh, ,Matt Ross,Catherine Curtin,Timothy Pilato,0,N,80,29, ,Romance, Comedy, ,,no
+Barry J. Hershey,R. Buckingham,Barry J. Hershey,Norman Rodway,Camilla Søeberg,Peter Michael Goetz,8,N,71,80, ,Drama, History, War,,no
+Anthony Minghella,Michael Ondaatje,Anthony Minghella,Ralph Fiennes,Juliette Binoche,Willem Dafoe,124,N,84,83, ,Drama, Romance, War,,yesDrama
+Woody Allen,Woody Allen, ,Edward Norton,Drew Barrymore,Diva Gray,23,N,79,68, ,Comedy, Musical, Romance,,yesComedy
+Alan Parker,Tim Rice,Alan Parker,Madonna,Antonio Banderas,Jonathan Pryce,56,N,62,69, ,Biography, Drama, History,,yesComedy
+Stuart Baird,Jim Thomas,John Thomas,Kurt Russell,Steven Seagal,Halle Berry,4,N,63,53, ,Action, Adventure, Thriller,,no
+Richard Pearce,Billy Bob Thornton,Tom Epperson,Robert Duvall,James Earl Jones,Michael Beach,5,N,73,71, ,Comedy, Drama, ,,no
+Joel Coen, Ethan Coen,Ethan Coen,Joel Coen,William H. Macy,Steve Buscemi,Peter Stormare,128,N,94,93, ,Crime, Drama, Thriller,,yesComedy
+David O. Russell,David O. Russell, ,Ben Stiller,Patricia Arquette,Téa Leoni,9,N,87,69, ,Comedy, , ,,no
+Carroll Ballard,Bill Lishman,Robert Rodat,Jeff Daniels,Anna Paquin,Dana Delany,10,N,86,69, ,Adventure, Drama, Family,,no
+Matthew Bright,Matthew Bright, ,Kiefer Sutherland,Reese Witherspoon,Bokeem Woodbine,10,N,76,77, ,Comedy, Crime, Drama,,no
+Peter Jackson,Fran Walsh,Peter Jackson,Michael J. Fox,Trini Alvarado,Peter Dobson,11,N,64,71, ,Comedy, Fantasy, Horror,,no
+Robert Rodriguez,Robert Kurtzman,Quentin Tarantino,George Clooney,Quentin Tarantino,Harvey Keitel,13,N,64,76, ,Action, Crime, Horror,,no
+Abel Ferrara,Nicholas St. John, ,Christopher Walken,Chris Penn,Annabella Sciorra,8,N,79,68, ,Crime, Drama, ,,no
+Spike Lee,Reggie Rock Bythewood, ,Richard Belzer,De'aundre Bonds,Andre Braugher,7,N,88,71, ,Drama, History, ,,no
+Jim McKay,Jim McKay,Denise Casano,Lili Taylor,Bruklin Harris,Anna Grace,5,N,88,81, ,Comedy, Drama, ,,no
+Robert Harmon,Jerry Capeci,Gene Mustain,Armand Assante,William Forsythe,Richard C. Sarafian,22,N,60,83, ,Biography, Crime, Drama,,no
+Allison Anders,Allison Anders, ,Illeana Douglas,Sissy Boyd,Christina Pickles,3,N,77,81, ,Comedy, Drama, Music,,no
+Kenneth Branagh,William Shakespeare,Kenneth Branagh,Riz Abbasi,Richard Attenborough,David Blair,32,N,95,89, ,Drama, , ,,no
+Dennis Dugan,Tim Herlihy,Adam Sandler,Adam Sandler,Christopher McDonald,Julie Bowen,5,N,60,85, ,Comedy, Sport, ,,no
+Paul Thomas Anderson,Paul Thomas Anderson, ,Philip Baker Hall,John C. Reilly,Gwyneth Paltrow,9,N,83,83, ,Crime, Drama, ,,no
+Gary Trousdale, Kirk Wise,Tab Murphy,Victor Hugo,Jason Alexander,Tom Hulce,Mary Kay Bergman,30,N,73,70, ,Animation, Drama, Family,,no
+Mary Harron,Jeremiah Newton,Diane Tucker,Lili Taylor,Jared Harris,Martha Plimpton,11,N,77,70, ,Biography, Drama, ,,no
+Cher, Nancy Savoca,Pamela Wallace,Earl W. Wallace,Demi Moore,Shirley Knight,Catherine Keener,18,N,88,73, ,Drama, Thriller, ,,no
+Roland Emmerich,Dean Devlin,Roland Emmerich,Will Smith,Bill Pullman,Jeff Goldblum,67,N,61,75, ,Action, Adventure, Sci-Fi,,no
+Matthew Broderick,Richard Feynman,Ralph Leighton,Matthew Broderick,Jeffrey Force,Peter Riegert,0,N,62,36, ,Biography, Drama, ,,no
+Olivier Assayas,Olivier Assayas, ,Maggie Cheung,Jean-Pierre Léaud,Nathalie Richard,5,N,91,70, ,Comedy, Drama, ,,no
+Henry Selick,Roald Dahl,Karey Kirkpatrick,Simon Callow,Richard Dreyfuss,Jane Leeves,13,N,93,65, ,Animation, Adventure, Family,,no
+Franco Zeffirelli,Charlotte Brontë,Hugh Whitemore,Anna Paquin,Nic Knight,Nicola Howard,1,N,74,67, ,Drama, Romance, ,,no
+Cameron Crowe,Cameron Crowe, ,Tom Cruise,Cuba Gooding Jr.,Renée Zellweger,63,N,82,79, ,Comedy, Drama, Romance,,yesComedy
+Robert Altman,Robert Altman,Frank Barhydt,Jennifer Jason Leigh,Miranda Richardson,Harry Belafonte,4,N,63,43, ,Crime, Drama, Music,,no
+John Sayles,John Sayles, ,Stephen Mendillo,Stephen J. Lang,Chris Cooper,32,N,93,83, ,Crime, Drama, Mystery,,no
+Renny Harlin,Shane Black, ,Geena Davis,Samuel L. Jackson,Yvonne Zima,3,N,67,70, ,Action, Crime, Drama,,no
+Lisa Krueger,Lisa Krueger, ,Mary Kay Place,Scarlett Johansson,Aleksa Palladino,5,N,62,58, ,Comedy, Drama, ,,no
+Jerry Zaks,Scott McPherson,Scott McPherson,Meryl Streep,Leonardo DiCaprio,Diane Keaton,17,N,80,62, ,Drama, , ,,no
+Danny DeVito,Roald Dahl,Nicholas Kazan,Mara Wilson,Danny DeVito,Rhea Perlman,10,N,90,72, ,Comedy, Family, Fantasy,,no
+Brian De Palma,Bruce Geller,David Koepp,Tom Cruise,Jon Voight,Emmanuelle Béart,16,N,63,71, ,Action, Adventure, Thriller,,no
+Albert Brooks,Albert Brooks,Monica Mcgowan Johnson,Paul Collins,Laura Weekes,Albert Brooks,6,N,89,75, ,Comedy, Drama, ,,no
+Keith Gordon,Kurt Vonnegut Jr.,Robert B. Weide,Nick Nolte,Sheryl Lee,Alan Arkin,0,N,64,75, ,Drama, Romance, War,,no
+Brian Henson,Robert Louis Stevenson,Jerry Juhl,Tim Curry,Billy Connolly,Jennifer Saunders,4,N,70,76, ,Action, Adventure, Comedy,,no
+Jim Mallon,Michael J. Nelson,Trace Beaulieu,Trace Beaulieu,Michael J. Nelson,Jim Mallon,1,Y,80,88, ,Comedy, Sci-Fi, ,,no
+Tim Fywell,Anthony Summers,Jill Isaacs,Ashley Judd,Mira Sorvino,Josh Charles,7,N,60,42, ,Biography, Drama, ,,no
+Tom Shadyac,Jerry Lewis,Bill Richmond,Eddie Murphy,Jada Pinkett Smith,James Coburn,20,N,64,44, ,Comedy, Romance, Sci-Fi,,no
+Milos Forman,Scott Alexander,Larry Karaszewski,Woody Harrelson,Courtney Love,Edward Norton,55,N,87,80, ,Biography, Drama, History,,no
+Penny Marshall,Robert Nathan,Robert E. Sherwood,Denzel Washington,Whitney Houston,Courtney B. Vance,8,N,60,52, ,Comedy, Drama, Fantasy,,no
+Gregory Hoblit,William Diehl,Steve Shagan,Richard Gere,Laura Linney,John Mahoney,21,N,74,89, ,Crime, Drama, Mystery,,no
+Ron Howard,Cyril Hume,Richard Maibaum,Mel Gibson,Rene Russo,Brawley Nolte,8,N,75,62, ,Crime, Thriller, ,,no
+Michael Bay,David Weisberg,Douglas Cook,Sean Connery,Nicolas Cage,Ed Harris,18,N,66,86, ,Action, Adventure, Thriller,,no
+Steven Soderbergh,N/A, ,Miles Hardy, , ,0,N,59,81, ,Comedy, Fantasy, Mystery,,no
+Wes Craven,Kevin Williamson, ,Drew Barrymore,Roger Jackson,Kevin Patrick Walls,15,N,79,78, ,Horror, Mystery, ,,no
+F. Gary Gray,Takashi Bufford,Takashi Bufford,Jada Pinkett Smith,Queen Latifah,Vivica A. Fox,10,N,63,90, ,Action, Crime, Drama,,no
+Edward Burns,Edward Burns, ,John Mahoney,Edward Burns,Michael McGlone,2,N,61,41, ,Comedy, Drama, Romance,,no
+Dale Rosenbloom,Phyllis Reynolds Naylor,Dale Rosenbloom,Scott Wilson,Blake Heron,Bonnie Bartlett,4,N,70,65, ,Drama, Family, ,,no
+Barry Levinson,Lorenzo Carcaterra,Barry Levinson,Kevin Bacon,Billy Crudup,Robert De Niro,6,N,74,85, ,Crime, Drama, Thriller,,no
+Billy Bob Thornton,Billy Bob Thornton,Billy Bob Thornton,Billy Bob Thornton,Dwight Yoakam,J.T. Walsh,25,N,96,93, ,Drama, , ,,no
+Jonathan Frakes,Gene Roddenberry,Rick Berman,Patrick Stewart,Jonathan Frakes,Brent Spiner,28,Y,93,89, ,Action, Adventure, Drama,,no
+Daniel J. Sullivan,Jon Robin Baitz,Jon Robin Baitz,Tony Goldwyn,Benjamin Ungar,Timothy Hutton,2,N,60,32, ,Drama, , ,,no
+Doug Liman,Jon Favreau, ,Jon Favreau,Vince Vaughn,Ron Livingston,6,N,87,89, ,Comedy, Drama, ,,no
+Bob Rafelson, Ken Russell, Susan Seidelman, Melvin Van Peebles,Hetty Baynes,Jonathan Brett,Sharon Angela,Richard Barboza,Hetty Baynes,0,N,60,N/A, ,Drama, Comedy, ,,no
+Tom Hanks,Tom Hanks, ,Tom Everett Scott,Liv Tyler,Johnathon Schaech,9,N,93,78, ,Comedy, Drama, Music,,no
+Joel Schumacher,John Grisham,Akiva Goldsman,Matthew McConaughey,Sandra Bullock,Samuel L. Jackson,19,N,67,85, ,Crime, Drama, Thriller,,no
+Ron Shelton,John Norville,Ron Shelton,Kevin Costner,Rene Russo,Don Johnson,3,N,69,65, ,Comedy, Drama, Romance,,no
+Steve Buscemi,Steve Buscemi, ,Carol Kane,Mark Boone Junior,Steve Buscemi,3,N,81,78, ,Comedy, Drama, ,,no
+David Koepp,James Burke,David Koepp,Kyle MacLachlan,Elisabeth Shue,Dermot Mulroney,0,N,75,43, ,Drama, Thriller, ,,no
+Michael Lehmann,Audrey Wells, ,Uma Thurman,Janeane Garofalo,Ben Chaplin,1,N,84,56, ,Comedy, Romance, ,,no
+Nick Cassavetes,Helen Caldwell,Nick Cassavetes,Gena Rowlands,Marisa Tomei,Gérard Depardieu,7,N,82,46, ,Drama, Romance, ,,no
+Nicole Holofcener,Nicole Holofcener, ,Amy Braverman,Miranda Rhyne,Catherine Keener,7,N,86,70, ,Comedy, Drama, Romance,,no
+Emilio Estevez,James Duff,James Duff,Emilio Estevez,Kathy Bates,Martin Sheen,3,N,60,76, ,Drama, , ,,no
+Cheryl Dunye,Cheryl Dunye, ,Cheryl Dunye,Guinevere Turner,Valarie Walker,2,N,100,55, ,Drama, , ,,no
+Ridley Scott,Charles Gieg Jr.,Felix Sutton,Jeff Bridges,Caroline Goodall,John Savage,1,N,60,65, ,Adventure, Drama, ,,no
+Dan Ireland,Novalyne Price Ellis,Michael Scott Myers,Vincent D'Onofrio,Renée Zellweger,Ann Wedgeworth,12,N,81,72, ,Biography, Drama, Romance,,no
+"1997"
+William Friedkin,Reginald Rose, ,Courtney B. Vance,Ossie Davis,George C. Scott,29,N,92,86, ,Crime, Drama, ,,no
+Alan Rudolph,Alan Rudolph, ,Nick Nolte,Julie Christie,Lara Flynn Boyle,11,N,74,45, ,Comedy, Drama, Romance,,no
+Wolfgang Petersen,Andrew W. Marlowe, ,Harrison Ford,Gary Oldman,Glenn Close,19,N,78,66, ,Action, Adventure, Drama,,no
+Alex Sichel,Sylvia Sichel, ,Alison Folland,Tara Subkoff,Cole Hauser,7,N,85,71, ,Crime, Drama, Romance,,no
+Steven Spielberg,David Franzoni, ,Morgan Freeman,Nigel Hawthorne,Anthony Hopkins,51,N,76,79, ,Drama, History, ,,yesDrama
+Don Bluth, Gary Goldman,Susan Gauthier,Bruce Graham,Meg Ryan,John Cusack,Kelsey Grammer,33,N,85,77, ,Animation, Adventure, Drama,,no
+Robert Duvall,Robert Duvall, ,Todd Allen,Paul Bagget,Lenore Banks,20,N,91,78, ,Drama, , ,,no
+James L. Brooks,Mark Andrus,Mark Andrus,Jack Nicholson,Helen Hunt,Greg Kinnear,86,N,86,86, ,Comedy, Drama, Romance,,yesComedy
+Christian Duguay,Dan Gordon,Sabi H. Shabtai,Aidan Quinn,Donald Sutherland,Ben Kingsley,0,N,60,62, ,Action, Crime, Thriller,,no
+Jay Roach,Mike Myers, ,Mike Myers,Elizabeth Hurley,Michael York,9,N,70,77, ,Comedy, Crime, ,,no
+Paul Thomas Anderson,Paul Thomas Anderson, ,Luis Guzmán,Burt Reynolds,Julianne Moore,81,N,92,89, ,Drama, , ,,no
+Jim Sheridan,Jim Sheridan,Terry George,Daniel Day-Lewis,Daragh Donnelly,Frank Coughlan,9,N,80,75, ,Drama, Romance, Sport,,yesDrama
+Mark Christopher, Tom DeCerchio, Tom Donaghy, Nickolas Perry,Mark Christopher,Tom DeCerchio,Michael Saucedo,Justin Urich,Travis Sher,0,N,80,73, ,Drama, , ,,no
+Jonathan Mostow,Jonathan Mostow,Jonathan Mostow,Kurt Russell,J.T. Walsh,Kathleen Quinlan,3,N,80,66, ,Action, Crime, Drama,,no
+Neil Jordan,Pat McCabe,Neil Jordan,Eamonn Owens,Sean McGinley,Peter Gowen,21,N,78,82, ,Comedy, Drama, ,,no
+Mark Dindal,Mark Dindal,Robert Lence,Scott Bakula,Jasmine Guy,Natalie Cole,16,N,69,79, ,Animation, Comedy, Family,,no
+Kevin Smith,Kevin Smith, ,Ethan Suplee,Ben Affleck,Scott Mosier,21,N,88,83, ,Comedy, Drama, Romance,,no
+Wayne Wang,Jean-Claude Carrière,Jean-Claude Carrière,Jeremy Irons,Li Gong,Maggie Cheung,3,N,62,54, ,Drama, Romance, ,,no
+Jill Sprecher,Jill Sprecher,Karen Sprecher,Toni Collette,Parker Posey,Lisa Kudrow,3,N,83,61, ,Comedy, Drama, ,,no
+Robert Zemeckis,James V. Hart,Michael Goldenberg,Jena Malone,David Morse,Jodie Foster,42,N,62,78, ,Drama, Mystery, Sci-Fi,,no
+James Mangold,James Mangold, ,Sylvester Stallone,Harvey Keitel,Ray Liotta,1,N,72,66, ,Crime, Drama, Thriller,,no
+Woody Allen,Woody Allen, ,Judy Davis,Julia Louis-Dreyfus,Stephanie Roth Haberle,7,N,71,82, ,Comedy, , ,,no
+John Keitel,John Keitel, ,Daniel Chilson,Niklaus Lange,Don Handfield,5,N,67,58, ,Drama, Romance, Sport,,no
+Taylor Hackford,Andrew Neiderman,Jonathan Lemkin,Keanu Reeves,Al Pacino,Charlize Theron,6,N,67,80, ,Drama, Mystery, Thriller,,no
+Mike Newell,Joseph D. Pistone,Richard Woodley,Al Pacino,Johnny Depp,Michael Madsen,17,N,87,89, ,Biography, Crime, Drama,,no
+Finn Taylor,Finn Taylor,Jeffrey D. Brown,David Arquette,Brad Hunt,Cathy Moriarty,0,N,60,86, ,Comedy, Drama, ,,no
+Lee Tamahori,David Mamet, ,Anthony Hopkins,Alec Baldwin,Elle Macpherson,0,N,60,70, ,Action, Adventure, Drama,,no
+Kasi Lemmons,Kasi Lemmons, ,Jurnee Smollett-Bell,Meagan Good,Lynn Whitfield,28,N,80,90, ,Drama, , ,,no
+John Woo,Mike Werb,Michael Colleary,John Travolta,Nicolas Cage,Joan Allen,33,N,92,82, ,Action, Crime, Thriller,,no
+Luc Besson,Luc Besson,Robert Mark Kamen,Bruce Willis,Gary Oldman,Ian Holm,43,N,71,87, ,Action, Adventure, Sci-Fi,,no
+David Fincher,John Brancato,Michael Ferris,Michael Douglas,Sean Penn,Deborah Kara Unger,1,N,72,84, ,Drama, Mystery, Thriller,,no
+Andrew Niccol,Andrew Niccol, ,Ethan Hawke,Uma Thurman,Gore Vidal,21,N,82,87, ,Drama, Sci-Fi, Thriller,,no
+Mark Pellington,Dan Wakefield,Dan Wakefield,Jeremy Davies,Ben Affleck,Amy Locane,3,N,71,23, ,Comedy, Drama, ,,no
+Gus Van Sant,Matt Damon,Ben Affleck,Matt Damon,Robin Williams,Ben Affleck,75,N,97,94, ,Drama, , ,,yesDrama
+Vondie Curtis-Hall,Vondie Curtis-Hall, ,Tupac Shakur,Tim Roth,Thandie Newton,3,N,88,79, ,Comedy, Crime, Drama,,no
+George Armitage,Tom Jankiewicz,Tom Jankiewicz,John Cusack,Minnie Driver,Alan Arkin,8,N,79,87, ,Action, Comedy, Crime,,no
+Hal Hartley,N/A, ,Thomas Jay Ryan,James Urbaniak,Parker Posey,2,N,89,82, ,Comedy, Drama, ,,no
+Ron Clements, John Musker,Ron Clements,John Musker,Tate Donovan,Josh Keaton,Roger Bart,25,N,83,75, ,Animation, Adventure, Comedy,,no
+Mark Waters,Wendy MacLeod,Mark Waters,Parker Posey,Josh Hamilton,Tori Spelling,6,N,62,77, ,Comedy, Drama, ,,no
+Morgan J. Freeman,Morgan J. Freeman, ,Brendan Sexton III,Antoine McLean,Mtume Gant,5,N,88,80, ,Crime, Drama, Romance,,no
+Bill Plympton,Bill Plympton,P.C. Vey,Charis Michelsen,Tom Larson,Richard Spore,7,N,70,89, ,Animation, Comedy, Drama,,no
+Ang Lee,Rick Moody,James Schamus,Kevin Kline,Joan Allen,Sigourney Weaver,36,N,84,82, ,Drama, , ,,no
+Barry Sonnenfeld,Lowell Cunningham,Ed Solomon,Tommy Lee Jones,Will Smith,Linda Fiorentino,58,N,92,79, ,Adventure, Comedy, Family,,no
+Neil LaBute,Neil LaBute,Neil LaBute,Aaron Eckhart,Stacy Edwards,Matt Malloy,25,N,89,80, ,Comedy, Drama, ,,no
+Quentin Tarantino,Quentin Tarantino,Elmore Leonard,Pam Grier,Samuel L. Jackson,Robert Forster,29,N,87,85, ,Crime, Thriller, ,,no
+Martin Scorsese,Melissa Mathison, ,Tenzin Thuthob Tsarong,Gyurme Tethong,Tulku Jamyang Kunga Tenzin,19,N,76,79, ,Biography, Drama, History,,no
+Curtis Hanson,James Ellroy,Brian Helgeland,Kevin Spacey,Russell Crowe,Guy Pearce,163,N,99,94, ,Crime, Drama, Mystery,,yesDrama
+John Duigan,Naomi Wallace, ,Mischa Barton,Sam Rockwell,Christopher McDonald,11,N,72,84, ,Drama, , ,,no
+Tom Shadyac,Paul Guay,Stephen Mazur,Jim Carrey,Maura Tierney,Justin Cooper,10,N,81,75, ,Comedy, Fantasy, ,,no
+Adrian Lyne,Vladimir Nabokov,Stephen Schiff,Jeremy Irons,Melanie Griffith,Frank Langella,6,N,68,75, ,Drama, Romance, ,,no
+David Lynch,David Lynch,Barry Gifford,Bill Pullman,Patricia Arquette,John Roselius,1,N,60,87, ,Mystery, Thriller, ,,no
+Theodore Witcher,Theodore Witcher, ,Larenz Tate,Nia Long,Isaiah Washington,9,N,67,97, ,Drama, Romance, ,,no
+Richard Kwietniowski,Gilbert Adair,Richard Kwietniowski,John Hurt,Jason Priestley,Fiona Loewi,8,N,86,56, ,Comedy, Drama, ,,no
+Joe Mantello,Terrence McNally,Terrence McNally,Jason Alexander,Stephen Spinella,Stephen Bogardus,1,N,67,77, ,Comedy, Drama, Romance,,no
+Barry Sonnenfeld,Lowell Cunningham,Ed Solomon,Tommy Lee Jones,Will Smith,Linda Fiorentino,58,Y,92,79, ,Adventure, Comedy, Family,,yesComedy
+John Sayles,John Sayles, ,Federico Luppi,Damián Delgado,Dan Rivera González,8,N,89,91, ,Adventure, Drama, ,,no
+Guillermo del Toro,Donald A. Wollheim,Matthew Robbins,Mira Sorvino,Jeremy Northam,Alexander Goodwin,9,N,61,37, ,Horror, Sci-Fi, ,,no
+Marleen Gorris,Eileen Atkins,Virginia Woolf,Vanessa Redgrave,Natascha McElhone,Michael Kitchen,3,N,71,57, ,Drama, Romance, ,,no
+P.J. Hogan,Ronald Bass, ,Julia Roberts,Dermot Mulroney,Cameron Diaz,35,N,71,73, ,Comedy, Romance, ,,yesComedy
+Bart Freundlich,Bart Freundlich, ,Randee Allen,Arija Bareikis,Justin Barreto,9,N,60,56, ,Comedy, Drama, Romance,,no
+Gillian Armstrong,Peter Carey,Laura Jones,Ralph Fiennes,Cate Blanchett,Ciarán Hinds,18,N,66,65, ,Drama, Romance, ,,no
+Steve James,Steve James,Eugene Corr,Jared Leto,R. Lee Ermey,Ed O'Neill,0,N,59,78, ,Biography, Drama, Romance,,no
+Francis Ford Coppola,John Grisham,Francis Ford Coppola,Matt Damon,Danny DeVito,Claire Danes,12,N,82,77, ,Crime, Drama, Thriller,,no
+David Mirkin,Robin Schiff,Robin Schiff,Mira Sorvino,Lisa Kudrow,Janeane Garofalo,3,N,70,65, ,Comedy, , ,,no
+John Singleton,Gregory Poirier, ,Jon Voight,Ving Rhames,Don Cheadle,13,N,85,83, ,Action, Drama, History,,no
+Wes Craven,Kevin Williamson,Kevin Williamson,Jada Pinkett Smith,Omar Epps,Paulette Patterson,16,Y,81,56, ,Horror, Mystery, ,,no
+Gregory Nava,Gregory Nava, ,Jennifer Lopez,Jackie Guerra,Constance Marie,14,N,64,77, ,Biography, Drama, Music,,no
+Jean-Jacques Annaud,Heinrich Harrer,Becky Johnston,Brad Pitt,David Thewlis,BD Wong,11,N,61,74, ,Adventure, Biography, Drama,,no
+Nick Cassavetes,John Cassavetes, ,Sean Penn,James Gandolfini,Robin Wright,6,N,66,63, ,Drama, Romance, ,,no
+Michael Cohn,Tom Szolossi,Deborah Serra,Sigourney Weaver,Sam Neill,Gil Bellows,7,N,60,56, ,Fantasy, Horror, ,,no
+George Tillman Jr.,George Tillman Jr., ,Vanessa Williams,Vivica A. Fox,Nia Long,18,N,80,86, ,Comedy, Drama, ,,no
+David Mamet,David Mamet, ,Campbell Scott,Steve Martin,Rebecca Pidgeon,3,N,88,81, ,Drama, Mystery, Thriller,,no
+Paul Verhoeven,Edward Neumeier,Robert A. Heinlein,Casper Van Dien,Dina Meyer,Denise Richards,17,N,63,69, ,Action, Adventure, Sci-Fi,,no
+Jonathan Nossiter,James Lasdun,James Lasdun,Arnold Barkus,Jared Harris,Bahman Soltani,9,N,80,74, ,Drama, Romance, ,,no
+Guy Ferland,Joe Eszterhas, ,Kevin Bacon,Brad Renfro,Maximilian Schell,1,N,63,47, ,Drama, Music, ,,no
+James Cameron,James Cameron, ,Leonardo DiCaprio,Kate Winslet,Billy Zane,194,N,88,69, ,Drama, Romance, ,,yesDrama
+Jack N. Green,Jim McGlynn, ,Bill Paxton,Mark Wahlberg,Julianna Margulies,1,N,79,53, ,Crime, Drama, Romance,,no
+Oliver Stone,John Ridley,John Ridley,Sean Penn,Billy Bob Thornton,Abraham Benrubi,3,N,59,62, ,Crime, Drama, Thriller,,no
+Victor Nunez,Victor Nunez, ,Peter Fonda,Patricia Richardson,Christine Dunford,25,N,94,74, ,Drama, , ,,no
+Barry Levinson,Larry Beinhart,Hilary Henkin,Dustin Hoffman,Robert De Niro,Anne Heche,21,N,85,76, ,Comedy, Drama, ,,yesComedy
+Agnieszka Holland,Henry James,Carol Doyle,Jennifer Jason Leigh,Albert Finney,Maggie Smith,1,N,82,68, ,Drama, Romance, ,,no
+Michael Winterbottom,Michael Nicholson,Frank Cottrell Boyce,Stephen Dillane,Woody Harrelson,Marisa Tomei,3,N,80,75, ,Drama, War, ,,no
+Iain Softley,Henry James,Hossein Amini,Helena Bonham Carter,Linus Roache,Alex Jennings,49,N,86,78, ,Drama, Romance, ,,no
+Alan Rickman,Josep Llurba,Sharman Macdonald,Phyllida Law,Emma Thompson,Sheila Reid,14,N,64,75, ,Drama, , ,,no
+"1998"
+Tony Kaye,David McKenna, ,Edward Norton,Edward Furlong,Beverly D'Angelo,18,N,83,96, ,Crime, Drama, ,,no
+Eric Darnell, Tim Johnson,Todd Alcott,Chris Weitz,Woody Allen,Dan Aykroyd,Anne Bancroft,20,N,96,51, ,Animation, Adventure, Comedy,,no
+Michael Radford,Andrew Davies,Chloe King,Asia Argento,Jared Harris,Rupert Everett,0,N,61,55, ,Crime, Drama, Romance,,no
+George Miller,George Miller,Judy Morris,Magda Szubanski,James Cromwell,Mary Stein,17,Y,62,40, ,Adventure, Comedy, Drama,,no
+Jonathan Demme,Toni Morrison,Akosua Busia,Yada Beener,Emil Pinnock,Calen Johnson,27,N,78,71, ,Drama, History, Horror,,no
+Joel Coen, Ethan Coen,Ethan Coen,Joel Coen,Jeff Bridges,John Goodman,Julianne Moore,20,N,81,94, ,Comedy, Crime, ,,no
+Tommy O'Haver,Tommy O'Haver, ,Sean Hayes,Brad Rowe,Richard Ganoung,4,N,74,63, ,Comedy, Romance, ,,no
+Scott Ziehl,David Baer,Brent David Fraser,Todd Field,Jason London,Roxana Zal,3,N,67,67, ,Drama, , ,,no
+Vincent Gallo,Vincent Gallo,Vincent Gallo,Vincent Gallo,Christina Ricci,Ben Gazzara,17,N,76,88,2365931.0,Comedy, Crime, Drama,,no
+John Lasseter, Andrew Stanton,John Lasseter,Andrew Stanton,Dave Foley,Kevin Spacey,Julia Louis-Dreyfus,35,N,92,72, ,Animation, Adventure, Comedy,,no
+Warren Beatty,Warren Beatty,Warren Beatty,Kimberly Deauna Adams,Vinny Argiro,Sean Astin,19,N,75,67, ,Comedy, Drama, Romance,,yesComedy
+Steven Zaillian,Jonathan Harr,Steven Zaillian,John Travolta,Robert Duvall,Tony Shalhoub,15,N,60,55, ,Drama, , ,,no
+David Dobkin,Matthew L. Healy, ,Joaquin Phoenix,Gregory Sporleder,Georgina Cates,1,N,63,67, ,Comedy, Crime, ,,no
+Pat O'Connor,Brian Friel,Frank McGuinness,Gerard McSorley,Meryl Streep,Michael Gambon,9,N,65,58, ,Drama, Romance, ,,no
+Marshall Herskovitz,Margaret Rosenthal,Jeannine Dominy,Catherine McCormack,Rufus Sewell,Oliver Platt,2,N,70,86, ,Biography, Drama, History,,no
+Maya Angelou,Myron Goble, ,Alfre Woodard,Al Freeman Jr.,Mary Alice,10,N,78,71, ,Drama, , ,,no
+David Moreton,Todd Stephens, ,Chris Stafford,Tina Holmes,Andersen Gabrych,7,N,73,74, ,Comedy, Drama, Romance,,no
+Tony Scott,David Marconi, ,Will Smith,Gene Hackman,Jon Voight,21,N,71,78, ,Action, Crime, Drama,,no
+Andy Tennant,Susannah Grant,Andy Tennant,Drew Barrymore,Anjelica Huston,Dougray Scott,21,N,91,84, ,Comedy, Drama, Romance,,no
+Robert Altman,John Grisham,Clyde Hayes,Kenneth Branagh,Embeth Davidtz,Robert Downey Jr.,0,N,60,26, ,Thriller, , ,,no
+Julia Sweeney,Julia Sweeney, ,Julia Sweeney,Quentin Tarantino, ,2,N,86,72, ,Comedy, Drama, ,,no
+Bill Condon,Christopher Bram,Bill Condon,Ian McKellen,Brendan Fraser,Lynn Redgrave,69,N,95,83, ,Biography, Drama, ,,yesDrama
+Todd Solondz,Todd Solondz, ,Jane Adams,Jon Lovitz,Philip Seymour Hoffman,37,N,85,89, ,Comedy, Drama, ,,no
+Spike Lee,Spike Lee, ,Denzel Washington,Ray Allen,Milla Jovovich,10,N,80,83, ,Drama, Sport, ,,no
+Lisa Cholodenko,Lisa Cholodenko, ,Radha Mitchell,Gabriel Mann,Charis Michelsen,24,N,73,77, ,Drama, Romance, ,,no
+Robert Redford,Nick Evans,Eric Roth,Robert Redford,Kristin Scott Thomas,Sam Neill,23,N,74,72, ,Drama, Romance, Western,,yesDrama
+Anthony Drazan,David Rabe,David Rabe,Sean Penn,Kevin Spacey,Robin Wright,4,N,60,64, ,Comedy, Drama, ,,no
+Stanley Tucci,Stanley Tucci, ,Oliver Platt,Stanley Tucci,Walker Jones,0,N,62,73, ,Comedy, , ,,no
+Whit Stillman,Whit Stillman, ,Chloë Sevigny,Kate Beckinsale,Chris Eigeman,2,N,72,65, ,Comedy, Drama, Music,,no
+Bille August,Victor Hugo,Rafael Yglesias,Christopher Adamson,Tim Barlow,Timothy Bateson,1,N,74,83, ,Crime, Drama, History,,no
+Richard LaGravenese,Richard LaGravenese, ,Holly Hunter,Danny DeVito,Queen Latifah,5,N,59,63, ,Comedy, Drama, Romance,,no
+Daisy von Scherler Mayer,Ludwig Bemelmans,Malia Scotch Marmo,Frances McDormand,Nigel Hawthorne,Hatty Jones,5,N,62,42, ,Comedy, Family, ,,no
+Martin Campbell,Johnston McCulley,Ted Elliott,José María de Tavira,Diego Sieres,Emiliano Guerra,26,N,83,72, ,Action, Adventure, Comedy,,yesComedy
+Peter Chelsom,Rodman Philbrick,Charles Leavitt,Harry Dean Stanton,Gena Rowlands,Elden Henson,7,N,75,79, ,Comedy, Drama, ,,no
+Ted Demme,Mike Armstrong, ,Denis Leary,Ian Hart,Jason Barry,1,N,90,66, ,Crime, Drama, Thriller,,no
+Tony Bancroft, Barry Cook,Robert D. San Souci,Rita Hsiao,Ming-Na Wen,Lea Salonga,June Foray,38,N,86,85, ,Animation, Adventure, Family,,no
+Richard Linklater,Claude Stanush,Richard Linklater,Matthew McConaughey,Skeet Ulrich,Ethan Hawke,0,N,62,44, ,Action, Crime, Drama,,no
+Brad Anderson,Brad Anderson,Lyn Vaus,Hope Davis,Philip Seymour Hoffman,Callie Thorne,5,N,74,74, ,Comedy, Drama, Romance,,no
+Carl Franklin,Anna Quindlen,Karen Croner,Meryl Streep,Renée Zellweger,William Hurt,8,N,89,72, ,Drama, , ,,no
+Don Roos,Don Roos, ,Christina Ricci,Martin Donovan,Lisa Kudrow,38,N,80,60, ,Comedy, , ,,no
+Steven Soderbergh,Elmore Leonard,Scott Frank,George Clooney,Jennifer Lopez,Jim Robinson,27,N,93,74, ,Crime, Drama, Romance,,no
+Nancy Meyers,Erich Kästner,David Swift,Lindsay Lohan,Dennis Quaid,Natasha Richardson,9,N,86,70, ,Adventure, Comedy, Drama,,no
+David Veloz,Jerry Stahl,David Veloz,Ben Stiller,Maria Bello,Jay Paulson,1,N,60,54, ,Biography, Drama, Romance,,no
+Darren Aronofsky,Darren Aronofsky,Darren Aronofsky,Sean Gullette,Mark Margolis,Ben Shenkman,20,N,87,85, ,Drama, Horror, Mystery,,no
+Willard Carroll,Willard Carroll, ,Angelina Jolie,Sean Connery,Gena Rowlands,2,N,60,79, ,Comedy, Drama, Romance,,no
+Gary Ross,Gary Ross, ,Tobey Maguire,Reese Witherspoon,William H. Macy,61,N,84,79, ,Comedy, Drama, Fantasy,,no
+Mike Nichols,Joe Klein,Elaine May,John Travolta,Emma Thompson,Billy Bob Thornton,40,N,80,64, ,Comedy, Drama, ,,no
+Brenda Chapman, Steve Hickner, Simon Wells,Philip LaZebnik,Nicholas Meyer,Val Kilmer,Ralph Fiennes,Michelle Pfeiffer,37,N,79,76, ,Animation, Adventure, Biography,,no
+Joseph Ruben,Pierre Jolivet,Olivier Schatzky,Vince Vaughn,Anne Heche,Joaquin Phoenix,2,N,71,75, ,Drama, Romance, Thriller,,no
+John Frankenheimer,J.D. Zeik,J.D. Zeik,Robert De Niro,Jean Reno,Natascha McElhone,5,N,68,80, ,Action, Adventure, Crime,,no
+John Dahl,David Levien,Brian Koppelman,Matt Damon,Gretchen Mol,John Malkovich,2,N,65,88, ,Crime, Drama, ,,no
+Igor Kovalyov, Norton Virgien,David N. Weiss,J. David Stem,Elizabeth Daily,Christine Cavanaugh,Kath Soucie,8,N,59,50, ,Animation, Adventure, Comedy,,no
+Brett Ratner,Ross LaManna,Jim Kouf,Ken Leung,Jackie Chan,Tom Wilkinson,14,N,60,78, ,Action, Comedy, Crime,,no
+Wes Anderson,Wes Anderson,Owen Wilson,Jason Schwartzman,Bill Murray,Olivia Williams,31,N,89,91, ,Comedy, Drama, ,,no
+Steven Spielberg,Robert Rodat, ,Tom Hanks,Tom Sizemore,Edward Burns,153,N,92,95, ,Action, Drama, War,,yesDrama
+John Madden,Marc Norman,Tom Stoppard,Geoffrey Rush,Tom Wilkinson,Steven O'Donnell,149,N,92,80, ,Comedy, Drama, Romance,,no
+Sam Raimi,Scott B. Smith,Scott B. Smith,Bill Paxton,Bridget Fonda,Billy Bob Thornton,39,N,90,80, ,Crime, Drama, Thriller,,no
+Lance Mungia,Jeffrey Falcon,Lance Mungia,Jeffrey Falcon,Justin McGuire,Kim De Angelo,4,N,60,77, ,Action, Adventure, Comedy,,no
+Marc Levin,Marc Levin,Richard Stratton,Saul Williams,Sonja Sohn,Bonz Malone,7,N,62,85, ,Drama, , ,,no
+Tamara Jenkins,Tamara Jenkins, ,Natasha Lyonne,Alan Arkin,Bryna Weiss,8,N,80,68, ,Comedy, Drama, ,,no
+Chris Eyre,Sherman Alexie,Sherman Alexie,Adam Beach,Evan Adams,Irene Bedard,19,N,86,82, ,Comedy, Drama, ,,no
+Terrence Malick,James Jones,Terrence Malick,Nick Nolte,Jim Caviezel,Sean Penn,68,N,78,80, ,Drama, War, ,,no
+Peter Weir,Andrew Niccol, ,Jim Carrey,Laura Linney,Noah Emmerich,107,N,94,88, ,Comedy, Drama, Sci-Fi,,yesDrama
+Robert Benton,Robert Benton,Richard Russo,Paul Newman,Susan Sarandon,Gene Hackman,0,N,59,29, ,Crime, Drama, Mystery,,no
+Frank Coraci,Tim Herlihy, ,Adam Sandler,Drew Barrymore,Christine Taylor,12,N,67,80, ,Comedy, Music, Romance,,no
+John McNaughton,Stephen Peters, ,Kevin Bacon,Matt Dillon,Neve Campbell,6,N,64,53, ,Crime, Drama, Mystery,,no
+Robert Towne,Robert Towne,Kenny Moore,Billy Crudup,Donald Sutherland,Monica Potter,3,N,79,91, ,Biography, Drama, Sport,,no
+Neil LaBute,Neil LaBute, ,Amy Brenneman,Aaron Eckhart,Catherine Keener,6,N,77,63, ,Comedy, Drama, ,,no
+Nora Ephron,Miklós László,Nora Ephron,Tom Hanks,Meg Ryan,Greg Kinnear,13,N,69,73, ,Comedy, Drama, Romance,,no
+"1999"
+Gil Junger,Karen McCullah,Kirsten Smith,Heath Ledger,Julia Stiles,Joseph Gordon-Levitt,14,N,61,69, ,Comedy, Drama, Romance,,no
+Gary Halvorson,Mitchell Kriegman,Mitchell Kriegman,Kevin Clash,Mandy Patinkin,Vanessa Williams,2,N,77,63, ,Adventure, Comedy, Family,,no
+Sam Mendes,Alan Ball, ,Kevin Spacey,Annette Bening,Thora Birch,204,N,88,93, ,Drama, Romance, ,,yesDrama
+Paul Weitz, Chris Weitz,Adam Herz, ,Jason Biggs,Chris Klein,Thomas Ian Nicholas,23,N,61,61, ,Comedy, , ,,no
+Harold Ramis,Kenneth Lonergan,Peter Tolan,Robert De Niro,Billy Crystal,Lisa Kudrow,11,N,69,62, ,Comedy, Crime, ,,yesComedy
+Wayne Wang,Mona Simpson,Alvin Sargent,Susan Sarandon,Natalie Portman,Hart Bochner,4,N,64,55, ,Comedy, Drama, ,,no
+Mark Pellington,Ehren Kruger, ,Jeff Bridges,Tim Robbins,Joan Cusack,5,N,62,74, ,Crime, Drama, Thriller,,no
+Spike Jonze,Charlie Kaufman, ,John Cusack,Cameron Diaz,Ned Bellamy,126,N,93,87, ,Comedy, Drama, Fantasy,,yesComedy
+Malcolm D. Lee,Malcolm D. Lee, ,Taye Diggs,Nia Long,Morris Chestnut,18,N,72,87, ,Comedy, Drama, ,,no
+John Swanbeck,Roger Rueff,Roger Rueff,Kevin Spacey,Danny DeVito,Peter Facinelli,1,N,74,72, ,Drama, Comedy, ,,no
+Daniel Myrick, Eduardo Sánchez,Daniel Myrick,Eduardo Sánchez,Heather Donahue,Joshua Leonard,Michael C. Williams,38,N,86,55, ,Horror, , ,,no
+Hugh Wilson,Bill Kelly,Bill Kelly,Brendan Fraser,Alicia Silverstone,Christopher Walken,1,N,58,56, ,Comedy, Drama, Romance,,no
+Frank Oz,Steve Martin, ,Steve Martin,Eddie Murphy,Heather Graham,6,N,81,60, ,Comedy, , ,,no
+Kimberly Peirce,Kimberly Peirce,Andy Bienen,Hilary Swank,Chloë Sevigny,Peter Sarsgaard,85,N,88,87, ,Biography, Crime, Drama,,no
+Martin Scorsese,Joe Connelly,Paul Schrader,Nicolas Cage,Patricia Arquette,John Goodman,6,N,71,70, ,Drama, Thriller, ,,no
+Nisha Ganatra,Susan Carnival,Nisha Ganatra,Nisha Ganatra,Jill Hennessy,Sakina Jaffrey,7,N,83,50, ,Comedy, Drama, ,,no
+Lasse Hallström,John Irving,John Irving,Tobey Maguire,Charlize Theron,Delroy Lindo,37,N,71,77, ,Drama, Romance, ,,no
+Tim Robbins,Tim Robbins, ,Hank Azaria,Rubén Blades,Joan Cusack,12,N,65,71, ,Drama, , ,,no
+Andrew Fleming,Andrew Fleming,Sheryl Longin,Kirsten Dunst,Michelle Williams,Dan Hedaya,4,N,70,53, ,Comedy, , ,,no
+Kevin Smith,Kevin Smith, ,Bud Cort,Barret Hackney,Jared Pfennigwerth,8,N,67,85, ,Adventure, Comedy, Drama,,no
+Ron Howard,Émile Gaudreault,Sylvie Bouchard,Geoffrey Blake,Gail Boggs,Jenna Byrne,2,N,63,29, ,Comedy, Drama, ,,no
+Alexander Payne,Tom Perrotta,Alexander Payne,Matthew Broderick,Reese Witherspoon,Chris Klein,50,N,92,79, ,Comedy, Drama, Romance,,no
+David Cronenberg,David Cronenberg, ,Jennifer Jason Leigh,Jude Law,Ian Holm,10,N,71,69, ,Horror, Sci-Fi, Thriller,,no
+Stanley Kubrick,Stanley Kubrick,Frederic Raphael,Tom Cruise,Nicole Kidman,Sydney Pollack,32,N,74,73, ,Drama, Mystery, Thriller,,no
+James Algar, Gaëtan Brizzi, Paul Brizzi, Hendel Butoy, Francis Glebas, Eric Goldberg, Don Hahn, Pixote Hunt,Eric Goldberg,Hans Christian Andersen,Steve Martin,Itzhak Perlman,Quincy Jones,10,Y,82,75, ,Animation, Comedy, Family,,no
+David Fincher,Chuck Palahniuk,Jim Uhls,Edward Norton,Brad Pitt,Meat Loaf,42,N,79,96, ,Drama, , ,,no
+Dean Parisot,David Howard,David Howard,Tim Allen,Sigourney Weaver,Alan Rickman,21,N,90,78, ,Action, Adventure, Comedy,,no
+Jim Jarmusch,Jim Jarmusch, ,Forest Whitaker,John Tormey,Cliff Gorman,8,N,82,86, ,Action, Crime, Drama,,no
+Doug Liman,John August, ,Katie Holmes,Sarah Polley,Suzanne Krull,12,N,92,78, ,Comedy, Crime, ,,no
+Frank Darabont,Stephen King,Frank Darabont,Tom Hanks,David Morse,Michael Clarke Duncan,49,N,80,94, ,Crime, Drama, Fantasy,,no
+Audrey Wells,Audrey Wells, ,Sarah Polley,Stephen Rea,Jean Smart,9,N,86,53, ,Drama, Romance, ,,no
+Ron Judkins,Ron Judkins, ,Ryan Alosio,Tantoo Cardinal,Rachael Leigh Cook,5,N,67,27, ,Drama, , ,,no
+Norman Jewison,Rubin 'Hurricane' Carter,Sam Chaiton,Denzel Washington,Vicellous Shannon,Deborah Kara Unger,25,N,83,87, ,Biography, Drama, Sport,,no
+Oliver Parker,Oscar Wilde,Oliver Parker,Peter Vaughan,Rupert Everett,Minnie Driver,21,N,85,70, ,Comedy, Romance, ,,no
+Michael Mann,Marie Brenner,Eric Roth,Al Pacino,Russell Crowe,Christopher Plummer,80,N,96,90, ,Biography, Drama, Thriller,,no
+Brad Bird,Tim McCanlies,Brad Bird,Jennifer Aniston,Harry Connick Jr.,Vin Diesel,39,N,96,89, ,Animation, Action, Adventure,,no
+Alison Maclean,Denis Johnson,Elizabeth Cuthrell,Billy Crudup,Robert Michael Kelly,Torben Brooks,11,N,81,83, ,Drama, , ,,no
+Frank Whaley,Frank Whaley, ,Noah Fleiss,Karen Young,Camryn Manheim,4,N,67,74, ,Crime, Drama, ,,no
+Barry Levinson,Barry Levinson, ,Adrien Brody,Ben Foster,Orlando Jones,2,N,87,76, ,Drama, Music, Romance,,no
+Steven Soderbergh,Lem Dobbs, ,Terence Stamp,Lesley Ann Warren,Luis Guzmán,10,N,93,79, ,Crime, Drama, Mystery,,no
+Paul Thomas Anderson,Paul Thomas Anderson, ,Pat Healy,Genevieve Zweig,Mark Flannagan,82,N,84,89, ,Drama, , ,,no
+Adam Abraham,Adam Abraham,Gibson Frazier,Gibson Frazier,Cara Buono,Ian Edwards,6,N,71,77, ,Comedy, Romance, ,,no
+Milos Forman,Scott Alexander,Larry Karaszewski,Jim Carrey,Gerry Becker,Greyson Erik Pendry,27,N,63,79, ,Biography, Comedy, Drama,,yesComedy
+Scott Elliott,Jane Hamilton,Peter Hedges,Sigourney Weaver,Dara Perlmutter,David Strathairn,9,N,65,57, ,Drama, , ,,no
+Lana Wachowski, Lilly Wachowski,Lilly Wachowski,Lana Wachowski,Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss,80,N,87,85, ,Action, Sci-Fi, ,,no
+Tim Hill,Jerry Juhl,Joey Mazzarino,Dave Goelz,Steve Whitmire,Bill Barretta,1,N,63,59, ,Adventure, Comedy, Family,,no
+Wes Craven,Pamela Gray, ,Meryl Streep,Cloris Leachman,Henry Dinhofer,16,N,63,72, ,Drama, Music, ,,no
+Kinka Usher,Neil Cuthbert,Bob Burden,Ben Stiller,Hank Azaria,William H. Macy,3,N,60,57, ,Action, Comedy, Fantasy,,no
+Roger Michell,Richard Curtis, ,Julia Roberts,Hugh Grant,Richard McCabe,29,N,83,79, ,Comedy, Drama, Romance,,yesComedy
+Joe Johnston,Homer H. Hickam Jr.,Lewis Colick,Jake Gyllenhaal,Chris Cooper,Laura Dern,15,N,90,88, ,Biography, Drama, Family,,no
+Mike Judge,Mike Judge,Mike Judge,Ron Livingston,Jennifer Aniston,David Herman,2,N,79,93, ,Comedy, , ,,no
+Christopher Menaul,Barbara Branden,Howard Korder,Helen Mirren,Eric Stoltz,Julie Delpy,10,N,80,59, ,Biography, Drama, Romance,,no
+M. Night Shyamalan,M. Night Shyamalan, ,Bruce Willis,Haley Joel Osment,Toni Collette,85,N,85,89, ,Drama, Mystery, Thriller,,no
+Tim Burton,Washington Irving,Kevin Yagher,Johnny Depp,Christina Ricci,Miranda Richardson,63,N,67,80, ,Fantasy, History, Horror,,no
+David Koepp,Richard Matheson,David Koepp,Zachary David Cope,Kevin Bacon,Kathryn Erbe,4,N,67,70, ,Horror, Mystery, Thriller,,no
+David Lynch,John Roach,Mary Sweeney,Sissy Spacek,Jane Galloway Heitz,Joseph A. Carpenter,52,N,96,91, ,Biography, Drama, ,,no
+Rob Minkoff,E.B. White,M. Night Shyamalan,Michael J. Fox,Geena Davis,Hugh Laurie,20,N,66,41, ,Adventure, Comedy, Family,,no
+Woody Allen,Woody Allen, ,Ben Duncan,Daniel Okrent,Dan Moran,16,N,78,81, ,Comedy, Drama, Music,,no
+Anthony Minghella,Patricia Highsmith,Anthony Minghella,Matt Damon,Gwyneth Paltrow,Jude Law,90,N,83,80, ,Crime, Drama, Thriller,,no
+Chris Buck, Kevin Lima,Tab Murphy,Bob Tzudiker,Brian Blessed,Glenn Close,Minnie Driver,37,N,88,74, ,Animation, Adventure, Family,,no
+John McTiernan,Alan Trustman,Leslie Dixon,Pierce Brosnan,Rene Russo,Denis Leary,5,N,70,77, ,Crime, Romance, Thriller,,no
+David O. Russell,John Ridley,David O. Russell,George Clooney,Mark Wahlberg,Ice Cube,27,N,94,77, ,Action, Adventure, Comedy,,no
+Julie Taymor,William Shakespeare,Julie Taymor,Osheen Jones,Dario D'Ambrosi,Anthony Hopkins,22,N,68,86, ,Drama, History, Thriller,,no
+John Lasseter, Ash Brannon, Lee Unkrich,John Lasseter,Pete Docter,Tom Hanks,Tim Allen,Joan Cusack,49,Y,100,86, ,Animation, Adventure, Comedy,,yesComedy
+Gavin O'Connor,Angela Shelton,Gavin O'Connor,Janet McTeer,Kimberly J. Brown,Jay O. Sanders,22,N,82,65, ,Drama, Comedy, ,,no
+Michael Polish,Mark Polish,Michael Polish,Mark Polish,Michael Polish,Michele Hicks,12,N,78,83, ,Drama, , ,,no
+Sofia Coppola,Jeffrey Eugenides,Sofia Coppola,James Woods,Kathleen Turner,Kirsten Dunst,14,N,76,81, ,Drama, Romance, ,,no
+Tony Goldwyn,Pamela Gray, ,Bobby Boriello,Diane Lane,Anna Paquin,7,N,72,70, ,Drama, Romance, ,,no
+James Marsh,Michael Lesy,James Marsh,Ian Holm,Jeffrey Golden,Jo Vukelich,5,N,75,65, ,Drama, History, ,,no
+Robinson Devor,Charles Willeford,Robinson Devor,Patrick Warburton,Eugene Roche,Ron Morgan,4,N,73,68, ,Comedy, , ,,no
+"2000"
+Cameron Crowe,Cameron Crowe, ,Billy Crudup,Frances McDormand,Kate Hudson,155,N,89,92,3.1716715E7,Adventure, Comedy, Drama,,yesComedy
+Mary Harron,Bret Easton Ellis,Mary Harron,Christian Bale,Justin Theroux,Josh Lucas,13,N,67,85, ,Crime, Drama, ,,no
+Steve Buscemi,Edward Bunker,Edward Bunker,Willem Dafoe,Edward Furlong,Danny Trejo,1,N,82,58, ,Crime, Drama, ,,no
+Stephen Metcalfe,Stephen Metcalfe, ,Sharon Stone,Billy Connolly,Gil Bellows,0,N,60,38, ,Comedy, Drama, ,,no
+Julian Schnabel,Cunningham O'Keefe,Lázaro Gómez Carriles,Olatz López Garmendia,Giovanni Florido,Loló Navarro,36,N,73,84,2768814.0,Biography, Drama, Romance,,no
+Christopher Guest,Christopher Guest,Eugene Levy,Jay Brazeau,Parker Posey,Michael Hitchcock,25,N,95,89,1.6574225E7,Comedy, , ,,yesComedy
+Ben Younger,Ben Younger, ,Giovanni Ribisi,Vin Diesel,Nia Long,10,N,67,78, ,Crime, Drama, Thriller,,no
+Peyton Reed,Jessica Bendinger, ,Kirsten Dunst,Eliza Dushku,Jesse Bradford,9,N,63,66,6.790576E7,Comedy, Sport, ,,no
+Greg Berlanti,Greg Berlanti, ,Ben Weber,Timothy Olyphant,Matt McGrath,2,N,63,72, ,Comedy, Drama, Romance,,no
+Robert Zemeckis,William Broyles Jr., ,Paul Sanchez,Lari White,Leonid Citer,50,N,90,83, ,Adventure, Drama, Romance,,no
+McG,Ryan Rowe,Ed Solomon,Cameron Diaz,Drew Barrymore,Lucy Liu,40,Y,68,45,1.24420707E8,Action, Adventure, Comedy,,no
+Lasse Hallström,Joanne Harris,Robert Nelson Jacobs,Alfred Molina,Carrie-Anne Moss,Aurelien Parent Koenig,42,N,63,83, ,Drama, Romance, ,,yesComedy
+Rod Lurie,Rod Lurie, ,Gary Oldman,Joan Allen,Jeff Bridges,23,N,76,73,1.6120906E7,Drama, Thriller, ,,no
+Eric Leighton, Ralph Zondag,Thom Enriquez,John Harrison,D.B. Sweeney,Alfre Woodard,Ossie Davis,24,N,65,47,1.35606304E8,Animation, Adventure, Family,,no
+Mark Dindal,Chris Williams,Mark Dindal,David Spade,John Goodman,Eartha Kitt,36,N,85,83,8.7320505E7,Animation, Adventure, Comedy,,no
+Steven Soderbergh,Susannah Grant, ,Julia Roberts,David Brisbin,Dawn Didawick,89,N,84,80, ,Biography, Drama, ,,yesDrama
+Gus Van Sant,Mike Rich, ,Sean Connery,Rob Brown,F. Murray Abraham,18,N,74,79,5.1370406E7,Drama, , ,,no
+Gregory Hoblit,Toby Emmerich, ,Dennis Quaid,Jim Caviezel,Shawn Doyle,10,N,70,81, ,Crime, Drama, Mystery,,no
+Karyn Kusama,Karyn Kusama, ,Michelle Rodriguez,Jaime Tirelli,Paul Calderon,31,N,87,74,778046.0,Drama, Sport, ,,no
+Ridley Scott,David Franzoni,David Franzoni,Russell Crowe,Joaquin Phoenix,Connie Nielsen,159,N,76,87, ,Action, Adventure, Drama,,yesDrama
+Stephen Frears,Nick Hornby,D.V. DeVincentis,John Cusack,Iben Hjejle,Todd Louiso,25,N,91,90, ,Comedy, Drama, Music,,no
+Terence Davies,Edith Wharton,Terence Davies,Gillian Anderson,Dan Aykroyd,Eleanor Bron,35,N,81,72, ,Romance, Drama, ,,no
+Michael Kalesniko,Michael Kalesniko, ,Kenneth Branagh,Robin Wright,Suzi Hofrichter,6,N,59,74, ,Comedy, Drama, ,,no
+Stanley Tucci,Joseph Mitchell,Howard A. Rodman,Ian Holm,Stanley Tucci,Hope Davis,0,N,67,64, ,Drama, , ,,no
+Edward Norton,Stuart Blumberg, ,Ben Stiller,Edward Norton,Jenna Elfman,7,N,69,59, ,Comedy, Drama, Romance,,no
+Gina Prince-Bythewood,Gina Prince-Bythewood, ,Glenndon Chatman,Jess Willard,Chris Warren,27,N,82,95, ,Drama, Romance, Sport,,no
+Jay Roach,Greg Glienna,Mary Ruth Clarke,Robert De Niro,Ben Stiller,Teri Polo,22,N,84,79,1.64454835E8,Comedy, Romance, ,,no
+Christopher Nolan,Christopher Nolan,Jonathan Nolan,Guy Pearce,Carrie-Anne Moss,Joe Pantoliano,111,N,92,94,2.384422E7,Mystery, Thriller, ,,no
+Jay Russell,Willie Morris,Gail Gilchriest,Frankie Muniz,Diane Lane,Luke Wilson,11,N,73,67, ,Drama, Family, Sport,,no
+Neil LaBute,John C. Richards,John C. Richards,Morgan Freeman,Renée Zellweger,Chris Rock,19,N,84,44, ,Comedy, Crime, Drama,,no
+Jim McKay,Jim McKay, ,Melissa Martinez,Anna Simpson,Kerry Washington,7,N,90,81, ,Drama, , ,,no
+Henry Bromell,Henry Bromell, ,William H. Macy,John Ritter,Neve Campbell,2,N,91,61, ,Comedy, Crime, Drama,,no
+"2001"
+Steven Spielberg,Brian Aldiss,Ian Watson,Haley Joel Osment,Frances O'Connor,Sam Robards,82,N,73,64, ,Adventure, Drama, Sci-Fi,,no
+Michael Mann,Gregory Allen Howard,Stephen J. Rivele,Will Smith,Jamie Foxx,Jon Voight,37,N,67,65,5.8183966E7,Biography, Drama, Sport,,no
+Alan Cumming, Jennifer Jason Leigh,Jennifer Jason Leigh,Alan Cumming,Alan Cumming,Jennifer Jason Leigh,Otis,7,N,60,58,2974308.0,Comedy, Drama, Romance,,no
+John Singleton,John Singleton, ,Tyrese Gibson,Taraji P. Henson,Omar Gooding,15,N,71,87,2.7823989E7,Crime, Drama, Romance,,no
+Barry Levinson,Harley Peyton, ,Bruce Willis,Billy Bob Thornton,Cate Blanchett,11,N,64,58,4.1176738E7,Comedy, Crime, Drama,,no
+Ron Howard,Akiva Goldsman,Sylvia Nasar,Russell Crowe,Ed Harris,Jennifer Connelly,100,N,75,93, ,Biography, Drama, ,,yesDrama
+Henry Bean,Henry Bean,Henry Bean,Ryan Gosling,Peter Meadows,Garret Dillahunt,16,N,82,82, ,Drama, , ,,no
+Ridley Scott,Mark Bowden,Ken Nolan,Josh Hartnett,Ewan McGregor,Tom Sizemore,47,N,76,88,1.08585355E8,Drama, History, War,,no
+Gary Hardwick,Gary Hardwick, ,Morris Chestnut,D.L. Hughley,Bill Bellamy,9,N,63,86,2.6553854E7,Comedy, Drama, ,,no
+Gregor Jordan,Robert O'Connor,Gregor Jordan,Joaquin Phoenix,Ed Harris,Scott Glenn,7,N,73,72, ,Comedy, Crime, Drama,,no
+Patrick Stettner,Patrick Stettner, ,Stockard Channing,Julia Stiles,Frederick Weller,10,N,80,51,495907.0,Drama, Thriller, ,,no
+Peter Bogdanovich,Steven Peros,Steven Peros,Kirsten Dunst,Edward Herrmann,Eddie Izzard,2,N,75,51,3176936.0,Drama, Romance, ,,no
+Roman Coppola,Roman Coppola, ,Jeremy Davies,Angela Lindvall,Élodie Bouchez,1,N,67,69,301194.0,Drama, Comedy, Sci-Fi,,no
+John Stockwell,Phil Hay,Matt Manfredi,Kirsten Dunst,Jay Hernandez,Bruce Davison,5,N,63,69,1.6162786E7,Drama, Romance, ,,no
+Scott McGehee, David Siegel,Elisabeth Sanxay Holding,Scott McGehee,Tilda Swinton,Goran Visnjic,Jonathan Tucker,23,N,82,58,8301918.0,Crime, Drama, Mystery,,no
+Richard Kelly,Richard Kelly, ,Jake Gyllenhaal,Holmes Osborne,Maggie Gyllenhaal,26,N,85,80, ,Drama, Sci-Fi, Thriller,,no
+Sam Irvin,Cassandra Peterson,Cassandra Peterson,Cassandra Peterson,Richard O'Brien,Mary Scheer,1,N,75,48, ,Comedy, Horror, ,,no
+Henry Jaglom,Victoria Foyt,Henry Jaglom,Anouk Aimée,Greta Scacchi,Maximilian Schell,0,N,65,34,41006.0,Comedy, , ,,no
+Jeff Probst,Jeff Probst,Jim Gulian,Erik Palladino,Ryan Reynolds,Dash Mihok,6,N,60,60, ,Drama, Thriller, ,,no
+Bill Paxton,Brent Hanley, ,Bill Paxton,Matthew McConaughey,Powers Boothe,21,N,73,79,1.3076378E7,Crime, Drama, Thriller,,no
+Terry Zwigoff,Daniel Clowes,Daniel Clowes,Thora Birch,Scarlett Johansson,Steve Buscemi,84,N,92,84,4694484.0,Comedy, Drama, ,,no
+Robert Altman,Julian Fellowes,Robert Altman,Maggie Smith,Michael Gambon,Kristin Scott Thomas,105,N,86,78,4.1274328E7,Comedy, Drama, Mystery,,yesComedy
+Tim Blake Nelson,Miklos Nyiszli,Tim Blake Nelson,David Arquette,Velizar Binev,David Chandler,4,N,68,74, ,Drama, History, War,,no
+Chris Columbus,J.K. Rowling,Steve Kloves,Richard Harris,Maggie Smith,Robbie Coltrane,80,N,80,82,3.17557891E8,Adventure, Family, Fantasy,,no
+John Cameron Mitchell,John Cameron Mitchell,Stephen Trask,John Cameron Mitchell,Miriam Shor,Stephen Trask,61,N,92,93,1547128.0,Comedy, Drama, Music,,no
+David Mamet,David Mamet, ,Gene Hackman,Danny DeVito,Delroy Lindo,0,N,66,60,2.3287872E7,Action, Crime, Drama,,no
+Todd Field,Robert Festinger,Todd Field,Tom Wilkinson,Sissy Spacek,Nick Stahl,112,N,93,81,3.5733119E7,Crime, Drama, ,,no
+John A. Davis,John A. Davis,Steve Oedekerk,Megan Cavanagh,Mark DeCarlo,Debi Derryberry,6,N,75,52,8.0865848E7,Animation, Action, Adventure,,no
+John Dahl,Clay Tarver,J.J. Abrams,Steve Zahn,Paul Walker,Leelee Sobieski,3,N,73,65,2.1254983E7,Mystery, Thriller, ,,no
+Charles Herman-Wurmfeld,Heather Juergensen,Jennifer Westfeldt,Jennifer Westfeldt,Tovah Feldshuh,Esther Wurmfeld,11,N,84,65,6960929.0,Comedy, Drama, Romance,,no
+Brian Helgeland,Brian Helgeland, ,Heath Ledger,Rufus Sewell,Shannyn Sossamon,14,N,58,79,5.5001689E7,Action, Adventure, History,,no
+Michael Cuesta,Stephen M. Ryder,Michael Cuesta,Paul Dano,Bruce Altman,Billy Kay,38,N,83,78, ,Crime, Drama, ,,no
+Peter Jackson,J.R.R. Tolkien,Fran Walsh,Alan Howard,Noel Appleby,Sean Astin,234,N,91,95,3.14E8,Adventure, Drama, Fantasy,,yesDrama
+Nicole Holofcener,Nicole Holofcener, ,Troy Ruptash,Emily Mortimer,Brenda Blethyn,17,N,86,63,4186931.0,Comedy, Drama, Romance,,no
+Joel Coen, Ethan Coen,Joel Coen,Ethan Coen,Billy Bob Thornton,Frances McDormand,Michael Badalucco,66,N,81,85,7408031.0,Crime, Drama, ,,yesDrama
+Mira Nair,Sabrina Dhawan, ,Naseeruddin Shah,Lillete Dubey,Shefali Shetty,18,N,95,87,1.4E7,Comedy, Drama, Romance,,no
+Marc Forster,Milo Addica,Will Rokos,Billy Bob Thornton,Taylor Simpson,Gabrielle Witcher,37,N,85,67,3.1252964E7,Drama, Romance, ,,no
+Baz Luhrmann,Baz Luhrmann,Craig Pearce,Nicole Kidman,Ewan McGregor,John Leguizamo,215,N,76,89,5.5093223E7,Drama, Musical, Romance,,yesComedy
+David Lynch,David Lynch, ,Naomi Watts,Jeanne Bates,Dan Birnbaum,103,N,82,88,7077663.0,Drama, Mystery, Thriller,,no
+Steven Soderbergh,George Clayton Johnson,Jack Golden Russell,George Clooney,Cecelia Ann Birt,Paul L. Nolan,24,N,82,80,1.83349128E8,Crime, Thriller, ,,no
+Alejandro Amenábar,Alejandro Amenábar, ,Nicole Kidman,Fionnula Flanagan,Christopher Eccleston,79,N,83,77,9.6080075E7,Horror, Thriller, ,,no
+Sean Penn,Friedrich Dürrenmatt,Jerzy Kromolowski,Patricia Clarkson,Beau Daniels,Benicio Del Toro,7,N,78,59,1.8894185E7,Crime, Drama, Mystery,,no
+Chuck Sheetz,Paul Germain,Joe Ansolabehere,Rickey D'Shon Collins,Jason Davis,Ashley Johnson,0,N,61,55,3.4801195E7,Animation, Family, Comedy,,no
+Wes Anderson,Wes Anderson,Owen Wilson,Gene Hackman,Anjelica Huston,Ben Stiller,56,N,80,89,5.2307676E7,Comedy, Drama, ,,no
+Frank Oz,Daniel E. Taylor,Kario Salem,Robert De Niro,Edward Norton,Marlon Brando,2,N,73,67,7.0307038E7,Crime, Drama, Thriller,,no
+Peter Chelsom,Marc Klein, ,John Cusack,Kate Beckinsale,Jeremy Piven,3,N,59,79,4.9968653E7,Comedy, Romance, ,,no
+Brad Anderson,Brad Anderson,Stephen Gevedon,David Caruso,Stephen Gevedon,Paul Guilfoyle,3,N,63,64, ,Horror, Mystery, ,,no
+Andrew Adamson, Vicky Jenson,William Steig,Ted Elliott,Mike Myers,Eddie Murphy,Cameron Diaz,97,N,88,90,2.66982666E8,Animation, Adventure, Comedy,,yesComedy
+Tony Scott,Michael Frost Beckner,Michael Frost Beckner,Robert Redford,Brad Pitt,Catherine McCormack,3,N,66,75,6.2326785E7,Action, Crime, Thriller,,no
+Robert Rodriguez,Robert Rodriguez, ,Antonio Banderas,Carla Gugino,Alexa PenaVega,12,N,93,46, ,Action, Adventure, Comedy,,no
+John Boorman,John le Carré,Andrew Davies,Pierce Brosnan,Geoffrey Rush,Jamie Lee Curtis,1,N,77,46,1.312307E7,Comedy, Drama, Thriller,,no
+Richard Linklater,Stephen Belber,Stephen Belber,Ethan Hawke,Robert Sean Leonard,Uma Thurman,2,N,78,76, ,Drama, , ,,no
+Jill Sprecher,Karen Sprecher,Jill Sprecher,Matthew McConaughey,David Connolly,Joseph Siravo,15,N,83,71,3004491.0,Drama, , ,,no
+David L. Cunningham,Ernest Gordon,Brian Godawa,Ciarán McMenamin,Robert Carlyle,Kiefer Sutherland,7,N,58,86, ,Action, Drama, War,,no
+Maria Ripoll,Hui-Ling Wang,Ang Lee,Jacqueline Obradors,Tamara Mello,Judy Herrera,9,N,74,70,2923596.0,Comedy, Romance, Drama,,no
+Antoine Fuqua,David Ayer, ,Denzel Washington,Ethan Hawke,Scott Glenn,37,N,72,89, ,Crime, Drama, Thriller,,no
+Jon Avnet,Paul Brickman,Jon Avnet,Leelee Sobieski,Hank Azaria,David Schwimmer,22,N,100,84, ,Drama, War, ,,no
+Richard Linklater,Richard Linklater, ,Trevor Jack Brooks,Lorelei Linklater,Wiley Wiggins,25,N,80,87,2063729.0,Animation, Drama, Fantasy,,no
+"2002"
+Spike Lee,David Benioff,David Benioff,Edward Norton,Philip Seymour Hoffman,Barry Pepper,19,N,78,85, ,Drama, , ,,no
+Curtis Hanson,Scott Silver, ,Eminem,Kim Basinger,Mekhi Phifer,34,N,76,54,1.1663803E8,Drama, Music, ,,no
+Chris Weitz, Paul Weitz,Nick Hornby,Peter Hedges,Hugh Grant,Nicholas Hoult,Sharon Small,40,N,94,54,4.0566655E7,Comedy, Drama, Romance,,yesComedy
+Alexander Payne,Louis Begley,Alexander Payne,Jack Nicholson,Kathy Bates,Hope Davis,93,N,85,74,6.5E7,Comedy, Drama, ,,yesDrama
+Spike Jonze,Susan Orlean,Charlie Kaufman,Nicolas Cage,Tilda Swinton,Meryl Streep,156,N,91,85,2.2184735E7,Comedy, Drama, ,,no
+Denzel Washington,Antwone Fisher, ,Derek Luke,Malcolm David Kelley,Cory Hodges,40,N,79,86,2.0813967E7,Biography, Drama, ,,no
+Paul Schrader,Robert Graysmith,Michael Gerbosi,Greg Kinnear,Willem Dafoe,Rita Wilson,6,N,72,60,1818622.0,Biography, Crime, Drama,,no
+Tim Story,Mark Brown,Mark Brown,Ice Cube,Anthony Anderson,Cedric the Entertainer,18,N,82,62,7.507495E7,Comedy, Drama, ,,no
+David Twohy,Lucas Sussman,Darren Aronofsky,Matthew Davis,Bruce Greenwood,Holt McCallany,2,N,63,44, ,Horror, Mystery, Thriller,,no
+Justin Lin,Ernesto Foronda,Justin Lin,Parry Shen,Jason Tobin,Shirley Anderson,3,N,81,79,3687324.0,Crime, Drama, Romance,,no
+Morag Fullarton,Jonathan Harvey, ,Sarah Lancashire,Emma Fielding,Mina Anwar,0,N,58,39,4919896.0,Drama, , ,,no
+Doug Liman,Tony Gilroy,W. Blake Herron,Matt Damon,Franka Potente,Chris Cooper,8,N,83,93,1.215E8,Action, Mystery, Thriller,,no
+Rick Famuyiwa,Michael Elliot,Michael Elliot,Taye Diggs,Sanaa Lathan,Yasiin Bey,20,N,66,90,2.7186836E7,Romance, Comedy, Drama,,no
+Don Coscarelli,Joe R. Lansdale,Don Coscarelli,Bruce Campbell,Ossie Davis,Ella Joyce,16,N,78,79, ,Comedy, Fantasy, Horror,,no
+Eli Roth,Eli Roth,Randy Pearlstein,Rider Strong,Jordan Ladd,James DeBello,13,N,63,44,2.1113424E7,Comedy, Horror, ,,no
+Steven Spielberg,Jeff Nathanson,Frank Abagnale Jr.,Leonardo DiCaprio,Tom Hanks,Christopher Walken,52,N,96,89,1.644E8,Biography, Crime, Drama,,no
+Roger Michell,Chap Taylor,Chap Taylor,Ben Affleck,Samuel L. Jackson,Kim Staunton,7,N,77,53,6.6650688E7,Drama, Thriller, ,,no
+Rob Marshall,Bill Condon,Bob Fosse,Taye Diggs,Cliff Saunders,Catherine Zeta-Jones,176,N,86,83, ,Comedy, Crime, Musical,,yesComedy
+George Clooney,Chuck Barris,Charlie Kaufman,Dick Clark,Sam Rockwell,Michelle Sweeney,18,N,79,75, ,Biography, Comedy, Crime,,no
+Kevin Reynolds,Alexandre Dumas père,Jay Wolpert,Jim Caviezel,Guy Pearce,Richard Harris,0,N,73,88,5.4111443E7,Action, Adventure, Drama,,no
+Vincenzo Natali,Brian King, ,Jeremy Northam,Lucy Liu,Nigel Bennett,8,N,58,65, ,Mystery, Romance, Sci-Fi,,no
+John Malkovich,Nicholas Shakespeare,Nicholas Shakespeare,Javier Bardem,Juan Diego Botto,Laura Morante,4,N,64,77,2400000.0,Drama, Thriller, Crime,,no
+Ron Shelton,James Ellroy,David Ayer,Kurt Russell,Scott Speedman,Michael Michele,4,N,58,52,9059588.0,Crime, Drama, Romance,,no
+Charles Stone III,Shawn Schepps,Tina Gordon Chism,Nick Cannon,Zoe Saldana,Orlando Jones,12,N,82,70,5.6178945E7,Comedy, Drama, Romance,,no
+Bruce Beresford,Paul Pender, ,Sophie Vavasseur,Niall Beagan,Hugh McDonagh,9,N,64,78,1341151.0,Drama, , ,,no
+Todd Haynes,Todd Haynes, ,Julianne Moore,Dennis Quaid,Dennis Haysbert,190,N,87,79,1.59E7,Drama, Romance, ,,no
+Julie Taymor,Hayden Herrera,Clancy Sigal,Salma Hayek,Mía Maestro,Alfred Molina,58,N,76,86,2.5681203E7,Biography, Drama, Romance,,no
+Martin Scorsese,Jay Cocks,Jay Cocks,Leonardo DiCaprio,Daniel Day-Lewis,Cameron Diaz,175,N,75,81,7.7605296E7,Crime, Drama, History,,yesDrama
+Jim Simpson,Anne Nelson,Anne Nelson,Sigourney Weaver,Anthony LaPaglia,Irene Walsh,3,N,73,61, ,Drama, , ,,no
+Chris Columbus,J.K. Rowling,Steve Kloves,Daniel Radcliffe,Rupert Grint,Emma Watson,53,N,82,80,2.61835892E8,Adventure, Family, Fantasy,,no
+Gregory Hoblit,John Katzenbach,Billy Ray,Bruce Willis,Colin Farrell,Terrence Howard,1,N,60,48,1.9003827E7,Drama, War, ,,no
+Stephen Daldry,Michael Cunningham,David Hare,Nicole Kidman,Julianne Moore,Meryl Streep,162,N,81,84,4.1465765E7,Drama, Romance, ,,yesDrama
+Mira Nair,Laura Cahill,Laura Cahill,Uma Thurman,Gena Rowlands,Juliette Lewis,22,N,70,62, ,Drama, , ,,no
+Chris Wedge, Carlos Saldanha,Michael J. Wilson,Michael Berg,Ray Romano,John Leguizamo,Denis Leary,34,N,77,82,1.764E8,Animation, Adventure, Comedy,,no
+Burr Steers,Burr Steers, ,Kieran Culkin,Claire Danes,Jeff Goldblum,24,N,75,80,4624014.0,Comedy, Drama, ,,no
+Bob Gale,Bob Gale, ,Matthew Edison,Paul Brogren,Wayne Robson,7,N,80,86, ,Adventure, Comedy, Drama,,no
+Christopher Nolan,Hillary Seitz,Nikolaj Frobenius,Al Pacino,Martin Donovan,Oliver 'Ole' Zemen,11,N,92,76,6.73E7,Drama, Mystery, Thriller,,no
+Mike Nawrocki, Phil Vischer,Phil Vischer,Mike Nawrocki,Phil Vischer,Mike Nawrocki,Tim Hodge,1,N,65,74,2.5408198E7,Animation, Adventure, Comedy,,no
+Kathryn Bigelow,Louis Nowra,Christopher Kyle,Sam Spruell,Peter Stebbings,Christian Camargo,3,N,60,52,3.5100183E7,Drama, History, Thriller,,no
+Moisés Kaufman,Moisés Kaufman,Moisés Kaufman,Kathleen Chalfant,Laura Linney,Peter Fonda,22,N,92,80, ,Drama, Crime, ,,no
+Lisa Cholodenko,Lisa Cholodenko, ,Frances McDormand,Christian Bale,Kate Beckinsale,7,N,68,53,3596939.0,Drama, , ,,no
+Dean DeBlois, Chris Sanders,Chris Sanders,Chris Sanders,Daveigh Chase,Chris Sanders,Tia Carrere,38,N,86,77,1.45771527E8,Animation, Adventure, Comedy,,no
+Peter Jackson,J.R.R. Tolkien,Fran Walsh,Bruce Allpress,Sean Astin,John Bach,243,N,96,95,3.397E8,Adventure, Drama, Fantasy,,yesDrama
+Steven Spielberg,Philip K. Dick,Scott Frank,Tom Cruise,Max von Sydow,Steve Harris,95,N,90,80,1.32E8,Action, Mystery, Sci-Fi,,no
+Brad Silberling,Brad Silberling, ,Jake Gyllenhaal,Dustin Hoffman,Susan Sarandon,7,N,63,66, ,Drama, Romance, ,,no
+Joel Zwick,Nia Vardalos, ,Nia Vardalos,Michael Constantine,Christina Eleusiniotis,48,N,76,73,2.41250669E8,Comedy, Family, Romance,,yesComedy
+Joe Carnahan,Joe Carnahan, ,Dan Leis,Jason Patric,Lloyd Adams,9,N,83,79,1.0237964E7,Crime, Drama, Mystery,,no
+Douglas McGrath,Charles Dickens,Douglas McGrath,Stella Gonet,Andrew Havill,Henry McGrath,6,N,77,75,1309849.0,Drama, Romance, ,,yesComedy
+David Fincher,David Koepp, ,Jodie Foster,Kristen Stewart,Forest Whitaker,10,N,76,63,9.5308367E7,Crime, Drama, Thriller,,no
+Neil LaBute,A.S. Byatt,David Henry Hwang,Gwyneth Paltrow,Aaron Eckhart,Jeremy Northam,1,N,65,58,1.0058448E7,Drama, Mystery, Romance,,no
+Craig McCracken,Charlie Bean,Lauren Faust,Cathy Cavadini,Tara Strong,Elizabeth Daily,0,N,63,57,1.1321595E7,Animation, Action, Adventure,,no
+Paul Thomas Anderson,Paul Thomas Anderson, ,Adam Sandler,Jason Andrews,Don McManus,49,N,79,77,1.78E7,Comedy, Drama, Romance,,no
+Phillip Noyce,Graham Greene,Christopher Hampton,Michael Caine,Brendan Fraser,Do Thi Hai Yen,27,N,87,73, ,Drama, History, Mystery,,no
+Patricia Cardoso,Josefina Lopez,George LaVoo,America Ferrera,Lupe Ontiveros,Ingrid Oliu,11,N,83,75,5677043.0,Comedy, Drama, ,,no
+Brett Ratner,Thomas Harris,Ted Tally,Anthony Hopkins,Edward Norton,Ralph Fiennes,14,N,69,74,9.2930005E7,Crime, Drama, Thriller,,no
+Gore Verbinski,Ehren Kruger,Kôji Suzuki,Naomi Watts,Martin Henderson,David Dorfman,25,N,72,48,1.28579698E8,Horror, Mystery, ,,no
+Liliana Cavani,Charles McKeown,Liliana Cavani,Ray Winstone,John Malkovich,Uwe Mansshardt,3,N,96,67, ,Crime, Drama, Mystery,,no
+Sam Mendes,Max Allan Collins,Richard Piers Rayner,Tyler Hoechlin,Rob Maxey,Liam Aiken,96,N,81,86,1.04054514E8,Crime, Drama, History,,no
+Dylan Kidd,Dylan Kidd, ,Campbell Scott,Jesse Eisenberg,Isabella Rossellini,26,N,88,76,1169941.0,Comedy, Drama, ,,no
+John Lee Hancock,Mike Rich, ,Dennis Quaid,Rachel Griffiths,Jay Hernandez,9,N,83,70,7.5456736E7,Drama, Family, Sport,,no
+D.J. Caruso,Tony Gayton, ,Val Kilmer,Vincent D'Onofrio,Adam Goldberg,1,N,62,83,626750.0,Crime, Drama, Mystery,,no
+Alan Rudolph,Jane Smiley,Craig Lucas,Campbell Scott,Denis Leary,Robin Tunney,9,N,85,57,3637833.0,Drama, , ,,no
+Steven Shainberg,Erin Cressida Wilson,Mary Gaitskill,James Spader,Maggie Gyllenhaal,Jeremy Davies,41,N,75,82,3806471.0,Comedy, Drama, Romance,,no
+Lindy Heymann, Christian Taylor,Christian Taylor,Lindy Heymann,Christian Taylor,Lindy Heymann,Joe Daley,2,N,73,33, ,Comedy, Drama, ,,no
+M. Night Shyamalan,M. Night Shyamalan, ,Mel Gibson,Joaquin Phoenix,Rory Culkin,33,N,74,67,2.27935522E8,Drama, Mystery, Sci-Fi,,no
+Steven Soderbergh,Stanislaw Lem,Steven Soderbergh,George Clooney,Natascha McElhone,Viola Davis,13,N,66,59,1.4780776E7,Drama, Mystery, Romance,,no
+Sam Raimi,Stan Lee,Steve Ditko,Tobey Maguire,Willem Dafoe,Kirsten Dunst,72,N,89,67,4.03706375E8,Action, Adventure, ,,no
+Kelly Asbury, Lorna Cook,John Fusco, ,Matt Damon,James Cromwell,Daniel Studi,29,N,69,76,7.321531E7,Animation, Adventure, Family,,no
+George Lucas,George Lucas,Jonathan Hales,Ewan McGregor,Natalie Portman,Hayden Christensen,70,N,65,58,3.079E8,Action, Adventure, Fantasy,,no
+Rob Minkoff,E.B. White,Douglas Wick,Michael J. Fox,Geena Davis,Hugh Laurie,5,N,81,41,6.4736114E7,Animation, Adventure, Comedy,,no
+Phil Alden Robinson,Tom Clancy,Paul Attanasio,Ian Mongrain,Russell Bobbitt,James Cromwell,6,N,59,49,1.1847132E8,Action, Drama, Thriller,,no
+John Sayles,John Sayles, ,Alex Lewis,Alan King,Cullen Douglas,10,N,80,56,2836157.0,Drama, Romance, ,,no
+Ron Clements, John Musker,Robert Louis Stevenson,Ron Clements,Roscoe Lee Browne,Corey Burton,Dane A. Davis,15,N,69,70,3.8120554E7,Animation, Adventure, Family,,no
+Jay Russell,Natalie Babbitt,Jeffrey Lieber,Alexis Bledel,William Hurt,Sissy Spacek,4,N,61,70,1.9032871E7,Drama, Romance, Family,,no
+Malcolm D. Lee,John Ridley,John Ridley,Eddie Griffin,Chris Kattan,Denise Richards,8,N,77,64,3.8230435E7,Action, Comedy, ,,no
+Randall Wallace,Harold G. Moore,Joseph L. Galloway,Mel Gibson,Madeleine Stowe,Greg Kinnear,7,N,63,84,7.8064284E7,Action, Drama, History,,no
+Peter Kosminsky,Janet Fitch,Mary Agnes Donoghue,Amy Aquino,John Billingsley,Elisa Bocanegra,10,N,70,81,1.6297019E7,Drama, , ,,no
+Cathy Malkasian, Jeff McGrath,Arlene Klasky,Gabor Csupo,Lacey Chabert,Tom Kane,Cree Summer,11,N,80,50,3.976644E7,Adventure, Animation, Family,,no
+"2003"
+Greg Marcks,Greg Marcks, ,Henry Thomas,Blake Heron,Barbara Hershey,6,N,92,76, ,Comedy, Crime, Drama,,no
+Alejandro G. Iñárritu,Guillermo Arriaga, ,Sean Penn,Naomi Watts,Danny Huston,102,N,80,86,1.616292E7,Drama, , ,,no
+David Gordon Green,David Gordon Green,Paul Schneider,Paul Schneider,Zooey Deschanel,Shea Whigham,14,N,71,78, ,Drama, Romance, ,,no
+Shari Springer Berman, Robert Pulcini,Harvey Pekar,Joyce Brabner,Chris Ambrose,Joey Krajcar,Josh Hutcherson,79,N,94,86,5977550.0,Biography, Comedy, Drama,,no
+Mario Van Peebles,Melvin Van Peebles,Mario Van Peebles,Mario Van Peebles,Joy Bryant,T.K. Carter,13,N,91,84,300000.0,Biography, Drama, ,,no
+Terry Zwigoff,Glenn Ficarra,John Requa,Billy Bob Thornton,Tony Cox,Brett Kelly,13,N,78,75, ,Comedy, Crime, Drama,,no
+Tim Burton,Daniel Wallace,John August,Ewan McGregor,Albert Finney,Billy Crudup,64,N,77,89,6.6257002E7,Adventure, Drama, Fantasy,,yesComedy
+LeVar Burton,Agnes Bristow,Leif Bristow,Paul Bates,Brenda Blethyn,Brittany Bristow,7,N,60,53, ,Comedy, Family, ,,no
+Todd Graff,Todd Graff, ,Daniel Letterle,Joanna Chilcoat,Robin de Jesus,6,N,63,68,1566968.0,Comedy, Musical, Drama,,no
+John Sayles,John Sayles, ,Angelina Peláez,Lizzie Curry Martinez,Vanessa Martinez,1,N,58,50,312136.0,Drama, , ,,no
+Jim Jarmusch,Jim Jarmusch, ,Roberto Benigni,Steven Wright,Joie Lee,9,N,65,75,1971135.0,Comedy, Drama, Music,,no
+Anthony Minghella,Charles Frazier,Anthony Minghella,Jude Law,Nicole Kidman,Renée Zellweger,110,N,71,77, ,Adventure, Drama, History,,yesDrama
+Robert Altman,Neve Campbell,Barbara Turner,Neve Campbell,Malcolm McDowell,James Franco,2,N,71,49, ,Drama, Music, Romance,,no
+James Foley,Doug Jung, ,Edward Burns,Rachel Weisz,Morris Chestnut,0,N,70,70,1.2148629E7,Crime, Thriller, ,,no
+Wayne Kramer,Frank Hannah,Wayne Kramer,William H. Macy,Alec Baldwin,Maria Bello,35,N,77,70,8179538.0,Crime, Drama, Fantasy,,no
+Peyton Reed,Eve Ahlert,Dennis Drake,Renée Zellweger,Ewan McGregor,Sarah Paulson,11,N,100,N/A, ,Comedy, Romance, ,,no
+Gus Van Sant,Gus Van Sant, ,Alex Frost,Eric Deulen,John Robinson,19,N,72,79,1189207.0,Crime, Drama, Thriller,,no
+Jon Favreau,David Berenbaum, ,Will Ferrell,James Caan,Bob Newhart,9,N,84,78,1.734E8,Comedy, Family, Fantasy,,no
+Andrew Stanton, Lee Unkrich,Andrew Stanton,Andrew Stanton,Albert Brooks,Ellen DeGeneres,Alexander Gould,105,N,99,86,3.8052937E8,Animation, Adventure, Comedy,,yesComedy
+Mark Waters,Mary Rodgers,Heather Hach,Jamie Lee Curtis,Lindsay Lohan,Mark Harmon,15,N,88,57,1.10180505E8,Comedy, Family, Fantasy,,no
+Andrew Davis,Louis Sachar,Louis Sachar,Sigourney Weaver,Jon Voight,Tim Blake Nelson,12,N,77,76,6.7325559E7,Adventure, Comedy, Drama,,no
+Vadim Perelman,Andre Dubus III,Vadim Perelman,Jennifer Connelly,Ben Kingsley,Ron Eldard,52,N,75,83,1.2924917E7,Drama, , ,,no
+Ang Lee,Stan Lee,Jack Kirby,Eric Bana,Jennifer Connelly,Sam Elliott,12,N,61,29,1.32122995E8,Action, Sci-Fi, ,,no
+James Mangold,Michael Cooney, ,John Cusack,Ray Liotta,Amanda Peet,9,N,62,75,5.1475962E7,Mystery, Thriller, ,,no
+Joel Coen, Ethan Coen,Robert Ramsey,Matthew Stone,George Clooney,Catherine Zeta-Jones,Geoffrey Rush,3,N,75,48,3.509619E7,Comedy, Crime, Romance,,no
+F. Gary Gray,Troy Kennedy-Martin,Donna Powers,Mark Wahlberg,Charlize Theron,Donald Sutherland,14,N,73,80,1.05996316E8,Action, Crime, Thriller,,no
+Edward Zwick,John Logan,John Logan,Ken Watanabe,Tom Cruise,William Atherton,77,N,66,83,1.11E8,Action, Drama, History,,no
+Peter Jackson,J.R.R. Tolkien,Fran Walsh,Noel Appleby,Ali Astin,Sean Astin,298,N,95,86,3.64E8,Adventure, Drama, Fantasy,,yesDrama
+Sofia Coppola,Sofia Coppola, ,Scarlett Johansson,Bill Murray,Akiko Takeshita,212,N,95,86,4.4566004E7,Drama, , ,,yesComedy
+Peter Weir,Patrick O'Brian,Peter Weir,Russell Crowe,Paul Bettany,James D'Arcy,103,N,85,80,9.21E7,Action, Adventure, Drama,,yesDrama
+Ridley Scott,Eric Garcia,Nicholas Griffin,Nicolas Cage,Sam Rockwell,Alison Lohman,3,N,82,74,3.6873198E7,Crime, Drama, Thriller,,no
+Lana Wachowski, Lilly Wachowski,Lilly Wachowski,Lana Wachowski,Ray Anthony,Christine Anu,Andy Arness,29,N,73,72,2.815E8,Action, Sci-Fi, ,,no
+Christopher Guest,Christopher Guest,Eugene Levy,Jim Moret,Stuart Luce,Mary Gross,39,N,88,75,1.7475811E7,Comedy, Music, ,,no
+Ron Howard,Thomas Eidson,Ken Kaufman,Tommy Lee Jones,Cate Blanchett,Evan Rachel Wood,10,N,58,50,2.69E7,Adventure, Thriller, Western,,no
+Patty Jenkins,Patty Jenkins, ,Charlize Theron,Christina Ricci,Bruce Dern,50,N,82,81,3.4187787E7,Biography, Crime, Drama,,no
+Michael Davis,Michael Davis, ,Eric Jungmann,Justin Urich,Aimee Brooks,0,N,60,49, ,Adventure, Comedy, Horror,,no
+Clint Eastwood,Brian Helgeland,Dennis Lehane,Sean Penn,Tim Robbins,Kevin Bacon,186,N,87,89,8.88E7,Crime, Drama, Mystery,,yesDrama
+Todd Phillips,Court Crandall,Todd Phillips,Luke Wilson,Will Ferrell,Vince Vaughn,5,N,60,86,7.4608545E7,Comedy, , ,,no
+Robert Rodriguez,Robert Rodriguez, ,Antonio Banderas,Salma Hayek,Johnny Depp,7,N,68,64,5.59E7,Action, Thriller, ,,no
+Kevin Costner,Lauran Paine,Craig Storper,Robert Duvall,Kevin Costner,Annette Bening,5,N,79,83,5.8260046E7,Drama, Romance, Western,,no
+Chris Kentis,Chris Kentis, ,Blanchard Ryan,Daniel Travis,Saul Stein,8,N,72,32,3.0500882E7,Adventure, Biography, Drama,,no
+P.J. Hogan,J.M. Barrie,P.J. Hogan,Jason Isaacs,Jeremy Sumpter,Rachel Hurd-Wood,15,N,77,74,4.841785E7,Adventure, Family, Fantasy,,no
+Peter Hedges,Peter Hedges, ,Katie Holmes,Derek Luke,Oliver Platt,37,N,84,73,2400000.0,Comedy, Drama, ,,no
+Francis Glebas,Brian Hohlfeld,A.A. Milne,John Fiedler,Jim Cummings,Andre Stojka,1,N,71,64,2.3073611E7,Animation, Adventure, Family,,no
+Gore Verbinski,Ted Elliott,Terry Rossio,Johnny Depp,Geoffrey Rush,Orlando Bloom,124,N,79,86,3.05343252E8,Action, Adventure, Fantasy,,no
+Gary Fleder,John Grisham,Brian Koppelman,John Cusack,Gene Hackman,Dustin Hoffman,3,N,72,75,4.923811E7,Drama, Thriller, ,,no
+Peter Berg,R.J. Stewart,R.J. Stewart,Dwayne Johnson,Seann William Scott,Rosario Dawson,5,N,70,66,4.7592825E7,Action, Adventure, Comedy,,no
+Richard Linklater,Mike White, ,Jack Black,Adam Pascal,Lucas Papaelias,26,N,92,64,8.12E7,Comedy, Music, ,,no
+Gary Ross,Laura Hillenbrand,Gary Ross,David McCullough,Jeff Bridges,Paul Vincent O'Connor,49,N,77,76,1.20147445E8,Drama, History, Sport,,yesDrama
+Tim McCanlies,Tim McCanlies, ,Michael Caine,Robert Duvall,Haley Joel Osment,6,N,59,84,4.140747E7,Comedy, Drama, Family,,no
+David Dobkin,Alfred Gough,Miles Millar,Jackie Chan,Owen Wilson,Aaron Taylor-Johnson,4,N,66,54,6.0447592E7,Action, Adventure, Comedy,,no
+Billy Ray,Buzz Bissinger,Billy Ray,Hayden Christensen,Peter Sarsgaard,Chloë Sevigny,39,N,91,79,2105024.0,Drama, History, ,,no
+Nancy Meyers,Nancy Meyers, ,Jack Nicholson,Diane Keaton,Keanu Reeves,20,N,71,69,1.214E8,Comedy, Drama, Romance,,no
+Tom McCarthy,Tom McCarthy, ,Peter Dinklage,Paul Benjamin,Jase Blankfort,60,N,95,89, ,Comedy, Drama, ,,no
+Jonathan Mostow,James Cameron,Gale Anne Hurd,Arnold Schwarzenegger,Nick Stahl,Claire Danes,19,N,70,46,1.50252753E8,Action, Sci-Fi, ,,no
+Catherine Hardwicke,Catherine Hardwicke,Nikki Reed,Nikki Reed,Evan Rachel Wood,Vanessa Hudgens,60,N,81,77,4500238.0,Drama, , ,,no
+Audrey Wells,Frances Mayes,Audrey Wells,Diane Lane,Sandra Oh,Lindsay Duncan,5,N,62,79,4.3452354E7,Comedy, Drama, Romance,,no
+Glen Morgan,Glen Morgan,Gilbert Ralston,Crispin Glover,R. Lee Ermey,Laura Harring,5,N,64,51,6779751.0,Drama, Horror, Sci-Fi,,no
+"2004"
+Gary Winick,Josh Goldsmith,Cathy Yuspa,Jennifer Garner,Mark Ruffalo,Judy Greer,11,N,64,71,5.46E7,Comedy, Fantasy, Romance,,no
+Adam McKay,Will Ferrell,Adam McKay,Will Ferrell,Christina Applegate,Pa

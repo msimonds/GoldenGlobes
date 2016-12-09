@@ -1,4 +1,4 @@
-"Title","Director","Cast (Subject of documentary)","Genre","Notes"
+﻿"Title","Director","Cast (Subject of documentary)","Genre","Notes"
 "13 Moons","Alexandre Rockwell","Jennifer Beals, Elizabeth Bracco, Steve Buscemi","Comedy, Drama",""
 "25th Hour","Spike Lee","Edward Norton, Philip Seymour Hoffman, Barry Pepper, Rosario Dawson, Anna Paquin, Brian Cox","Drama","Based on a novel by David Benioff"
 "40 Days and 40 Nights","Michael Lehmann","Josh Hartnett, Shannyn Sossamon, Paulo Costanzo","Comedy",""
@@ -6,7 +6,7 @@
 "Abandon","Stephen Gaghan","Katie Holmes, Benjamin Bratt, Zooey Deschanel","Drama, thriller","Based on Adams Fall by Sean Desmond"
 "About a Boy","Chris Weitz, Paul Weitz","Hugh Grant, Nicholas Hoult, Toni Collette","Comedy, Drama","Based on a novel by Nick Hornby"
 "About Schmidt","Alexander Payne","Jack Nicholson, Kathy Bates, Hope Davis, Len Cariou, Dermot Mulroney, June Squibb","Comedy, Drama","Based on a novel by Louis Begley"
-"Adaptation.","Spike Jonze","Nicolas Cage, Meryl Streep, Chris Cooper","Comedy, Drama","based on The Orchid Thief by Susan Orlean; Oscar for Cooper"
+"Adaptation","Spike Jonze","Nicolas Cage, Meryl Streep, Chris Cooper","Comedy, Drama","based on The Orchid Thief by Susan Orlean; Oscar for Cooper"
 "The Adventures of Pluto Nash","Ron Underwood","Eddie Murphy, Randy Quaid, Rosario Dawson, Joe Pantoliano, Peter Boyle, Pam Grier, James Rebhorn, Jay Mohr, Burt Young, John Cleese","Comedy, Science fiction","Warner Bros. Pictures, Village Roadshow Pictures; 5 Razzie nominations"
 "All About the Benjamins","Kevin Bray","Ice Cube, Mike Epps, Eva Mendes","Action, Comedy",""
 "Analyze That","Harold Ramis","Robert De Niro, Billy Crystal, Lisa Kudrow","Comedy","Preceded by Analyze This"
@@ -20,6 +20,7 @@
 "The Banger Sisters","Bob Dolman","Goldie Hawn, Susan Sarandon, Geoffrey Rush","Comedy",""
 "Barbershop","Tim Story","Ice Cube, Cedric the Entertainer","Comedy",""
 "Below","David Twohy","Bruce Greenwood, Olivia Williams, Matthew Davis","War, Horror",""
+"The Pianist", , , , 
 "Better Luck Tomorrow","Justin Lin","Parry Shen, Jason Tobin, Sung Kang","Crime drama",""
 "Big Fat Liar","Shawn Levy","Frankie Muniz, Paul Giamatti, Amanda Bynes","Comedy, Family",""
 "Big Trouble","Barry Sonnenfeld","Tim Allen, Rene Russo, Stanley Tucci, Dennis Farina, Jason Lee, Tom Sizemore, Omar Epps, Zooey Deschanel, Ben Foster, Sofia Vergara","Comedy, Crime","based on a novel by Dave Barry"
