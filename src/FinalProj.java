@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -24,21 +23,24 @@ public class FinalProj {
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
 		nominationsMap("Golden Globe Nominations 1991-2016.txt");
 		HashMap<String, HashMap<String, String>> n = Nominations;
-		double minRate = 58.0;
+		double minRate = 53.0;
 		File movieFile = new File("TrainMovies.csv");
 		PrintWriter movies = new PrintWriter(movieFile);
 		File dirFile = new File("TrainDirectors.csv");
 		PrintWriter directors = new PrintWriter(dirFile);
-		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev, AudienceRev,Income,Genre1,Genre2,Genre3";
-		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3";
+		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev,AudienceRev,Income,Genre1,Genre2,Genre3,Label";
+		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3,Label";
 		
 		movies.println(bestPicAtts);
+		directors.println(dirAtts);
 		File mTestFile = new File("TestMovies.csv");
 		PrintWriter movieTest = new PrintWriter(mTestFile);
 		File dTestFile = new File("TestDirectors.csv");
 		PrintWriter directorsTest = new PrintWriter(dTestFile);
+		movieTest.println(bestPicAtts);
+		directorsTest.println(dirAtts);
 		//Loop through the text files w/ movie titles (1990-2014 for training)
-		for(int i=1990; i<2016;i++){
+		for(int i=2004; i<2010;i++){
 			String year = Integer.toString(i);
 			//Organize by year. Put year in quotes to isolate from movie titles starting with numbers.
 			movies.println("\"" + year + "\"");
@@ -62,60 +64,70 @@ public class FinalProj {
 				} catch(Exception e){
 					tomato=0.0;
 				}
+				Double imdb=-1.0;
+				if (tomato==0.0){
+					try{
+						imdb = Double.parseDouble((String) json.get("imdbRating"));
+					} catch(Exception e){
+						imdb = 0.0;
+					}
+				}
+				if (title.equals("Nine")||title.equals("Bobby")||title.equals("The Producers")||title.equals("The Phantom of the Opera")||title.equals("Ready to Wear")||title.equals("Patch Adams")){
+					tomato = 56.0;
+				}
 				String genre;
 				try{
 					genre = json.get("Genre").toString();
 				} catch(Exception e){
      					genre = "irrelevant";                           
                                 }
-				if (tomato >= minRate && !genre.contains("Documentary")){
+				if ((tomato >= minRate || imdb >= 5.1) && !genre.contains("Documentary")){
 					String series = "N";
 					if(notes.contains("sequel")||notes.contains("installation")||notes.contains("series")){
 						series = "Y";
 					}
-					 String instanceStr = getDataMovies(json,series);
-					 System.out.println(instanceStr);
-					 String thisLabel;
-					 String ggyear = Integer.toString((Integer.parseInt(year)+1));
-					 System.out.println(Nominations.get(ggyear));
-                     			if (Nominations.get(ggyear).containsKey(title)){
-                             			if (Nominations.get(ggyear).get(title).contains("Drama")){
-                                     			thisLabel = "yesDrama";
+					String instanceStr = getDataMovies(json,series);
+	               			//String instanceDirStr = getDataDir(json);
+					//System.out.println(instanceStr);
+					String thisMovieLabel;
+					String thisDirLabel;
+                     			if (Nominations.get(year).containsKey(title.toLowerCase())){
+                             			if (Nominations.get(year).get(title.toLowerCase()).contains("Drama")){
+                                     			thisMovieLabel = "yesDrama";
                              			} else {
-                                     			thisLabel = "yesComedy";
+                                     			thisMovieLabel = "yesComedy";
                              			}
                      			} else {
-                             			thisLabel = "no";
+                             			thisMovieLabel = "no";
                      			}
+					String dirPlusMovie = director+","+title;
+					if (Nominations.get(year).containsKey(dirPlusMovie.toLowerCase())){
+                                        	thisDirLabel = "yes";
+					} else {
+                                                thisDirLabel = "no";
+                                        }
 					//For training instances and then for test instances
 					if(i<2015){
-						movies.print(instanceStr + ",");                           
-                    				movies.println(thisLabel);
-						directors.print(instanceDirStr + ",");
-						directors.println(thisLabel);
+						movies.print(instanceStr);                           
+                    				movies.println(thisMovieLabel + "    (" + title + ")");
+						//directors.print(instanceDirStr);
+						//directors.println(thisLabel);
 					}else{
-						movieTest.print(instanceStr + ",");                           
-                    				movieTest.println(thisLabel);
-						directorsTest.print(instanceDirStr + ",");
-						directorsTest.println(thisLabel);
+						movieTest.print(instanceStr);                           
+                    				movieTest.println(thisMovieLabel);
+						//directorsTest.print(instanceDirStr);
+						//directorsTest.println(thisLabel);
 					}
-					String instanceDirStr = getDataDir(json);
 				}
 				line = file.nextLine();
-				fuckme=fuckme+1;
-				if(fuckme==1000){
-					movies.close();
-				}
 			}
-		}
-		 
-		//System.out.println(OMDB("Argo","2012").toString());
-
+		} 
+		movies.close();
 	}
 	
 	public static void nominationsMap(String file) throws FileNotFoundException{
 		File f = new File(file);
-		Scanner scan = new Scanner(new FileInputStream(file), "UTF-8");
+		Scanner scan = new Scanner (f);
 		String line = scan.nextLine();
 		while (scan.hasNextLine()){
 			//if broke out if inner while loop because hit empty line
@@ -125,28 +137,18 @@ public class FinalProj {
 			}
 			//should always go into this if statement
 			//two different types of double quotes in this text file
-			char x = line.charAt(0);
-			if(x=='"'){
-				System.out.println(x);
-			}
-			
-			if (line.substring(0,1).equals("\"")||line.charAt(1)=='"'||line.charAt(0)=='"'){
+			if (line.substring(0,1).equals("\"")||line.substring(0,1).equals("“")){
 				String[] yearAndType = line.split(",");
-				String yrStr = yearAndType[0].substring(1,yearAndType[0].length()-1);
-				if(yrStr.charAt(0)=='"'){
-					yrStr =yrStr.substring(1);
-				}
-				String year = Integer.toString(Integer.parseInt(yrStr)); //take out quotes
+				String year = Integer.toString(Integer.parseInt(yearAndType[0].substring(1,yearAndType[0].length()-1))-1); //take out quotes
 				String type = yearAndType[1]; //category
 				if (Nominations.containsKey(year)==false){
 					Nominations.put(year, new HashMap<String, String>());
 				}
-				System.out.println(" sss ");
 				line = scan.nextLine(); //move on to first item in this category
 				//add each movie title/director between categories to hashmap
 				//do we need to keep the movie title next to director name??
 				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("“")==false){
-					Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
+					Nominations.get(year).put(line.toLowerCase(), type); //name of movie/director and it's nomination category
 					line = scan.nextLine();
 				}
 			}
@@ -155,6 +157,7 @@ public class FinalProj {
 					
 	public static JSONObject OMDB(String title, String year) throws IOException{
 		 String urlTitle = title.replace(' ', '+');
+		 urlTitle = urlTitle.replace("&","'\'&");
 		 String urlName = "http://www.omdbapi.com/?t="+urlTitle+"&y="+year+"&type=movie&tomatoes=true&r=json";
 		 URL url = new URL(urlName);
 		 System.out.println(urlName);
@@ -188,7 +191,6 @@ public class FinalProj {
 		  try {
 			 json= new JSONObject(sb.toString());
 		} catch (JSONException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("json not working");
 		}
@@ -243,7 +245,7 @@ public class FinalProj {
 		int count =0;
 		for(String x : genres){
 			if(count<3){
-				str.append(x +",");
+				str.append(stripParens(x) +",");
 				count=count+1;
 			}			
 		}
@@ -253,7 +255,8 @@ public class FinalProj {
 		}		
 		return str.toString();
 	}
-	public static String getDataDir(JSONObject dir) throws JSONException{
+	
+	public static String getDataDir(JSONObject movie) throws JSONException{
 		StringBuffer str = new StringBuffer();
 		str = str.append(movie.get("Director").toString()+",");
 		
