@@ -90,11 +90,15 @@ public class FinalProj {
 					if(i<2015){
 						movies.print(instanceStr + ",");                           
                     				movies.println(thisLabel);
+						directors.print(instanceDirStr + ",");
+						directors.println(thisLabel);
 					}else{
 						movieTest.print(instanceStr + ",");                           
                     				movieTest.println(thisLabel);
+						directorsTest.print(instanceDirStr + ",");
+						directorsTest.println(thisLabel);
 					}
-					String instanceDirStr = getDataDir(json, series);
+					String instanceDirStr = getDataDir(json);
 				}
 				line = file.nextLine();
 				fuckme=fuckme+1;
@@ -140,7 +144,7 @@ public class FinalProj {
 				line = scan.nextLine(); //move on to first item in this category
 				//add each movie title/director between categories to hashmap
 				//do we need to keep the movie title next to director name??
-				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("“")==false){
+				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("â€œ")==false){
 					Nominations.get(year).put(line, type); //name of movie/director and it's nomination category
 					line = scan.nextLine();
 				}
@@ -248,7 +252,7 @@ public class FinalProj {
 		}		
 		return str.toString();
 	}
-	public static String getDataDir(JSONObject movie, String sequel) throws JSONException{
+	public static String getDataDir(JSONObject dir) throws JSONException{
 		StringBuffer str = new StringBuffer();
 		str = str.append(movie.get("Director").toString()+",");
 		
