@@ -19,7 +19,7 @@ Martin Scorsese,GoodFellas
 
 "1992",Best Motion Picture - Drama
 Bugsy
-The Princes of Tides
+The Prince of Tides
 The Silence of the Lambs
 Thelma & Louise
 JFK
@@ -68,7 +68,7 @@ Much Ado About Nothing
 Sleepless in Seattle
 Strictly Ballroom
 "1994",Best Director - Motion Picture
-Steven Spielberg,Schindler''s List
+Steven Spielberg,Schindler's List
 Andrew Davis,The Fugitive
 James Ivory,The Remains of the Day
 Martin Scorsese,The Age of Innocence
