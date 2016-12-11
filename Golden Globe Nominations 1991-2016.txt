@@ -378,7 +378,7 @@ Precious: Based On The Novel Push By Sapphire
 Up In The Air
 "2010",Best Motion Picture - Musical or Comedy
 The Hangover
-(500) Days of Summer
+(500) Days of Sumer
 It’s Complicated
 Julie & Julia
 Nine
@@ -428,7 +428,7 @@ Michel Hazanavicius,The Artist
 Alexander Payne,The Descendants
 Woody Allen,Midnight In Paris
 
-"2013",Best Motion Picture - Drama
+"2012",Best Motion Picture - Drama
 Argo
 Life of Pi
 Lincoln
@@ -489,7 +489,7 @@ Ava DuVernay,Selma
 
 "2016",Best Motion Picture - Drama
 The Revenant
-Mad Max: Fury Road
+Mad Max:Fury Road
 Room
 Spotlight
 Carol
@@ -501,7 +501,7 @@ The Big Short
 Trainwreck
 
 "2016",Best Director - Motion Picture
-Alejandro Inarritu,The Revenant
+Alejandro Iñárritu,The Revenant
 George Miller,Mad Max:Fury Road
 Tom McCarthy,Spotlight
 Ridley Scott,The Martian
