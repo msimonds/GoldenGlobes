@@ -13,61 +13,78 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Scanner;
-
 import org.json.*;
 import java.io.PrintWriter;
 
 
 public class FinalProj {
+	/* HashMap storing Golden Globe nominations. Organized by: Year --> Title/Name --> Category */
 	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	
+	
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
+		///BUILDING NOMINATIONS HASHMAP///
 		nominationsMap("Golden Globe Nominations 1991-2016.txt");
-		HashMap<String, HashMap<String, String>> n = Nominations;
-		double minRate = 53.0;
+		//HashMap<String, HashMap<String, String>> n = Nominations;
+		
+		///ATTRIBUTES///
+		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev,AudienceRev,Income,Genre1,Genre2,Genre3,Label";
+		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3,TomatoRev,IMDbRat,Label";
+		
+		///CREATING FILES FOR EACH DATA SET///
+		//training
 		File movieFile = new File("TrainMovies.csv");
 		PrintWriter movies = new PrintWriter(movieFile);
 		File dirFile = new File("TrainDirectors.csv");
 		PrintWriter directors = new PrintWriter(dirFile);
-		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev,AudienceRev,Income,Genre1,Genre2,Genre3,Label";
-		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3,TomatoRev,IMDbRat,Label";
-		
-		movies.println(bestPicAtts);
-		directors.println(dirAtts);
+		//testing
 		File mTestFile = new File("TestMovies.csv");
 		PrintWriter movieTest = new PrintWriter(mTestFile);
 		File dTestFile = new File("TestDirectors.csv");
 		PrintWriter directorsTest = new PrintWriter(dTestFile);
+		//predicting
 		File mPredFile = new File("PredMovies.csv");
                 PrintWriter moviePred = new PrintWriter(mPredFile);
                 File dPredFile = new File("PredDirectors.csv");
                 PrintWriter directorsPred = new PrintWriter(dPredFile);
 		
+		///PRINTING ATTRIBUTES TO EACH FILE///
+		movies.println(bestPicAtts);
+		directors.println(dirAtts);
 		movieTest.println(bestPicAtts);
 		directorsTest.println(dirAtts);
 		moviePred.println(bestPicAtts);
                 directorsPred.println(dirAtts);
 		
-		//Loop through the text files w/ movie titles (1990-2014 for training)
-		for(int i=1990; i<2016;i++){			
+		//LOOPING THROUGH MOVIE FILES AND BUILD TRAINING, TESTING, AND PREDICTION SETS ACCORDINGLY///
+		for(int i=1990; i<2017;i++){
 			String year = Integer.toString(i);
+			//minimum accepted tomato rating
+			double minRate = 53.0;
 			File f = new File("Movies by year/" + year+".csv");
 			Scanner file = new Scanner(new FileInputStream(f), "UTF-8");
 			file.nextLine(); //skips title line
-			String line = file.nextLine(); //now at begining of third line, "line" is second line
+			String line = file.nextLine(); //line variable now represents the second line
 			while (file.hasNextLine()){
-				String[] lineParts = line.split(",");				
+				//split by comma
+				String[] lineParts = line.split(",");	
+				//title of movie
 				String title = lineParts[0].substring(1,lineParts[0].length()-1);
-				//also save notes to determine if part of series later
+				//use notes to determine whether movie is part of a series or not
 				String notes = lineParts[lineParts.length-1].substring(1,lineParts[lineParts.length-1].length()-1);
+				//director of movie
 				String director = lineParts[1].substring(1,lineParts[1].length()-1);
+				
+				///JSON OBJECT FOR THIS MOVIE///
 				JSONObject json = OMDB(title, year);
 				Double tomato=-1.0;
+				///GETTING TOMATO RATING///
 				try{
 					tomato = Double.parseDouble((String) json.get("tomatoMeter"));
 				} catch(Exception e){
 					tomato=0.0;
 				}
+				///GETTING IMDB RATING///
 				Double imdb=-1.0;
 				if (tomato==0.0){
 					try{
@@ -76,27 +93,35 @@ public class FinalProj {
 						imdb = 0.0;
 					}
 				}
+				///DEALING WITH EXCEPTIONS///
 				if (title.equals("Burlesque")||title.equals("Alice in Wonderland")||title.equals("Nine")||title.equals("Bobby")||title.equals("The Producers")||title.equals("The Phantom of the Opera")||title.equals("Ready to Wear")||title.equals("Patch Adams")||title.equals("The Sheltering Sky")||title.equals("Natural Born Killers")||title.equals("The Tourist")){
 					tomato = 56.0;
 				}
+				///GETTING GENRE///
 				String genre;
 				try{
 					genre = json.get("Genre").toString();
 				} catch(Exception e){
      					genre = "irrelevant";                           
                                 }
+				///CREATING INSTANCES FOR MOVIES FITTING OUR CRITERIA///
 				if ((tomato >= minRate || imdb >= 5.1) && !genre.contains("Documentary")&& !genre.contains("Adult")){
 					String series = "N";
+					//determining label for series attribute
 					if(notes.contains("sequel")||notes.contains("installation")||notes.contains("series")){
 						series = "Y";
 					}
+					///BUILDING STRING REPRESENTING THIS INSTANCE///
 					String instanceStr = getDataMovies(json,series);
 	               			String instanceDirStr = getDataDir(json);
+					///LABELS///
 					String thisMovieLabel;
 					String thisDirLabel;
+					//Golden Globe award year is one year ahead of movie publication year
 					String newYear = Integer.toString(i+1);
 					//For training instances, test instances, and prediction instances, respectively.
 					if(i<2016){
+						///SETTING LABELS///
 						if (Nominations.get(newYear).containsKey(title.toLowerCase())){
                              				if (Nominations.get(nyear).get(title.toLowerCase()).contains("Drama")){
                                      				thisMovieLabel = "yesDrama";
@@ -112,6 +137,7 @@ public class FinalProj {
 						} else {
                                                 	thisDirLabel = "no";
                                         	}
+						///PRINTING INSTANCES TO TRAINING AND TESTING FILES///
 						if (i < 2015){
                                                 	movies.print(instanceStr);          
                                                 	movies.println(thisMovieLabel);
@@ -123,6 +149,7 @@ public class FinalProj {
                                                 	directorsTest.print(instanceDirStr);
                                                 	directorsTest.println(thisDirLabel);
 						}
+					///PRINTING INSTANCES TO PREDICTION FILE///
                                         } else {
                                                 moviePred.print(instanceStr);
                                                 moviePred.println("no");
@@ -134,6 +161,7 @@ public class FinalProj {
 				line = file.nextLine();
 			}
 		} 
+		///CLOSING ALL PRINTWRITERS///
 		movies.close();
                 directors.close();
                 movieTest.close();
@@ -147,28 +175,25 @@ public class FinalProj {
 		Scanner scan = new Scanner(new FileInputStream(file), "UTF-8");
 		String line = scan.nextLine();
 		while (scan.hasNextLine()){
-			//if broke out if inner while loop because hit empty line
+			//if we broke out if inner while loop because we hit an empty line,
 			//skip that line and go to next year
 			if (line.length()==0){
 				line = scan.nextLine();
 			}
-			String x = line.substring(0,1);
+			//String t = line.substring(0,1);
 			int beg=1;
 			if(line.charAt(1)=='"'){
 				beg=2;
-				
 			}
 			//should always go into this if statement
 			//two different types of double quotes in this text file
 			if (line.substring(0,1).equals("\"")||line.charAt(1)=='"'){
 				String[] yearAndType = line.split(",");
-				String year = Integer.toString(Integer.parseInt(yearAndType[0].substring(beg,yearAndType[0].length()-1))); //take out quotes
-				String type = yearAndType[1]; //category
-				if(year.equals("2016")){
-					int sss;
-					sss=0;
-					sss=sss+1;
-				}
+				//year
+				String year = yearAndType[0].substring(beg,yearAndType[0].length()-1); //take out quotes
+				//category
+				String type = yearAndType[1];
+				//add year to HashMap
 				if (Nominations.containsKey(year)==false){
 					Nominations.put(year, new HashMap<String, String>());
 				}
