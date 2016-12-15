@@ -30,7 +30,7 @@ public class FinalProj {
 		File dirFile = new File("TrainDirectors.csv");
 		PrintWriter directors = new PrintWriter(dirFile);
 		String bestPicAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,TotalAwards,Series,TomatoRev,AudienceRev,Income,Genre1,Genre2,Genre3,Label";
-		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3,Label";
+		String dirAtts= "Director,Writer1,Writer2,Actor1,Actor2,Actor3,Genre1,Genre2,Genre3,TomatoRev,IMDbRat,Label";
 		
 		movies.println(bestPicAtts);
 		directors.println(dirAtts);
@@ -38,27 +38,29 @@ public class FinalProj {
 		PrintWriter movieTest = new PrintWriter(mTestFile);
 		File dTestFile = new File("TestDirectors.csv");
 		PrintWriter directorsTest = new PrintWriter(dTestFile);
+		File mPredFile = new File("PredMovies.csv");
+                PrintWriter moviePred = new PrintWriter(mPredFile);
+                File dPredFile = new File("PredDirectors.csv");
+                PrintWriter directorsPred = new PrintWriter(dPredFile);
+		
 		movieTest.println(bestPicAtts);
 		directorsTest.println(dirAtts);
+		moviePred.println(bestPicAtts);
+                directorsPred.println(dirAtts);
+		
 		//Loop through the text files w/ movie titles (1990-2014 for training)
 		for(int i=1990; i<2016;i++){			
 			String year = Integer.toString(i);
-			//Organize by year. Put year in quotes to isolate from movie titles starting with numbers.
-			//movies.println("\"" + year + "\"");
-			directors.println("\"" + year + "\"");
 			File f = new File("Movies by year/" + year+".csv");
 			Scanner file = new Scanner(new FileInputStream(f), "UTF-8");
 			file.nextLine(); //skips title line
 			String line = file.nextLine(); //now at begining of third line, "line" is second line
-			int fuckme = 9;
 			while (file.hasNextLine()){
 				String[] lineParts = line.split(",");				
 				String title = lineParts[0].substring(1,lineParts[0].length()-1);
 				//also save notes to determine if part of series later
 				String notes = lineParts[lineParts.length-1].substring(1,lineParts[lineParts.length-1].length()-1);
-				
 				String director = lineParts[1].substring(1,lineParts[1].length()-1);
-				//System.out.println(notes + " ** "+director);
 				JSONObject json = OMDB(title, year);
 				Double tomato=-1.0;
 				try{
@@ -74,7 +76,7 @@ public class FinalProj {
 						imdb = 0.0;
 					}
 				}
-				if (title.equals("Burlesque")||title.equals("Alice in Wonderland")||title.equals("Nine")||title.equals("Bobby")||title.equals("The Producers")||title.equals("The Phantom of the Opera")||title.equals("Ready to Wear")||title.equals("Patch Adams")){
+				if (title.equals("Burlesque")||title.equals("Alice in Wonderland")||title.equals("Nine")||title.equals("Bobby")||title.equals("The Producers")||title.equals("The Phantom of the Opera")||title.equals("Ready to Wear")||title.equals("Patch Adams")||title.equals("The Sheltering Sky")||title.equals("Natural Born Killers")||title.equals("The Tourist")){
 					tomato = 56.0;
 				}
 				String genre;
@@ -89,47 +91,55 @@ public class FinalProj {
 						series = "Y";
 					}
 					String instanceStr = getDataMovies(json,series);
-	               			//String instanceDirStr = getDataDir(json);
-					//System.out.println(instanceStr);
+	               			String instanceDirStr = getDataDir(json);
 					String thisMovieLabel;
 					String thisDirLabel;
-					String nyear = Integer.toString(i+1);
-                     			if (Nominations.get(nyear).containsKey(title.toLowerCase())){
-                             			if (Nominations.get(nyear).get(title.toLowerCase()).contains("Drama")){
-                                     			thisMovieLabel = "yesDrama";
-                             			} else {
-                                     			thisMovieLabel = "yesComedy";
-                             			}
-                     			} else {
-                             			thisMovieLabel = "no";
-                     			}
-					String dirPlusMovie = director+","+title;
-					if (Nominations.get(nyear).containsKey(dirPlusMovie.toLowerCase())){
-                                        	thisDirLabel = "yes";
-					} else {
-                                                thisDirLabel = "no";
-                                        }
+					String newYear = Integer.toString(i+1);
+					//For training instances, test instances, and prediction instances, respectively.
+					if(i<2016){
+						if (Nominations.get(newYear).containsKey(title.toLowerCase())){
+                             				if (Nominations.get(nyear).get(title.toLowerCase()).contains("Drama")){
+                                     				thisMovieLabel = "yesDrama";
+                             				} else {
+                                     				thisMovieLabel = "yesComedy";
+                             				}
+                     				} else {
+                             				thisMovieLabel = "no";
+                     				}
+						String dirPlusMovie = director+","+title;
+						if (Nominations.get(nyear).containsKey(dirPlusMovie.toLowerCase())){
+                                        		thisDirLabel = "yes";
+						} else {
+                                                	thisDirLabel = "no";
+                                        	}
+						if (i < 2015){
+                                                	movies.print(instanceStr);          
+                                                	movies.println(thisMovieLabel);
+                                                	directors.print(instanceDirStr);
+                                                	directors.println(thisDirLabel);
+						} else {
+							movieTest.print(instanceStr);                                         
+                                                	movieTest.println(thisMovieLabel);
+                                                	directorsTest.print(instanceDirStr);
+                                                	directorsTest.println(thisDirLabel);
+						}
+                                        } else {
+                                                moviePred.print(instanceStr);
+                                                moviePred.println("no");
+                                                directorsPred.print(instanceDirStr);
+                                                directorsPred.println("no");
+                                        }	
 					
-					//For training instances and then for test instances
-					if(i<2015){
-						movies.print(instanceStr);          
-						movies.println(thisMovieLabel);
-                    				//movies.println(thisMovieLabel + "    (" + title + ")");
-						//directors.print(instanceDirStr);
-						//directors.println(thisLabel);
-					}else{
-						movieTest.print(instanceStr);						
-                    	movieTest.println(thisMovieLabel);
-                    	//System.out.println(instanceStr);
-						//directorsTest.print(instanceDirStr);
-						//directorsTest.println(thisLabel);
-					}
 				}
 				line = file.nextLine();
 			}
 		} 
 		movies.close();
-		movieTest.close();
+                directors.close();
+                movieTest.close();
+                directorsTest.close();
+                moviePred.close();
+                directorsPred.close();
 	}
 	
 	public static void nominationsMap(String file) throws FileNotFoundException{
@@ -178,8 +188,6 @@ public class FinalProj {
 		 urlTitle = urlTitle.replace("&","'\'&");
 		 String urlName = "http://www.omdbapi.com/?t="+urlTitle+"&y="+year+"&type=movie&tomatoes=true&r=json";
 		 URL url = new URL(urlName);
-		 System.out.println(urlName);
-		 
 		  HttpURLConnection conn =
 		      (HttpURLConnection) url.openConnection();
 		  conn.setRequestMethod("GET");
@@ -299,16 +307,18 @@ public class FinalProj {
 		String[] genres = movie.get("Genre").toString().split(",");		
 		int count =0;
 		for(String x : genres){
-			if(count<3){
-				str.append(x +",");
-				count=count+1;
-			}			
-		}
-		while(count<3){
-			str.append(" " +",");
-			count=count+1;
-		}		
-		return str.toString();
+                        if(count<3){
+                                str.append(stripParens(x) + ",");
+                                count=count+1;
+                        }
+                }
+                while(count<3){
+                        str.append(" " +",");
+                        count=count+1;
+                }
+                str = str.append(movie.get("tomatoMeter")+ ",");
+                str = str.append(movie.get("imdbRating")+ ",");
+                return str.toString();
 	}
 	
 	public static String stripParens(String str){
