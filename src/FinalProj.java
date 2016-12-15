@@ -21,7 +21,10 @@ public class FinalProj {
 	/* HashMap storing Golden Globe nominations. Organized by: Year --> Title/Name --> Category */
 	static HashMap<String, HashMap<String, String>> Nominations = new HashMap<String, HashMap<String, String>>();
 	
-	
+	/**
+     	 * Builds all of our data sets for this project.
+     	 * @param args
+     	 */
 	public static void main(String[] args) throws IOException, NumberFormatException, JSONException {
 		///BUILDING NOMINATIONS HASHMAP///
 		nominationsMap("Golden Globe Nominations 1991-2016.txt");
@@ -170,6 +173,10 @@ public class FinalProj {
                 directorsPred.close();
 	}
 	
+	/**
+     	 * Build the nominations HashMap based on given file, which lists past nominations from 1991-2016, organized by year.
+     	 * @param file
+     	 */
 	public static void nominationsMap(String file) throws FileNotFoundException{
 		File f = new File(file);
 		Scanner scan = new Scanner(new FileInputStream(file), "UTF-8");
@@ -199,15 +206,20 @@ public class FinalProj {
 				}
 				line = scan.nextLine(); //move on to first item in this category
 				//add each movie title/director between categories to hashmap
-				//do we need to keep the movie title next to director name??
 				while (scan.hasNextLine()&&line.length()>0&&line.substring(0,1).equals("\"")==false&&line.substring(0,1).equals("“")==false){
-					Nominations.get(year).put(line.toLowerCase(), type); //name of movie/director and it's nomination category
+					Nominations.get(year).put(line.toLowerCase(), type); //name of movie/director and its nomination category
 					line = scan.nextLine();
 				}
 			}
 		}
 	}
-					
+		
+	/**
+     	 * Gets the corresponding JSONObject from OMDb server based on given movie title and year of release.
+     	 * @param title
+	 * @param year
+     	 * @return JSONObject based on given movie title and year of release.
+     	 */
 	public static JSONObject OMDB(String title, String year) throws IOException{
 		 String urlTitle = title.replace(' ', '+');
 		 urlTitle = urlTitle.replace("&","'\'&");
@@ -249,19 +261,24 @@ public class FinalProj {
 		
 	}
 	
-	//this method gets called once a jsonobject has been returned by the REST call
-	//it grabs relevant data from the json and returns the string to be printed in our instance list
+	/**
+     	 * Grabs relevant data from the given JSONObject and returns the string to be printed to our movies instance list.
+     	 * @param movie
+	 * @param sequel
+     	 * @return String representing an instance for the given movie, without the label.
+     	 */
 	public static String getDataMovies(JSONObject movie, String sequel) throws JSONException{
 		StringBuffer str = new StringBuffer();
+		///DIRECTOR///
 		str = str.append(movie.get("Director").toString().split(",")[0]+",");
-		
+		///WRITERS///
 		String[] writers = movie.get("Writer").toString().split(",");
 		if(writers.length>1){
 			str = str.append(stripParens(writers[0]) + ","+stripParens(writers[1])+",");
 		} else{
 			str=str.append(stripParens(writers[0])+", ,");
 		}
-		
+		///CAST///
 		String[] allActors = movie.get("Actors").toString().split(",");
 		if(allActors.length>=3){
 			str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+","+stripParens(allActors[2])+",");
@@ -272,7 +289,7 @@ public class FinalProj {
 		} else{
 			str = str.append(", , , ,");
 		}
-		
+		///PAST AWARDS///
 		String awards[] = movie.get("Awards").toString().split(" ");
 		int numAwards = 0;
 		for(String s : awards){
@@ -280,44 +297,52 @@ public class FinalProj {
 				numAwards = numAwards + Integer.parseInt(s);
 			}
 		}
-		
-		str = str.append(numAwards+","+sequel+",");		
+		///SEQUEL///
+		str = str.append(numAwards+","+sequel+",");
+		///TOMATO RATINGS///
 		str = str.append(movie.get("tomatoMeter")+","+movie.get("tomatoUserMeter")+",");
-		
+		///GROSS INCOME///
 		String boxof = movie.get("BoxOffice").toString().substring(1);
 		System.out.println(boxof);
 		if(Character.isDigit(boxof.charAt(0))){			 
-			 str = str.append((Double.parseDouble(boxof.replaceAll(",", ""))+",").toString());
+			str = str.append((Double.parseDouble(boxof.replaceAll(",", ""))+",").toString());
 		}else{
 			str = str.append(" ,");
 		}
-		
+		///GENRES///
 		String[] genres = movie.get("Genre").toString().split(",");		
 		int count =0;
-		for(String x : genres){
+		for(String genre : genres){
 			if(count<3){
-				str.append(stripParens(x) +",");
+				str.append(stripParens(genre) +",");
 				count=count+1;
 			}			
 		}
 		while(count<3){
 			str.append(" " +",");
 			count=count+1;
-		}		
+		}	
+		
 		return str.toString();
 	}
 	
+	/**
+     	 * Grabs relevant data from the given JSONObject and returns the string to be printed to our directors instance list.
+     	 * @param movie
+     	 * @return String representing an instance for the given movie, without the label.
+     	 */
 	public static String getDataDir(JSONObject movie) throws JSONException{
 		StringBuffer str = new StringBuffer();
+		///DIRECTOR///
 		str = str.append(movie.get("Director").toString()+",");
-		
+		///WRITERS///
 		String[] writers = movie.get("Writer").toString().split(",");
 		if(writers.length>1){
 			str = str.append(stripParens(writers[0]) + ","+stripParens(writers[1])+",");
 		} else{
 			str=str.append(stripParens(writers[0])+", ,");
 		}
-		
+		///CAST///
 		String[] allActors = movie.get("Actors").toString().split(",");
 		if(allActors.length>2){
 			str = str.append(stripParens(allActors[0]) + ","+stripParens(allActors[1])+","+stripParens(allActors[2])+",");
@@ -328,7 +353,7 @@ public class FinalProj {
 		} else{
 			str = str.append(", , , ,");
 		}		
-		
+		///GENRES///
 		String[] genres = movie.get("Genre").toString().split(",");		
 		int count =0;
 		for(String x : genres){
@@ -341,11 +366,19 @@ public class FinalProj {
                         str.append(" " +",");
                         count=count+1;
                 }
+		///TOMATO RATING///
                 str = str.append(movie.get("tomatoMeter")+ ",");
+		///IMDB RATING///
                 str = str.append(movie.get("imdbRating")+ ",");
+		
                 return str.toString();
 	}
 	
+	/**
+     	 * Removes parantheses and extra leading spaces from given string.
+     	 * @param str
+     	 * @return String without parentheses and extra leading spaces.
+     	 */
 	public static String stripParens(String str){
 		int index =  str.indexOf('(');
 		String newS=str;
